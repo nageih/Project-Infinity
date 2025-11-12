@@ -11,6 +11,14 @@
 	quests: [
 		{
 			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "minecraft:zombie"
+				}
+			}
+			icon_scale: 2.0d
 			id: "2B05A29C62676EB2"
 			rewards: [
 				{
@@ -120,6 +128,14 @@
 			y: -5.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "minecraft:skeleton"
+				}
+			}
+			icon_scale: 2.0d
 			id: "42822B1E8A53D051"
 			rewards: [
 				{
@@ -223,6 +239,14 @@
 			y: -5.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "minecraft:creeper"
+				}
+			}
+			icon_scale: 2.0d
 			id: "77FC692AC94D2EEF"
 			rewards: [
 				{
@@ -328,14 +352,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "minecraft:ender_dragon"
-					}
+					EntityName: "minecraft:ender_dragon"
 				}
 			}
+			icon_scale: 2.0d
 			id: "728BE1816DA23DC0"
 			rewards: [
 				{
@@ -365,14 +387,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "minecraft:wither"
-					}
+					EntityName: "minecraft:wither"
 				}
 			}
+			icon_scale: 2.0d
 			id: "09C82CDDA800D8C9"
 			rewards: [
 				{
@@ -402,12 +422,9 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "minecraft:elder_guardian"
-					}
+					EntityName: "minecraft:elder_guardian"
 				}
 			}
 			id: "08D1CC753F6B4283"
@@ -440,14 +457,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "minecraft:wandering_trader"
-					}
+					EntityName: "minecraft:wandering_trader"
 				}
 			}
+			icon_scale: 2.0d
 			id: "0F55D0B4D5094EDB"
 			invisible: true
 			optional: true
@@ -488,7 +503,14 @@
 			y: 6.0d
 		}
 		{
-			icon: "minecraft:ender_pearl"
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "minecraft:enderman"
+				}
+			}
+			icon_scale: 2.0d
 			id: "17F3AC15ADCFB175"
 			rewards: [
 				{
@@ -596,14 +618,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "minecraft:spider"
-					}
+					EntityName: "minecraft:spider"
 				}
 			}
+			icon_scale: 2.0d
 			id: "1F18B64C84C8809D"
 			rewards: [
 				{
@@ -625,6 +645,7 @@
 				type: "kill"
 				value: 5L
 			}]
+			title: "Spider"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -711,7 +732,14 @@
 			y: -5.0d
 		}
 		{
-			icon: "minecraft:blaze_powder"
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "minecraft:blaze"
+				}
+			}
+			icon_scale: 2.0d
 			id: "6141DE779232C8AA"
 			rewards: [
 				{
@@ -815,6 +843,14 @@
 			y: -5.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "minecraft:witch"
+				}
+			}
+			icon_scale: 2.0d
 			id: "5AC497F76A086A5C"
 			rewards: [
 				{
@@ -973,6 +1009,14 @@
 			y: -5.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "minecraft:wither_skeleton"
+				}
+			}
+			icon_scale: 2.0d
 			id: "3371F9248D403664"
 			rewards: [
 				{
@@ -1084,14 +1128,12 @@
 			dependencies: ["239FCC26EECF4DE2"]
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "minecraft:warden"
-					}
+					EntityName: "minecraft:warden"
 				}
 			}
+			icon_scale: 2.0d
 			id: "0E20A9B79D1C6637"
 			rewards: [
 				{
@@ -1122,14 +1164,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "born_in_chaos_v1:lord_pumpkinhead"
-					}
+					EntityName: "born_in_chaos_v1:lord_pumpkinhead"
 				}
 			}
+			icon_scale: 2.0d
 			id: "73BA98EF0E5184FE"
 			rewards: [
 				{
@@ -1167,12 +1207,9 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "bosses_of_mass_destruction:lich"
-					}
+					EntityName: "bosses_of_mass_destruction:lich"
 				}
 			}
 			icon_scale: 2.0d
@@ -1213,12 +1250,9 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "bosses_of_mass_destruction:void_blossom"
-					}
+					EntityName: "bosses_of_mass_destruction:void_blossom"
 				}
 			}
 			icon_scale: 2.0d
@@ -1254,17 +1288,14 @@
 			]
 			title: "Void Blossom"
 			x: -3.75d
-			y: 5.25d
+			y: 6.75d
 		}
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "bosses_of_mass_destruction:obsidilith"
-					}
+					EntityName: "bosses_of_mass_destruction:obsidilith"
 				}
 			}
 			icon_scale: 2.0d
@@ -1299,17 +1330,14 @@
 			]
 			title: "Obsidilith"
 			x: -3.75d
-			y: 6.75d
+			y: 5.25d
 		}
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "bosses_of_mass_destruction:gauntlet"
-					}
+					EntityName: "bosses_of_mass_destruction:gauntlet"
 				}
 			}
 			icon_scale: 2.0d
@@ -1372,12 +1400,9 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:aptrgangr"
-					}
+					EntityName: "cataclysm:aptrgangr"
 				}
 			}
 			icon_scale: 2.0d
@@ -1410,15 +1435,11 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:the_leviathan"
-					}
+					EntityName: "cataclysm:the_leviathan"
 				}
 			}
-			icon_scale: 2.0d
 			id: "64135A8EBD0D0B15"
 			rewards: [
 				{
@@ -1447,12 +1468,9 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:ignis"
-					}
+					EntityName: "cataclysm:ignis"
 				}
 			}
 			icon_scale: 2.0d
@@ -1491,15 +1509,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:the_harbinger"
-					}
+					EntityName: "cataclysm:the_harbinger"
 				}
 			}
-			icon_scale: 2.0d
+			icon_scale: 1.6d
 			id: "29F2E1A996F13BC8"
 			rewards: [
 				{
@@ -1535,15 +1550,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:the_prowler"
-					}
+					EntityName: "cataclysm:the_prowler"
 				}
 			}
-			icon_scale: 2.0d
+			icon_scale: 1.5d
 			id: "6CC096696837E3A5"
 			rewards: [
 				{
@@ -1572,15 +1584,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:ancient_ancient_remnant"
-					}
+					EntityName: "cataclysm:ancient_remnant"
 				}
 			}
-			icon_scale: 2.0d
+			icon_scale: 1.33d
 			id: "6500DC40B36FBD0F"
 			rewards: [
 				{
@@ -1616,15 +1625,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:ender_guardian"
-					}
+					EntityName: "cataclysm:ender_guardian"
 				}
 			}
-			icon_scale: 2.0d
+			icon_scale: 1.5d
 			id: "59795AE40FAE07A9"
 			rewards: [
 				{
@@ -1653,15 +1659,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:netherite_monstrosity"
-					}
+					EntityName: "cataclysm:netherite_monstrosity"
 				}
 			}
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "38A5193EE0E90E08"
 			rewards: [
 				{
@@ -1690,12 +1693,9 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:maledictus"
-					}
+					EntityName: "cataclysm:maledictus"
 				}
 			}
 			icon_scale: 2.0d
@@ -1727,12 +1727,9 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "botania:doppleganger"
-					}
+					EntityName: "botania:doppleganger"
 				}
 			}
 			icon_scale: 2.0d
@@ -1764,15 +1761,12 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:ender_golem"
-					}
+					EntityName: "cataclysm:ender_golem"
 				}
 			}
-			icon_scale: 2.0d
+			icon_scale: 1.5d
 			id: "57735DF7C99D9332"
 			rewards: [
 				{
@@ -1813,12 +1807,9 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:scylla"
-					}
+					EntityName: "cataclysm:scylla"
 				}
 			}
 			icon_scale: 2.0d
@@ -1844,6 +1835,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Scylla"
 			x: 8.25d
 			y: 3.75d
 		}
@@ -1855,7 +1847,7 @@
 					EntityName: "cataclysm:clawdian"
 				}
 			}
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "21321E1C74143DFE"
 			rewards: [
 				{

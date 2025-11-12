@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalexpansion:divinium_gemstone',
         },
         N: {
-          item: 'kubejs:ultimate_gem',
+          item: 'mysticalagradditions:creative_essence',
         },
         O: {
           item: 'botanicalextramachinery:catalyst_stone_infinity',

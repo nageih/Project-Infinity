@@ -214,7 +214,7 @@ ServerEvents.recipes((event) => {
     'kubejs:azure_electrum_block',
   ]);
 
-  create3x3(event, Item.of('extendedcrafting:black_iron_ingot', 27), [
+  create3x3(event, Item.of('extendedcrafting:black_iron_ingot', 48), [
     'kubejs:compressed_slate',
     'mekanism:hdpe_sheet',
     'kubejs:compressed_slate',

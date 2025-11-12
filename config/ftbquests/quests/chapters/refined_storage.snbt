@@ -10,7 +10,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&9Refined Storage&r is a mass storage mod that offers a network-based storage system. \\\\n \\\\n To get started with the mod, you'll want to make the &6Controller&r. \\\\n \\\\n The Controller is the 'Core' of your storage network. When provided with power, it gives life to all RS components connected. Each network can only have one Controller."]
+			description: [
+				"&9Refined Storage&r is a mass storage mod that offers a network-based storage system. \\\\n"
+				"To get started with the mod, you'll want to make the &6Controller&r. \\\\n"
+				"The Controller is the 'Core' of your storage network. When provided with power, it gives life to all RS components connected. Each network can only have one Controller."
+				""
+				"&4Please use AE2. It got a lot more addons!&r"
+			]
 			id: "01F18150EC923482"
 			rewards: [
 				{

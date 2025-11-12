@@ -4755,6 +4755,11 @@
 			y: 3.5d
 		}
 		{
+			description: [
+				"The best seed in the modpack."
+				""
+				"It cant be tick accelerated with torcherino or block boosters. And cant be put into a botanypot."
+			]
 			id: "2B7ACC7B3F0C13E4"
 			rewards: [{
 				id: "53357703DB0A0890"

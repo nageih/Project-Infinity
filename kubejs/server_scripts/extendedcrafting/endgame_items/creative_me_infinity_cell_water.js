@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
           item: 'thermal:device_water_gen',
         },
         E: {
-          item: 'kubejs:ultimate_prediction',
+          item: 'mysticalagradditions:creative_essence',
         },
         F: {
           item: 'nuclearcraft:pump',

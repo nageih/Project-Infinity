@@ -4,6 +4,7 @@ ServerEvents.recipes((event) => {
     .custom({
       type: 'extendedcrafting:combination',
       powerCost: 1000000000,
+      power_rate: 1000000000,
       input: {
         item: 'botanicalmachinery:mana_battery',
       },

@@ -4632,11 +4632,10 @@
 				id: "5D007ED154CA0AA1"
 				item: {
 					Count: 1
-					id: "obtrophies:trophy"
+					id: "hostilenetworks:data_model"
 					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "minecraft:squid"
+						data_model: {
+							id: "hostilenetworks:squid"
 						}
 					}
 				}
@@ -4783,11 +4782,10 @@
 				id: "763A248489F7D53F"
 				item: {
 					Count: 1
-					id: "obtrophies:trophy"
+					id: "hostilenetworks:data_model"
 					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "minecraft:elder_guardian"
+						data_model: {
+							id: "hostilenetworks:elder_guardian"
 						}
 					}
 				}

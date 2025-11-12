@@ -33,6 +33,8 @@ ServerEvents.recipes((event) => {
     ['trials_of_ignis', 'cataclysm:ignitium_ingot'],
     ['trials_of_the_ancient_remnant', 'cataclysm:desert_eye'],
     ['trials_of_the_harbinger', 'minecraft:nether_star'],
+    ['deepling_warlock_gate', 'cataclysm:athame'],
+    ['coral_golem_gate', 'cataclysm:crystallized_coral_fragments'],
   ];
   Item.of('gateways:gate_pearl', '{gateway:"gateways:trials_of_ignis"}');
   gateways.forEach(([gateway, middleItem]) => {

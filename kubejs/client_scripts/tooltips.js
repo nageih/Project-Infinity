@@ -26,6 +26,43 @@ ItemEvents.tooltip((event) => {
     'Find me inside ancient city chests. 2.5% Chance'
   );
 
+  event.add(
+    'enderio:conductive_conduit',
+    'Energy Transfer Value: 2,024 RF/t'
+  );
+  event.add(
+    'enderio:energetic_conduit',
+    'Energy Transfer Value: 8,192 RF/t'
+  );
+  event.add(
+    'enderio:vibrant_conduit',
+    'Energy Transfer Value: 32,768 RF/t'
+  );
+  event.add(
+    'enderio:endsteel_conduit',
+    'Energy Transfer Value: 131,072 RF/t'
+  );
+  event.add(
+    'enderio:lumium_conduit',
+    'Energy Transfer Value: 524,288 RF/t'
+  );
+  event.add(
+    'enderio:signalum_conduit',
+    'Energy Transfer Value: 2,097,152 RF/t'
+  );
+  event.add(
+    'enderio:enderium_conduit',
+    'Energy Transfer Value: 4,194,304 RF/t'
+  );
+  event.add(
+    'enderio:sculk_superconductor_conduit',
+    'Energy Transfer Value: 134,217,728 RF/t'
+  );
+  event.add(
+    'enderio:energy_conduit',
+    'Energy Transfer Value: 2,147,483,647 RF/t'
+  );
+
   event.addAdvanced(
     ['mm:multi_compactor_controller'],
     (item, advanced, text) => {

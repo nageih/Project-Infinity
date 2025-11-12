@@ -30,5 +30,7 @@
   "gateways.warden_gate": "Gateway of the Warden",
   "gateways.wither_gate": "Gateway of the Wither",
   "gateways.witherskeleton_gate": "Gateway of the Witherskeleton",
-  "gateways.born_in_chaos_gate": "Gateway of Born in Chaos"
+  "gateways.born_in_chaos_gate": "Gateway of Born in Chaos",
+  "gateways.deepling_warlock_gate": "Gateway of the Deepling Warlock",
+  "gateways.coral_golem_gate": "Gateway of the Coral Golem"
 }

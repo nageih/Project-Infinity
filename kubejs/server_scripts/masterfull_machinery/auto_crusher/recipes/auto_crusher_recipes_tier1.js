@@ -240,7 +240,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:fluid',
-        fluid: 'thermal_processing:molten_enderium',
+        fluid: 'minecraft:lava',
         amount: 250,
       },
     })

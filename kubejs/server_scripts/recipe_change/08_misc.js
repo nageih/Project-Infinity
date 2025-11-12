@@ -374,13 +374,30 @@ ServerEvents.recipes((event) => {
     E: 'mysticalagriculture:silicon_essence',
   });
 
-  event.shaped(Item.of('projectexpansion:basic_collector'), ['ABA', 'ACA', 'ADA'], {
-    A: 'minecraft:glowstone',
-    B: 'minecraft:lime_stained_glass',
-    C: 'projecte:aeternalis_fuel_block',
-    D: 'projecte:transmutation_table',
-  }).keepIngredient('projecte:transmutation_table');
+  event
+    .shaped(
+      Item.of('projectexpansion:basic_collector'),
+      ['ABA', 'ACA', 'ADA'],
+      {
+        A: 'minecraft:glowstone',
+        B: 'minecraft:lime_stained_glass',
+        C: 'projecte:aeternalis_fuel_block',
+        D: 'projecte:transmutation_table',
+      }
+    )
+    .keepIngredient('projecte:transmutation_table');
 
+  create3x3(event, 'advanced_ae:regeneration_card', [
+    'ae2omnicells:quantum_omni_cell_16m',
+    Item.of('armorplus:slayer_helmet', '{Damage:0}'),
+    'ae2omnicells:quantum_omni_cell_16m',
+    'aether:regeneration_stone',
+    'advanced_ae:quantum_upgrade_base',
+    'cyclic:heart',
+    'ae2omnicells:quantum_omni_cell_16m',
+    'draconicevolution:item_wyvern_auto_feed',
+    'ae2omnicells:quantum_omni_cell_16m',
+  ]);
 
   create3x3(
     event,
@@ -397,6 +414,20 @@ ServerEvents.recipes((event) => {
       'minecraft:gold_ingot',
     ]
   );
+
+  shapeless(event, 'chemlib:titanium_ingot', ['nuclearcraft:titanium_ingot']);
+
+  create3x3(event, 'draconicevolution:grinder', [
+    'draconicevolution:draconium_ingot',
+    'draconicevolution:draconic_sword',
+    'draconicevolution:draconium_ingot',
+    'mythicbotany:alfsteel_sword',
+    'draconicevolution:draconic_energy_core',
+    'mysticalagriculture:awakened_supremium_sword',
+    'draconicevolution:draconium_ingot',
+    'minecraft:dragon_head',
+    'draconicevolution:draconium_ingot',
+  ]);
 
   create3x3(
     event,

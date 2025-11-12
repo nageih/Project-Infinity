@@ -3,11 +3,11 @@
 finish quests (Undergarden, aether, duplicate and removed items) high prio
 fix shop prices high prio
 dungeon born in chaos mobs low prio
-build multiblock to get creative item? or for super endgame microminers?
+super endgame microminers?
 woot config
 dimlets enderman low chance
 mob imprisonment tool for bosses
-energy consumer
+Extra and EM combine (Extra --> EM --> Extra --> EM .....)
 /--------------------------------------------------------------------------------------------------------------/
 //recipes
 creative items recipes!
@@ -19,49 +19,31 @@ EMC
 /---------------------------------------------------------------------------------------------------------------/
 changelog
 -updated some mods
--added mekanism extra and the link between extra and evolution mekanism
--added Ytones for decoration
+-updated Evolved Mekanism
+    -ATP changed the layout
+    -I added them to the Multibuilder Tool
+-added skyblock builder + GUI
+    -use the new "skyblockbuilder:skyblock" on newly created servers
+    -to open the GUI use the command "/skyblockbuilder" or press the button "L"
 
--removed ArmorPlus Reforged and added ArmorPlus (to fix fly bug)
--removed true ending mod
-    -it will not create any issues (I hope)
-
--removed thread dummy items and reset the recipes for thread items
--removed draconic evolution harness (to fix a griefing bug)
--removed thermal grenades and tnt
-
--changed simulated hydroponic bed and hydroponic bed recipes
--added recipe for max_storage_upgrade (thx to TheForce for the recipe)
--changed ender pearl and sculk core stack size to 64
--fixed crystallized amber recipe (thx to sohail160)
--changed config for ExtraHNN
-    -you cant put the chaos guardian in the simulation chamber
--added EMC to Infinity 11 and 12
--added some ore to dust recipes inside the manufactory
--fixed hyperdence iron singularity recipe inside multi compressor (thx to Krazy)
--changed layout of essenceforge
-    -revamp the recipes.
-    -got tier 1-3
--added menril sapling to sieve drop with dirt on a normal mesh
--changed layout of water condenser tier 2 from compressed cobble x4 --> supremium_gemstone_block
--added chaos dragon to the ultimate prediction recipe
--added uranium ore to industrial foregoing laser drill with green laser lens and voidminers (thx to tora)
--changed recipe for ME Infinity Cobblestone and Water Cell
--added ultimate infinity seed and recipe
--changed essenceforge controller recipe
--changed creative power cell from draconic
--changed creative bin recipe from mekanism (dont hate me. hate him :) (thx to RxDnz)
--added a new recipe to craft double compressed blank slates super fast (blood magic tier 5) (thx to RxDnz)
--changed multi compressor and compactor layout to only accept titanic item in and output
--changed quest for nuclear energy (thx to igentuman)
--changed voidminer miner energy values
--fixed creative personal barrel and chest recipe (thx to brian_fluffehwolfie)
--changed some tooltips for voidminers and solar panels
--changed recipes for voidminer ultimate items
--added recipe for multidimensional_expansion_processor inside the reactor chamber (thx to Anti)
--added recipe for ae2 silicon from essence (thx to Anti)
--added quest for HNN data models (thx to thekingof_pandas)
--changed recipe for basic collector from project expansion
+-changed recipe for simulated hydroponic bed (thx to potatoman999)
+-changed recipe for advancedAE evasion, HP, and regeneration recipes
+-changed multi compactor recipes and changed the speed (thx to theashenwolf)
+-changed auto crusher recipe from molten enderium to lava
+-added sulfur dust to auto sieve tier 1-3 (thx to goldiek19)
+-fixed squid and ender guardian data model in HNN quest (thx to goldiek19)
+-fixed fused glass in alloy smelter (thx to Kasam)
+-added tooltips to the energy conduits from EnderIO (thx to Kasam)
+-added auto crusher tier 1.5 for blackstone
+-added crafting recipe from titanium ingot (nuclearcraft) to titanium ingot (chemLib)
+-hopefully fixed the recipes for the creative power source from draconic evolution and creative chemical tank from mekanism (thx to grinchfan22)
+-changed recipe for creative ME water and cobblestone (made them easier, dont need projecte anymore)
+-changed energy input for tier 4 seed crafting in the combination crafter
+-changed compact fission reactor recipe
+-changed mob grinder recipe
+-added a way to generate lava in the fire attuned multiblock
+-changed recipe for the enchantment applicator from industrial foregoing
+-added gateway for deepling warlock and coralssus/ coral golem
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

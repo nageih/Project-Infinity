@@ -95,4 +95,19 @@ ServerEvents.recipes((event) => {
     'minecraft:nether_star',
     'voidminers:ultimate_stellar_core'
   );
+  event.replaceInput(
+    { output: 'advanced_ae:hp_buffer_card' },
+    'ae2:portable_item_cell_64k',
+    'ae2omnicells:quantum_omni_cell_component_16m'
+  );
+  event.replaceInput(
+    { output: 'advanced_ae:evasion_card' },
+    'ae2:speed_card',
+    'ae2omnicells:quantum_omni_cell_component_16m'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:enchantment_applicator' },
+    'thermal:gold_gear',
+    'allthemodium:unobtainium_gear'
+  );
 });

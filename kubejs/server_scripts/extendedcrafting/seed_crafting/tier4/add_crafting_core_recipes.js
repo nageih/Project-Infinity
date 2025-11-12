@@ -348,7 +348,7 @@ ServerEvents.recipes((event) => {
     .custom({
       type: 'extendedcrafting:combination',
       powerCost: 900000000,
-      powerRate: 1000000,
+      powerRate: 100000000,
       input: {
         item: 'botania:mana_tablet',
       },
@@ -511,7 +511,7 @@ function mobseedcraftingtier4(event, recipe) {
     .custom({
       type: 'extendedcrafting:combination',
       powerCost: 10000000,
-      powerRate: 10000,
+      powerRate: 10000000,
       input: {
         item: 'kubejs:tier4_crafting_seed',
       },
@@ -601,7 +601,7 @@ function seedcraftingtier4_1(event, recipe) {
     .custom({
       type: 'extendedcrafting:combination',
       powerCost: 10000000,
-      powerRate: 10000,
+      powerRate: 10000000,
       input: {
         item: 'kubejs:tier4_crafting_seed',
       },
@@ -683,7 +683,7 @@ function seedcraftingtier4_2(event, recipe) {
     .custom({
       type: 'extendedcrafting:combination',
       powerCost: 10000000,
-      powerRate: 10000,
+      powerRate: 10000000,
       input: {
         item: 'kubejs:tier4_crafting_seed',
       },

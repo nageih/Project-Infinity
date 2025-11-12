@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
         'GAGHDIGAB',
         'FGJHKHEGA',
         'EIHLMNHHO',
-        'DDPQRSTDD',
+        'DDPQRSPDD',
         'UHHVWXHIE',
         'AGEHYHJGF',
         'BAGIDHGAG',
@@ -71,12 +71,6 @@ ServerEvents.recipes((event) => {
         },
         S: {
           item: 'draconicevolution:chaotic_chestpiece',
-        },
-        T: {
-          type: 'forge:nbt',
-          item: 'draconicadditions:chaos_container',
-          count: 1,
-          nbt: '{cheatCheck:513912L}',
         },
         U: {
           item: 'draconicadditions:infused_potato_legs',

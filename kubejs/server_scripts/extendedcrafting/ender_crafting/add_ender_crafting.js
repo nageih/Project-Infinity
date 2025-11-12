@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-  function enderCrafter(event, inputs, outputCount, outputItem) {
+  function enderCrafter (event, inputs, outputCount, outputItem) {
     const pattern = ['ABC', 'DEF', 'GHI'];
     const key = {};
 
@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
       .id('ender_crafter_' + outputItem.replace(/[:]/g, '_').toLowerCase());
   }
 
-  function enderCrafter2(event, inputs, outputItem) {
+  function enderCrafter2 (event, inputs, outputItem) {
     event
       .custom({
         type: 'extendedcrafting:shaped_ender_crafter',
@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
       .id('ender_crafter_' + outputItem.replace(/[:]/g, '_').toLowerCase());
   }
 
-  function fluxCrafter(event, inputs, outputItem) {
+  function fluxCrafter (event, inputs, outputItem) {
     event
       .custom({
         type: 'extendedcrafting:shaped_flux_crafter',
@@ -81,6 +81,23 @@ ServerEvents.recipes((event) => {
     ],
     4,
     'extendedcrafting:black_iron_ingot'
+  );
+
+  enderCrafter(
+    event,
+    [
+      'kubejs:compressed_slate',
+      'thermal:enderium_block',
+      'kubejs:compressed_slate',
+      'thermal:enderium_block',
+      'extendedcrafting:enhanced_redstone_ingot_block',
+      'thermal:enderium_block',
+      'actuallyadditions:empowered_void_crystal_block',
+      'thermal:enderium_block',
+      'actuallyadditions:empowered_void_crystal_block',
+    ],
+    4,
+    'extendedcrafting:black_iron_block'
   );
 
   enderCrafter(

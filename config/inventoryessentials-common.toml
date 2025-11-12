@@ -14,6 +14,8 @@ bulkTransferArmorSets = true
 enableBulkTransferSingle = true
 #Should shift-ctrl-clicking move all items of the same type at once?
 enableBulkTransfer = true
+#Should middle-clicking a slot sort the inventory?
+enableMiddleClickSort = false
 #Should shift-ctrl-drop-clicking drop all items of the same type at once?
 enableBulkDrop = true
 

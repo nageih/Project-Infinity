@@ -69,6 +69,15 @@ MMEvents.createProcesses((event) => {
       chance: 0.2,
       ingredient: {
         type: 'mm:item',
+        item: 'thermal:sulfur',
+        count: 1,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      chance: 0.2,
+      ingredient: {
+        type: 'mm:item',
         item: 'minecraft:prismarine_shard',
         count: 1,
       },
@@ -163,6 +172,15 @@ MMEvents.createProcesses((event) => {
         type: 'mm:item',
         item: 'ae2:charged_certus_quartz_crystal',
         count: 4,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      chance: 0.3,
+      ingredient: {
+        type: 'mm:item',
+        item: 'thermal:sulfur',
+        count: 1,
       },
     })
     .output({
@@ -264,6 +282,15 @@ MMEvents.createProcesses((event) => {
         type: 'mm:item',
         item: 'ae2:charged_certus_quartz_crystal',
         count: 16,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      chance: 0.35,
+      ingredient: {
+        type: 'mm:item',
+        item: 'thermal:sulfur',
+        count: 1,
       },
     })
     .output({

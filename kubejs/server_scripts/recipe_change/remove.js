@@ -214,6 +214,7 @@ const removeItemsbyOutput = [
   'functionalstorage:max_storage_upgrade',
   'evolvedmekanism:creative_personal_chest',
   'evolvedmekanism:creative_personal_barrel',
+  'draconicevolution:grinder',
 ];
 
 const removeItemsbyID = [
@@ -424,13 +425,13 @@ const removeItemsbyID = [
   'evolvedmekanism:bin/creative',
   'projectexpansion:collector/mk1_conversion',
   'projectexpansion:collector/basic',
-  '',
-  '',
-  '',
-  '',
-  '',
-  '',
-  '',
+  'advanced_ae:regeneration_card',
+  'compressium:endstone_1_uncraft',
+  'compressium:netherrack_1_uncraft',
+  'evolvedmekanism:energy_cube/creative',
+  'enderio:smelting/refinedstorage/silicon',
+  'evolvedmekanism:max_tier_installer',
+  'voidminers:the_end/tier8_miner/ultimate_stellar_core',
   '',
   '',
   '',

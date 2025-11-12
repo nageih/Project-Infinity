@@ -179,7 +179,7 @@ MMEvents.createProcesses((event) => {
 
 // --- Funktionen ---
 
-function generateTier3Recipes(event, seeds, maxSeedsPerRecipe) {
+function generateTier3Recipes (event, seeds, maxSeedsPerRecipe) {
   for (var i = 0; i < seeds.length; i += maxSeedsPerRecipe) {
     var chunk = seeds.slice(i, i + maxSeedsPerRecipe);
 
@@ -218,20 +218,26 @@ function generateTier3Recipes(event, seeds, maxSeedsPerRecipe) {
   }
 }
 
-
-function createTier6SeedRecipes(event, seeds) {
+function createTier6SeedRecipes (event, seeds) {
   const seedToCrux = {
     'mysticalagriculture:allthemodium_seeds': 'allthemodium:allthemodium_block',
-    'mysticalagriculture:dark_metal_ingot_seeds': 'born_in_chaos_v1:dark_metal_block',
+    'mysticalagriculture:dark_metal_ingot_seeds':
+      'born_in_chaos_v1:dark_metal_block',
     'mysticalagriculture:plutonium_seeds': 'evolvedmekanism:block_better_gold',
     'mysticalagriculture:unobtainium_seeds': 'allthemodium:unobtainium_block',
     'mysticalagriculture:vibranium_seeds': 'allthemodium:vibranium_block',
-    'mysticalagriculture:nether_star_seeds': 'mysticalagradditions:nether_star_crux',
-    'mysticalagriculture:dragon_egg_seeds': 'mysticalagradditions:dragon_egg_crux',
-    'mysticalagriculture:gaia_spirit_seeds': 'mysticalagradditions:gaia_spirit_crux',
-    'mysticalagriculture:awakened_draconium_seeds': 'mysticalagradditions:awakened_draconium_crux',
-    'mysticalagriculture:neutronium_seeds': 'mysticalagradditions:neutronium_crux',
-    'mysticalagriculture:nitro_crystal_seeds': 'mysticalagradditions:nitro_crystal_crux',
+    'mysticalagriculture:nether_star_seeds':
+      'mysticalagradditions:nether_star_crux',
+    'mysticalagriculture:dragon_egg_seeds':
+      'mysticalagradditions:dragon_egg_crux',
+    'mysticalagriculture:gaia_spirit_seeds':
+      'mysticalagradditions:gaia_spirit_crux',
+    'mysticalagriculture:awakened_draconium_seeds':
+      'mysticalagradditions:awakened_draconium_crux',
+    'mysticalagriculture:neutronium_seeds':
+      'mysticalagradditions:neutronium_crux',
+    'mysticalagriculture:nitro_crystal_seeds':
+      'mysticalagradditions:nitro_crystal_crux',
   };
 
   seeds.forEach((seed) => {
@@ -273,4 +279,63 @@ function createTier6SeedRecipes(event, seeds) {
         ingredient: { type: 'mm:item', item: essence, count: 1024 },
       });
   });
+
+  event
+    .create('mm:essenceforge_tier3_inferium_seed')
+    .structureId('mm:essenceforge_tier3_structure')
+    .ticks(100)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: { type: 'mm:energy', amount: 100000000 },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:inferium_seeds',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagradditions:insanium_block',
+        count: 128,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'pneumaticcraft:memory_essence_bucket',
+        count: 10,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mob_grinding_utils:solid_xp_baby',
+        count: 64,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'ifeu:liquid_dragon_breath',
+        amount: 5000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagradditions:insanium_essence',
+        count: 6144,
+      },
+    });
 }

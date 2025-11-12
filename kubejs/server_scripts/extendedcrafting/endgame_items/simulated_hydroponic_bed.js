@@ -64,7 +64,7 @@ ServerEvents.recipes((event) => {
           nbt: '{Damage:0}',
         },
         N: {
-          item: 'aether:aether_farmland',
+          item: 'cyclic:soil',
         },
         O: {
           item: 'mysticalagriculture:supremium_hoe',
@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
         },
         S: {
           type: 'forge:nbt',
-          item: 'aether:gravitite_hoe',
+          item: 'thermal_extra:signalum_hoe',
           count: 1,
           nbt: '{Damage:0}',
         },
@@ -98,7 +98,7 @@ ServerEvents.recipes((event) => {
         },
         V: {
           type: 'forge:nbt',
-          item: 'aether:valkyrie_hoe',
+          item: 'cyclic:crystal_hoe',
           count: 1,
           nbt: '{Damage:0}',
         },
