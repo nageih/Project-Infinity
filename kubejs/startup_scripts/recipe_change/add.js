@@ -16,6 +16,12 @@ StartupEvents.registry('item', (e) => {
     .maxStackSize(64)
     .texture('kubejs:item/ultimate_prediction');
 
+  e.create('ultimate_chemlib_ingot')
+    .tag('kubejs:ultimate_chemlib_ingot')
+    .displayName('§dUltimate Chemlib Ingot')
+    .maxStackSize(64)
+    .texture('kubejs:item/ultimate_chemlib_ingot');
+
   e.create('allthemodium_mesh')
     .tag('exdeorum:sieve_meshes')
     .displayName('§6Allthemodium Mesh')

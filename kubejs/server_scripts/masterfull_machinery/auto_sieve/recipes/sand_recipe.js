@@ -180,7 +180,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'thermal:sulfur',
-        count: 1,
+        count: 4,
       },
     })
     .output({
@@ -290,7 +290,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'thermal:sulfur',
-        count: 1,
+        count: 16,
       },
     })
     .output({
@@ -391,6 +391,15 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'ae2:charged_certus_quartz_crystal',
+        count: 64,
+      },
+    })
+        .output({
+      type: 'mm:output/simple',
+      chance: 0.35,
+      ingredient: {
+        type: 'mm:item',
+        item: 'thermal:sulfur',
         count: 64,
       },
     })

@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:ultimate_prediction',
         },
         C: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:the_ultimate_ingot',
         },
         D: {
           item: 'avaritia:neutron',

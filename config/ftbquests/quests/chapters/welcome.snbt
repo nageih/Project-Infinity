@@ -1759,6 +1759,7 @@
 		}
 		{
 			dependencies: ["76779A876D143D34"]
+			description: ["{image:kubejs:block/screen/dynamic_dungeon_portal width:100 height:100 align:center fit:true}"]
 			id: "2BD5A176D1FF28AB"
 			rewards: [{
 				id: "2A648285011CC925"

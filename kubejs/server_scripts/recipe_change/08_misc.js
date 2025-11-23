@@ -540,6 +540,18 @@ ServerEvents.recipes((event) => {
     ['minecraft:book', 'voidminers:rubetine']
   );
 
+  create3x3(event, 'mekanism:creative_energy_cube', [
+    'evolvedmekanism:alloy_creative',
+    'evolvedmekanism:creative_control_circuit',
+    'evolvedmekanism:alloy_creative',
+    'mekanism_extras:infinite_energy_cube',
+    'minecraft:nether_star',
+    'evolvedmekanism:multiversal_energy_cube',
+    'evolvedmekanism:alloy_creative',
+    'evolvedmekanism:creative_control_circuit',
+    'evolvedmekanism:alloy_creative',
+  ]);
+
   create3x3(event, 'angelblockrenewed:angel_block', [
     'minecraft:stick',
     'minecraft:feather',

@@ -90,4 +90,51 @@ ServerEvents.recipes((event) => {
       item: 'armorplus:infused_lava_crystal',
     },
   });
+
+  //densest_neutron_collector
+  event.custom({
+    type: 'avaritia:shaped_table',
+    category: 'misc',
+    key: {
+      A: {
+        item: 'advancednetherite:netherite_diamond_ingot',
+      },
+      B: {
+        item: 'minecraft:nether_star',
+      },
+      C: {
+        item: 'minecraft:fire_charge',
+      },
+      D: {
+        item: 'voidminers:verdium',
+      },
+      E: {
+        item: 'voidminers:citrinetine',
+      },
+      F: {
+        item: 'allthemodium:vibranium_ingot',
+      },
+      G: {
+        item: 'woot_revived:netherite_shard',
+      },
+      H: {
+        item: 'minecraft:blaze_powder',
+      },
+      I: {
+        item: 'minecraft:ancient_debris',
+      },
+      J: {
+        item: 'voidminers:azurine',
+      },
+      K: {
+        item: 'voidminers:caerium',
+      },
+    },
+    pattern: ['ABCDA', 'EFGHB', 'CGIGC', 'BHGFJ', 'AKCBA'],
+    result: {
+      item: 'avaritia:blaze_cube',
+    },
+    show_notification: true,
+    tier: 2,
+  });
 });

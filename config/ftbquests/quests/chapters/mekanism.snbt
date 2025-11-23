@@ -539,7 +539,7 @@
 				item: "mekanism:alloy_infused"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: -3.5d
 		}
 		{
@@ -563,7 +563,7 @@
 				item: "mekanism:alloy_reinforced"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: -4.5d
 		}
 		{
@@ -587,7 +587,7 @@
 				item: "mekanism:alloy_atomic"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: -5.5d
 		}
 		{
@@ -614,7 +614,7 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: -3.5d
 		}
 		{
@@ -641,7 +641,7 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: -4.5d
 		}
 		{
@@ -668,7 +668,7 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: -5.5d
 		}
 		{
@@ -2879,6 +2879,11 @@
 		{
 			dependencies: ["019D5A05A2134C7E"]
 			id: "2C688CC8798ED8E1"
+			rewards: [{
+				id: "53F38A03B7F2C940"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -2886,8 +2891,8 @@
 				item: "evolvedmekanism:alloy_hypercharged"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -6.5d
+			x: -4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -2895,6 +2900,11 @@
 				"4AA150A009E904DA"
 			]
 			id: "6172D30357058EED"
+			rewards: [{
+				id: "00702200E2BB3823"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -2902,12 +2912,17 @@
 				item: "evolvedmekanism:overclocked_control_circuit"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["2C688CC8798ED8E1"]
 			id: "55AFA5721F4F4FFA"
+			rewards: [{
+				id: "76B2B445DA4675B3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -2915,8 +2930,8 @@
 				item: "evolvedmekanism:alloy_subatomic"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -7.5d
+			x: -4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -2924,6 +2939,11 @@
 				"6172D30357058EED"
 			]
 			id: "2176C44AFEBCF718"
+			rewards: [{
+				id: "37356A446BCAC218"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -2931,12 +2951,17 @@
 				item: "evolvedmekanism:quantum_control_circuit"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["55AFA5721F4F4FFA"]
 			id: "4D671F3258234C60"
+			rewards: [{
+				id: "1B5674076BDD9574"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -2944,12 +2969,17 @@
 				item: "evolvedmekanism:alloy_singular"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -8.5d
+			x: -4.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["4D671F3258234C60"]
 			id: "141CBD6AB7DD27DE"
+			rewards: [{
+				id: "57F1A4422343FEAD"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -2957,8 +2987,8 @@
 				item: "evolvedmekanism:alloy_exoversal"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -9.5d
+			x: -4.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -2966,6 +2996,11 @@
 				"2176C44AFEBCF718"
 			]
 			id: "40EC956E1E5394BF"
+			rewards: [{
+				id: "5ADE52CA7425DBB7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -2973,7 +3008,7 @@
 				item: "evolvedmekanism:dense_control_circuit"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.5d
 			y: -9.5d
 		}
 		{
@@ -2982,6 +3017,11 @@
 				"40EC956E1E5394BF"
 			]
 			id: "1DF297AD29537258"
+			rewards: [{
+				id: "354AA5C3865D6996"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -2989,7 +3029,7 @@
 				item: "evolvedmekanism:multiversal_control_circuit"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.5d
 			y: -10.5d
 		}
 		{
@@ -3499,6 +3539,11 @@
 		{
 			dependencies: ["141CBD6AB7DD27DE"]
 			id: "0E7687A733602532"
+			rewards: [{
+				id: "017561499DCC2481"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -3507,7 +3552,7 @@
 				type: "item"
 			}]
 			title: "&cCreative Ingot"
-			x: -7.5d
+			x: -4.5d
 			y: -12.0d
 		}
 		{
@@ -3516,6 +3561,11 @@
 				"0E7687A733602532"
 			]
 			id: "2E214494AA4B7A2E"
+			rewards: [{
+				id: "5B40A322C562F7CE"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -3524,8 +3574,251 @@
 				type: "item"
 			}]
 			title: "&cCreative Control Circuit"
+			x: -5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["019D5A05A2134C7E"]
+			id: "59F35CBC4B1B43F9"
+			rewards: [{
+				id: "4E470EAF096D8ECE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "4844BF42CB1253D7"
+				item: "mekanism_extras:alloy_radiance"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["59F35CBC4B1B43F9"]
+			id: "5CD8B31A2CD2546B"
+			rewards: [{
+				id: "51E3FCB1E8102FC0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "589DFC4EE019B4B6"
+				item: "mekanism_extras:alloy_thermonuclear"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5CD8B31A2CD2546B"]
+			id: "75D25A33174FC2A9"
+			rewards: [{
+				id: "693F398C7FD2AA68"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "740BB068AC0281E3"
+				item: "mekanism_extras:alloy_shining"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["75D25A33174FC2A9"]
+			id: "3865480D6683F28F"
+			rewards: [{
+				id: "18DB0F2ECEAEF7DF"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "3FCD3A86FCD874CE"
+				item: "mekanism_extras:alloy_spectrum"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"6172D30357058EED"
+				"578C2DA3B4865CB8"
+			]
+			id: "7EAB7CCF120FB7BF"
+			rewards: [{
+				id: "163D7BC17E29A1A1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "7D961E7EBA47472D"
+				item: "emextras:absolute_overclocked_control_circuit"
+				type: "item"
+			}]
 			x: -6.5d
-			y: -13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7EAB7CCF120FB7BF"
+				"2176C44AFEBCF718"
+				"34E20B91135F8AF4"
+			]
+			id: "78D9752A5D6C2937"
+			rewards: [{
+				id: "7414208E1A56CC03"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "75DD1134E791620F"
+				item: "emextras:supreme_quantum_control_circuit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"78D9752A5D6C2937"
+				"40EC956E1E5394BF"
+				"2AD7BEDA1613184C"
+			]
+			id: "6259FCAF96D9C0A1"
+			rewards: [{
+				id: "3DBDCCB1E28BDF36"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "6D4A10C4A84C9CF6"
+				item: "emextras:cosmic_dense_control_circuit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"1DF297AD29537258"
+				"6259FCAF96D9C0A1"
+				"2340FA9731E2C594"
+			]
+			id: "52B42E5B517C837A"
+			rewards: [{
+				id: "32B55C66B7C69946"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "72713A20D9499909"
+				item: "emextras:infinite_multiversal_control_circuit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"4AA150A009E904DA"
+				"59F35CBC4B1B43F9"
+			]
+			id: "578C2DA3B4865CB8"
+			rewards: [{
+				id: "5367C315C0425660"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "4316D3A4CF794CFE"
+				item: "mekanism_extras:absolute_control_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"2AD7BEDA1613184C"
+				"3865480D6683F28F"
+			]
+			id: "2340FA9731E2C594"
+			rewards: [{
+				id: "352B17379C6E378F"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1BDE11BC252EAAB2"
+				item: "emextras:infinite_multiversal_control_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"5CD8B31A2CD2546B"
+				"578C2DA3B4865CB8"
+			]
+			id: "34E20B91135F8AF4"
+			rewards: [{
+				id: "44BE50A652FCE05E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "10235B9E061DBB64"
+				item: "mekanism_extras:supreme_control_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"75D25A33174FC2A9"
+				"34E20B91135F8AF4"
+			]
+			id: "2AD7BEDA1613184C"
+			rewards: [{
+				id: "0926BCB4DE50D242"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "5BA962120F5A33D8"
+				item: "mekanism_extras:cosmic_control_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.5d
 		}
 	]
 	title: "C Mekanism"

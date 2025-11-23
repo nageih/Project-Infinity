@@ -131,4 +131,142 @@ MMEvents.createProcesses((event) => {
         amount: 16000,
       },
     });
+
+  //ether gas
+  event
+    .create('mm:ether_gas_recipe')
+    .structureId('mm:fire_attuned_structure')
+    .ticks(8)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:nether_star',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'allthemodium:piglich_heart',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'industrialforegoing:machine_frame_supreme',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 1000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'industrialforegoing:ether_gas',
+        amount: 1000,
+      },
+    });
+
+  //liquid sculk matter
+  event
+    .create('mm:liquid_sculk_matter_recipe')
+    .structureId('mm:fire_attuned_structure')
+    .ticks(8)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'kubejs:warden_heart',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:echo_shard',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'ifeu:dragon_star',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 1000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'ifeu:liquid_sculk_matter',
+        amount: 1000,
+      },
+    });
+
+  //liquid dragon breath
+  event
+    .create('mm:liquid_dragon_breath_recipe')
+    .structureId('mm:fire_attuned_structure')
+    .ticks(8)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:dragon_breath',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:dragon_heart',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'ifeu:ultimate_machine_frame',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 1000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'ifeu:liquid_dragon_breath',
+        amount: 1000,
+      },
+    });
 });

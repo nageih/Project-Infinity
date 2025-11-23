@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
     })
     .id('minecraft:nether_star_reaction_chamber');
 
-  function reaction_chamber(event, item1, outputItem) {
+  function reaction_chamber1 (event, item1, outputItem) {
     event
       .custom({
         type: 'advanced_ae:reaction',
@@ -72,19 +72,140 @@ ServerEvents.recipes((event) => {
           id: outputItem,
         },
       })
-      .id('reaction_chamber' + outputItem.replace(/[:]/g, '_').toLowerCase());
+      .id('reaction_chamber1' + outputItem.replace(/[:]/g, '_').toLowerCase());
   }
 
-  reaction_chamber(event, 'minecraft:gold_block', 'ae2:logic_processor');
-  reaction_chamber(event, 'ae2:quartz_block', 'ae2:calculation_processor');
-  reaction_chamber(
+  function reaction_chamber2 (event, item1, outputItem) {
+    event
+      .custom({
+        type: 'advanced_ae:reaction',
+        energy: 200000,
+        fluid: {
+          fluidStack: {
+            Amount: 1000,
+            FluidName: 'minecraft:water',
+          },
+        },
+        input_items: [
+          {
+            amount: 36,
+            ingredient: {
+              item: item1,
+            },
+          },
+          {
+            amount: 4,
+            ingredient: {
+              item: 'expatternprovider:silicon_block',
+            },
+          },
+          {
+            amount: 36,
+            ingredient: {
+              item: 'minecraft:redstone',
+            },
+          },
+        ],
+        output: {
+          '#': 36,
+          '#c': 'ae2:i',
+          id: outputItem,
+        },
+      })
+      .id('reaction_chamber2' + outputItem.replace(/[:]/g, '_').toLowerCase());
+  }
+
+  reaction_chamber1(event, 'minecraft:gold_block', 'ae2:logic_processor');
+  reaction_chamber1(event, 'ae2:quartz_block', 'ae2:calculation_processor');
+  reaction_chamber1(
     event,
     'minecraft:diamond_block',
     'ae2:engineering_processor'
   );
-  reaction_chamber(
+  reaction_chamber1(
     event,
     'megacells:sky_steel_block',
     'megacells:accumulation_processor'
   );
+  reaction_chamber2(
+    event,
+    'appflux:printed_energy_processor',
+    'appflux:energy_processor'
+  );
+
+  event
+    .custom({
+      type: 'advanced_ae:reaction',
+      energy: 200000,
+      fluid: {
+        fluidStack: {
+          Amount: 1600,
+          FluidName: 'advanced_ae:quantum_infusion_source',
+        },
+      },
+      input_items: [
+        {
+          amount: 64,
+          ingredient: {
+            item: 'minecraft:copper_ingot',
+          },
+        },
+        {
+          amount: 64,
+          ingredient: {
+            item: 'advanced_ae:shattered_singularity',
+          },
+        },
+        {
+          amount: 64,
+          ingredient: {
+            item: 'ae2:singularity',
+          },
+        },
+      ],
+      output: {
+        '#': 16,
+        '#c': 'ae2:i',
+        id: 'advanced_ae:quantum_alloy',
+      },
+    })
+    .id('reaction_chamber3_advanced_ae_quantum_alloy');
+
+  event
+    .custom({
+      type: 'advanced_ae:reaction',
+      energy: 200000,
+      fluid: {
+        fluidStack: {
+          Amount: 3200,
+          FluidName: 'minecraft:lava',
+        },
+      },
+      input_items: [
+        {
+          amount: 32,
+          ingredient: {
+            item: 'ae2:singularity',
+          },
+        },
+        {
+          amount: 64,
+          ingredient: {
+            item: 'enderio:powdered_ender_pearl',
+          },
+        },
+        {
+          amount: 64,
+          ingredient: {
+            item: 'ae2:sky_dust',
+          },
+        },
+      ],
+      output: {
+        '#': 64,
+        '#c': 'ae2:i',
+        id: 'advanced_ae:shattered_singularity',
+      },
+    })
+    .id('reaction_chamber3_advanced_ae_shattered_singularity');
 });

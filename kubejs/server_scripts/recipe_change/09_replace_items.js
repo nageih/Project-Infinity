@@ -110,4 +110,9 @@ ServerEvents.recipes((event) => {
     'thermal:gold_gear',
     'allthemodium:unobtainium_gear'
   );
+  event.replaceInput(
+    { output: 'extendedae_plus:infinity_biginteger_cell' },
+    'minecraft:nether_star',
+    'kubejs:infinity_12'
+  );
 });

@@ -17,10 +17,10 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
-          item: 'extendedcrafting:black_iron_ingot',
+          item: 'extendedcrafting:black_iron_block',
         },
         D: {
           item: 'mysticalagriculture:diamond_seeds',
@@ -56,10 +56,10 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
-          item: 'extendedcrafting:black_iron_ingot',
+          item: 'extendedcrafting:black_iron_block',
         },
         D: {
           item: 'mysticalagriculture:netherite_seeds',
@@ -98,10 +98,10 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
-          item: 'extendedcrafting:black_iron_ingot',
+          item: 'extendedcrafting:black_iron_block',
         },
         D: {
           item: 'mysticalagriculture:diamond_seeds',
@@ -140,10 +140,10 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
-          item: 'extendedcrafting:black_iron_ingot',
+          item: 'extendedcrafting:black_iron_block',
         },
         D: {
           item: 'mysticalagriculture:end_seeds',
@@ -185,10 +185,10 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
-          item: 'extendedcrafting:black_iron_ingot',
+          item: 'extendedcrafting:black_iron_block',
         },
         D: {
           item: 'mysticalagriculture:energetic_alloy_seeds',
@@ -227,10 +227,10 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
-          item: 'extendedcrafting:black_iron_ingot',
+          item: 'extendedcrafting:black_iron_block',
         },
         D: {
           item: 'mysticalagriculture:diamond_seeds',
@@ -272,10 +272,10 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
-          item: 'extendedcrafting:black_iron_ingot',
+          item: 'extendedcrafting:black_iron_block',
         },
         D: {
           item: 'mysticalagriculture:gold_seeds',
@@ -311,10 +311,10 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
-          item: 'extendedcrafting:black_iron_ingot',
+          item: 'extendedcrafting:black_iron_block',
         },
         D: {
           item: 'mysticalagriculture:emerald_seeds',
@@ -350,10 +350,10 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
-          item: 'extendedcrafting:black_iron_ingot',
+          item: 'extendedcrafting:black_iron_block',
         },
         D: {
           item: 'mysticalagriculture:manasteel_seeds',
@@ -389,7 +389,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
           type: 'forge:nbt',
@@ -503,10 +503,10 @@ function seedcraftingtier5(event, input) {
           item: 'mysticalagriculture:supremium_essence',
         },
         B: {
-          item: 'extendedcrafting:enhanced_ender_ingot',
+          item: 'extendedcrafting:enhanced_ender_ingot_block',
         },
         C: {
-          item: 'extendedcrafting:black_iron_ingot',
+          item: 'extendedcrafting:black_iron_block',
         },
         D: {
           item: input[1],

@@ -301,9 +301,9 @@
 		{
 			dependencies: ["79BE48D56622542F"]
 			description: [
-				"{atm9.quest.botania.desc.pureDaisyIntro}"
+				"The &aPure Daisy&r represents your first step into functional botanical magic - a cornerstone flower that bridges the gap between ordinary flora and magical flora."
 				""
-				"{atm9.quest.botania.desc.pureDaisyFunction.1}"
+				"This remarkable flower slowly transmutes up to 8 adjacent blocks of &2natural Wooden Logs&r into vibrant &2Livingwood&r or transforms &9ordinary Stone&r into mystical &9Livingrock&r through a gentle purification process that occurs within a single block radius. The conversion happens gradually, requiring patience but no additional energy input."
 			]
 			hide_until_deps_visible: false
 			id: "4E02DC8A474A4A2F"
@@ -325,13 +325,13 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.firstFlower}"
+			title: "Our First Flower"
 			x: 7.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4E02DC8A474A4A2F"]
-			description: ["{atm9.quest.botania.desc.usePureDaisy}"]
+			description: ["Utilize your &bPure Daisy&r to convert Stone into &9Livingrock&r - the foundational material for advanced Botania constructs."]
 			id: "23ADD20D9B1AE0F3"
 			rewards: [
 				{
@@ -353,13 +353,13 @@
 				item: "botania:livingrock"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.livingrock}"
+			title: "&7Livingrock"
 			x: 7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4E02DC8A474A4A2F"]
-			description: ["{atm9.quest.botania.desc.usePureDaisyWood}"]
+			description: ["Transform Wooden Logs into &2Livingwood&r using your &bPure Daisy&r."]
 			id: "597E4D997A20736D"
 			rewards: [
 				{
@@ -381,20 +381,20 @@
 				item: "botania:livingwood_log"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.livingwood}"
+			title: "&2Livingwood&r"
 			x: 7.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["23ADD20D9B1AE0F3"]
 			description: [
-				"{atm9.quest.botania.desc.manaPoolIntro.1}"
+				"The &9Mana Pool&r serves as the central reservoir for all your magical energy storage needs. This elegant basin doesn't merely contain mana - it actively maintains the magical charge through crystalline structures lining its interior."
 				""
-				"{atm9.quest.botania.desc.manaPoolIntro.2}"
+				"Once sufficiently charged with &bMana&r, the pool becomes a transformative crucible capable of infusing base materials with magical properties, creating advanced resources like &9Manasteel&r, &bMana Diamonds&r, and other enchanted materials. Simply toss the appropriate items into a pool with adequate mana to initiate the transmutation process."
 				""
-				"{atm9.quest.botania.desc.manaPoolIntro.3}"
+				"To generate the vital mana required, you'll need to cultivate &2Generating Flora&r such as the &9Hydroangeas&r (which consumes water sources) or the &cEndoflame&r (which burns combustible materials). Each flower offers different generation rates and resource requirements."
 				""
-				"{atm9.quest.botania.desc.manaPoolIntro.4}"
+				"Monitoring your mana levels is crucial - while holding the &2Wand of the Forest&r, observe the pool's visual display to gauge current mana capacity and plan your resource management accordingly."
 			]
 			hide_until_deps_visible: false
 			id: "7A359C1F5E041C4F"
@@ -438,11 +438,11 @@
 							]
 						}
 					}
-					title: "{atm9.quest.botania.starterGeneratingFlowers}"
+					title: "&dStarter Generating Flowers"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.mana}"
+			title: "&bMana&r"
 			x: 9.0d
 			y: 1.7999999999999994d
 		}
@@ -452,11 +452,11 @@
 				"205BBDFBCA582E3B"
 			]
 			description: [
-				"{atm9.quest.botania.desc.manaInfusion.1}"
+				"The &bMana Pool&r transcends simple storage when used as an infusion catalyst. By immersing specific materials in mana-saturated waters, you can create advanced resources with unique properties."
 				""
-				"{atm9.quest.botania.desc.manaInfusion.2}"
+				"Each transformation requires precise mana quantities - consult JEI for exact mana costs per recipe. The infusion process maintains the material's structural integrity while imbuing it with magical energy, resulting in enhanced versions like &9Manasteel&r (self-repairing metal), &bMana Diamonds&r (enhanced gemstones), and various other enchanted materials."
 				""
-				"{atm9.quest.botania.desc.manaInfusion.3}"
+				"Advanced Tip: When working with large quantities, consider creating &9Manasteel Blocks&r or &bMana Diamond Blocks&r for efficient bulk storage, then break them down as needed. This approach optimizes both your time and mana expenditure."
 			]
 			hide_until_deps_visible: false
 			id: "70C5A902C0D26628"
@@ -521,14 +521,23 @@
 						]
 					}
 				}
-				title: "{atm9.quest.botania.manaInfusedMaterials}"
+				title: "Mana-Infused Materials"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.creatingManaResources}"
+			title: "Creating Mana-Infused Resources"
 			x: 12.5d
 			y: 2.5d
 		}
 		{
+			description: [
+				"Welcome to &aBotania&r - where botanical magic meets technological innovation in an elegant fusion of nature and artifice."
+				""
+				"This mod transforms flower cultivation into a sophisticated automation system, offering everything from basic resource generation to complex magical implements. While appearing as nature magic, Botania operates on precise mechanical principles disguised as floral enchantment."
+				""
+				"Your journey begins with gathering &9Mystical Flowers&r - the fundamental reagents for all botanical crafting. These vibrant blossoms contain the latent magical potential you'll harness throughout your progression."
+				""
+				"For comprehensive guidance, the &aLexica Botania&r serves as your essential reference, detailing every flower, device, and mechanism within this magical ecosystem."
+			]
 			icon: "botania:lexicon"
 			id: "13D401048A926A74"
 			rewards: [
@@ -558,7 +567,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "2DD55BC527B3BC67"
-				title: "Statring Botania"
+				title: "Starting Botania"
 				type: "checkmark"
 			}]
 			title: "Welcome Botania"
@@ -568,13 +577,13 @@
 		{
 			dependencies: ["13D401048A926A74"]
 			description: [
-				"{atm9.quest.botania.desc.petalApothecaryIntro.1}"
+				"The &9Petal Apothecary&r serves as your primary botanical workstation, transforming simple petals into functional magical flora through precise alchemical processes."
 				""
-				"{atm9.quest.botania.desc.petalApothecaryIntro.2}"
+				"Begin by hydrating the apothecary with &bWater&r - either by right-clicking with a water bucket or tossing the bucket directly into the basin. The carved livingrock channels hydraulic energy to suspend ingredients in perfect alignment."
 				""
-				"{atm9.quest.botania.desc.petalApothecaryIntro.3}"
+				"To craft functional flora, carefully combine the required petal arrangement by either right-clicking with individual petals or tossing them into the water-filled basin. The apothecary's magical matrix will align the petals into the required pattern automatically."
 				""
-				"{atm9.quest.botania.desc.petalApothecaryIntro.4}"
+				"After successful creation, a 20-second window opens where &aright-clicking with an empty hand&r automatically reloads the previous recipe, enabling efficient batch production of identical flowers."
 			]
 			id: "79BE48D56622542F"
 			min_width: 250
@@ -603,6 +612,7 @@
 		}
 		{
 			dependencies: ["13D401048A926A74"]
+			description: ["Create &aFloral Fertilizer&r - accelerates mystical flower growth like bone meal but specifically formulated for Botania flora."]
 			hide_until_deps_visible: false
 			id: "371E5E1E435E41AA"
 			rewards: [
@@ -630,7 +640,11 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			description: ["{atm9.quest.botania.desc.endoflameFunction}"]
+			description: [
+				"The &cEndoflame&r provides reliable mana generation through controlled combustion. This efficient generator consumes any combustible item or block dropped within its operational radius, converting thermal energy directly into magical mana."
+				""
+				"Each fuel source burns completely before the flower accepts another, ensuring no waste. The conversion efficiency varies slightly between fuel types, with higher-energy fuels like coal blocks providing more sustained generation."
+			]
 			id: "177658CA70DB0C89"
 			rewards: [
 				{
@@ -646,21 +660,22 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
+			subtitle: "Burnable Items"
 			tasks: [{
 				id: "0F3DB7859AC1FA8A"
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.burningItems}"
+			title: "&cBurning Items&r to Create Mana"
 			x: 1.5d
-			y: 4.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
 			description: [
-				"{atm9.quest.botania.desc.manastarUse.1}"
+				"The &dManastar&r functions as a sophisticated mana flow analyzer, providing real-time feedback about your mana generation efficiency."
 				""
-				"{atm9.quest.botania.desc.manastarUse.2}"
+				"When placed adjacent to a mana pool, the flower's glow indicates system performance: &cCrimson&r signifies net mana loss (consumption exceeds generation), while &9Azure&r indicates net gain (generation outpaces consumption). This visual feedback is crucial for optimizing complex mana systems."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -677,7 +692,7 @@
 				item: "botania:manastar"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
@@ -697,7 +712,7 @@
 				item: "botania:dandelifeon"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -9.0d
 			y: 2.5d
 		}
 		{
@@ -712,12 +727,13 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "TNT"
 			tasks: [{
 				id: "1B4F0D2059B8026B"
 				item: "botania:entropinnyum"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: 4.5d
 		}
 		{
@@ -732,21 +748,18 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "Food Items"
 			tasks: [{
 				id: "064F00766BFAC083"
 				item: "botania:gourmaryllis"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			description: [
-				"{atm9.quest.botania.desc.waterSourceMana.1}"
-				""
-				""
-			]
+			description: ["The &9Hydroangeas&r generates mana by absorbing nearby &bWater Source Blocks&r within a 3x3 area. These flowers have limited lifespan and will decay after sustained operation."]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "5D4F9B54A54EEBD6"
@@ -764,14 +777,15 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
+			subtitle: "Water"
 			tasks: [{
 				id: "361773BACA86686E"
 				item: "botania:hydroangeas"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.waterMana}"
+			title: "Using &9Water&r to Create Mana"
 			x: 1.5d
-			y: 1.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -785,12 +799,13 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "Cake"
 			tasks: [{
 				id: "5E904CD770B69066"
 				item: "botania:kekimurus"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: 6.5d
 		}
 		{
@@ -805,12 +820,13 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "Leaves"
 			tasks: [{
 				id: "24A17B911DF7B6A3"
 				item: "botania:munchdew"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: 3.5d
 		}
 		{
@@ -825,12 +841,13 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "Slime"
 			tasks: [{
 				id: "2A82329EFC75B3CB"
 				item: "botania:narslimmus"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 7.5d
 		}
 		{
@@ -845,12 +862,13 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "Flowers"
 			tasks: [{
 				id: "2FDD86AE03028860"
 				item: "botania:rafflowsia"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 6.5d
 		}
 		{
@@ -865,12 +883,13 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "Rosa Items"
 			tasks: [{
 				id: "09C57FE747E4FDB1"
 				item: "botania:rosa_arcana"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: 5.5d
 		}
 		{
@@ -885,12 +904,13 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "Shulker"
 			tasks: [{
 				id: "27A5137AD2895362"
 				item: "botania:shulk_me_not"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: -1.5d
 		}
 		{
@@ -905,12 +925,13 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "Wool"
 			tasks: [{
 				id: "03C99E0B3F3B2800"
 				item: "botania:spectrolus"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: 0.5d
 		}
 		{
@@ -925,12 +946,13 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "Lava"
 			tasks: [{
 				id: "6D6367DDF0FF15EB"
 				item: "botania:thermalily"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: 1.5d
 		}
 		{
@@ -949,7 +971,7 @@
 				item: "botania:agricarnation"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: 2.5d
 		}
 		{
@@ -964,12 +986,13 @@
 				xp: 50
 			}]
 			shape: "square"
+			subtitle: "Hurts mobs"
 			tasks: [{
 				id: "3AEB80A6F92651FF"
 				item: "botania:bellethorn"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
@@ -988,7 +1011,7 @@
 				item: "botania:bergamute"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: 1.5d
 		}
 		{
@@ -1007,7 +1030,7 @@
 				item: "botania:bubbell"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
@@ -1026,7 +1049,7 @@
 				item: "botania:clayconia"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -1046,7 +1069,7 @@
 				item: "botania:daffomill"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 0.5d
 		}
 		{
@@ -1065,7 +1088,7 @@
 				item: "botania:dreadthorn"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 0.5d
 		}
 		{
@@ -1084,7 +1107,7 @@
 				item: "botania:exoflame"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -1103,7 +1126,7 @@
 				item: "botania:fallen_kanade"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
@@ -1122,7 +1145,7 @@
 				item: "botania:heisei_dream"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: 4.5d
 		}
 		{
@@ -1141,7 +1164,7 @@
 				item: "botania:hopperhock"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 2.5d
 		}
 		{
@@ -1160,7 +1183,7 @@
 				item: "botania:hyacidus"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 2.5d
 		}
 		{
@@ -1179,7 +1202,7 @@
 				item: "botania:jaded_amaranthus"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -1198,7 +1221,7 @@
 				item: "botania:jiyuulia"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -1217,7 +1240,7 @@
 				item: "botania:loonium"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 4.5d
 		}
 		{
@@ -1236,7 +1259,7 @@
 				item: "botania:marimorphosis"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: 2.5d
 		}
 		{
@@ -1255,7 +1278,7 @@
 				item: "botania:medumone"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 2.5d
 		}
 		{
@@ -1274,7 +1297,7 @@
 				item: "botania:orechid"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 2.5d
 		}
 		{
@@ -1293,7 +1316,7 @@
 				item: "botania:orechid_ignem"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: 2.5d
 		}
 		{
@@ -1312,7 +1335,7 @@
 				item: "botania:pollidisiac"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
@@ -1331,7 +1354,7 @@
 				item: "botania:rannuncarpus"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: 3.5d
 		}
 		{
@@ -1350,7 +1373,7 @@
 				item: "botania:solegnolia"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 3.5d
 		}
 		{
@@ -1369,7 +1392,7 @@
 				item: "botania:spectranthemum"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 3.5d
 		}
 		{
@@ -1388,7 +1411,7 @@
 				item: "botania:tangleberrie"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -1407,7 +1430,7 @@
 				item: "botania:tigerseye"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 3.5d
 		}
 		{
@@ -1426,12 +1449,12 @@
 				item: "botania:vinculotus"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]
-			description: ["{atm9.quest.botania.desc.blackLotus}"]
+			description: ["Found only in treasure chests (and is craftable), the &0Black Lotus&r can be thrown into a non-empty Mana Pool to give it a good deal of concentrated Mana."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5E2AA5695D1F21D7"
@@ -1461,19 +1484,19 @@
 						]
 					}
 				}
-				title: "{atm9.quest.botania.blackLotus}"
+				title: "Black Lotus"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.elusiveManaLotus}"
+			title: "The Elusive Mana-infused Lotus"
 			x: 10.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["205BBDFBCA582E3B"]
 			description: [
-				"{atm9.quest.botania.desc.manaSpreaderIntro.1}"
+				"The &2Mana Spreader&r is used to direct the flow of Mana by shooting out Mana Bursts."
 				""
-				"{atm9.quest.botania.desc.manaSpreaderIntro.2}"
+				"You can set the direction that the Spreader shoots by binding it to a block using the &2Wand of the Forest&r. While holding the Wand, you can also see the mana buffer, as well as the Mana Bursts."
 			]
 			id: "1C48F2612F2FA828"
 			rewards: [
@@ -1494,20 +1517,20 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.directingMana}"
+			title: "Directing Mana"
 			x: 9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["597E4D997A20736D"]
 			description: [
-				"{atm9.quest.botania.desc.wandOfTheForestIntro.1}"
+				"The &2Wand of the Forest&r is a must-have item if you want to continue your journey in Botania."
 				""
-				"{atm9.quest.botania.desc.wandOfTheForestIntro.2}"
+				"The wand has two modes: &aBind&r and &9Function&r."
 				""
-				"{atm9.quest.botania.desc.wandOfTheForestIntro.3}"
+				"&aBind mode&r is used to bind flowers and blocks together in Botania. Start by sneak-right clicking the first block or flower you want, then sneak-right click another block or flower to bind them together."
 				""
-				"{atm9.quest.botania.desc.wandOfTheForestIntro.4}"
+				"&9Function Mode&r essentially acts like a wrench, and is used to rotate blocks."
 			]
 			hide_until_deps_visible: false
 			id: "205BBDFBCA582E3B"
@@ -1530,18 +1553,18 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.wrench}"
+			title: "Botania's Wrench"
 			x: 9.0d
 			y: 3.2d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
 			description: [
-				"{atm9.quest.botania.desc.upgradeManaSpreader.1}"
+				"To upgrade the &2Mana Spreader&r, you can attach &9Mana Lenses&r to the front of the Spreader. However, the most basic Mana Lens does nothing."
 				""
-				"{atm9.quest.botania.desc.upgradeManaSpreader.2}"
+				"You'll need to upgrade the Mana Lens to give it different effects on the bursts of Mana it sends out. Lenses can also be dyed by crafting it with any color, or with a Mana Pearl to create a Rainbow Lens."
 				""
-				"{atm9.quest.botania.desc.upgradeManaSpreader.3}"
+				"By combining a Mana Lens with specific runes and items, we can use them to upgrade our Spreaders. You can also combine 2 lenses together with a &aSlime Ball&r to create &9Composite Lenses&r, combining the powers to create even stronger effects."
 			]
 			id: "6FBE0BF8A7ADBB26"
 			min_width: 300
@@ -1557,20 +1580,20 @@
 				item: "botania:lens_normal"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.upgradingManaSpreaders}"
+			title: "Upgrading Mana Spreaders"
 			x: 12.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]
 			description: [
-				"{atm9.quest.botania.desc.manaSplitter.1}"
+				"The &bMana Splitter&r can be used as a way of splitting incoming Mana bursts into several Mana Pools at once."
 				""
-				"{atm9.quest.botania.desc.manaSplitter.2}"
+				"&dSparks&r are used to transfer Mana to specific blocks, which are needed for in the progression of Botania."
 				""
-				"{atm9.quest.botania.desc.manaSplitter.3}"
+				"To use a Spark, place one over a Mana Pool, then another over a nearby block that can accept it. Think of this like \"&owirelessly&r\" transferring Mana from your Mana Pools to the desired nearby block."
 				""
-				"{atm9.quest.botania.desc.manaSplitter.4}"
+				"To remove a Spark, sneak-right click it with a &2Wand of the Forest&r."
 			]
 			id: "2CBBE8EF07B1D3DA"
 			shape: "diamond"
@@ -1586,13 +1609,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.manipulatingManaStorage}"
+			title: "Manipulating Mana Storage"
 			x: 8.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
-			description: ["{atm9.quest.botania.desc.alchemyCatalyst}"]
+			description: ["The &dAlchemy Catalyst&r can be placed under a &bMana Pool&r to allow it to perform &9Alchemy&r. This is useful to convert certain items into more useful items, like Rotten Flesh into Leather."]
 			id: "32DF4BC46620F952"
 			rewards: [
 				{
@@ -1618,7 +1641,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{atm9.quest.botania.desc.conjurationCatalyst}"]
+			description: ["Similar to the Alchemy Catalyst, when placed under a Mana Pool, the &9Conjuration Catalyst&r unlocks the abillity to use conjuration recipes."]
 			id: "1DCFC67A8E3DCA2C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1637,11 +1660,11 @@
 		{
 			dependencies: ["7A359C1F5E041C4F"]
 			description: [
-				"{atm9.quest.botania.desc.manaTablet.1}"
+				"The &9Mana Tablet&r is a portable Mana Pool!"
 				""
-				"{atm9.quest.botania.desc.manaTablet.2}"
+				"Tossing the tablet into a Mana Pool will allow it to either give or take Mana from the pool. You can switch between the modes by sneak-right clicking with a &2Wand of the Forest&r."
 				""
-				"{atm9.quest.botania.desc.manaTablet.3}"
+				"Note: Tablets will not despawn."
 			]
 			id: "2162EA0216E27D68"
 			rewards: [
@@ -1663,13 +1686,13 @@
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.transferringManaFromPools}"
+			title: "Transferring Mana from Pools"
 			x: 9.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2162EA0216E27D68"]
-			description: ["{atm9.quest.botania.desc.bandOfMana}"]
+			description: ["The &9Band of Mana&r is a wearable Mana Tablet that can be equipped like a trinket."]
 			id: "379AC75F99212089"
 			rewards: [
 				{
@@ -1695,7 +1718,7 @@
 		}
 		{
 			dependencies: ["379AC75F99212089"]
-			description: ["{atm9.quest.botania.desc.greaterBandOfMana}"]
+			description: ["By upgrading the Band of Mana with an ingot of Terrasteel, it creates the &dGreater Band of Mana&r which allows it to hold up to 4x the amount of mana."]
 			id: "2F01BF021E1BE0A2"
 			shape: "diamond"
 			tasks: [{
@@ -1708,7 +1731,7 @@
 		}
 		{
 			dependencies: ["6A56574BC562B227"]
-			description: ["{atm9.quest.botania.desc.bandOfAuraUpgrade}"]
+			description: ["By upgrading the Band of Aura with an ingot of Terrasteel, it increases the mana generation rate of the band significantly."]
 			id: "70C25BFA6FFA1799"
 			rewards: [
 				{
@@ -1733,7 +1756,7 @@
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["{atm9.quest.botania.desc.bandOfAura}"]
+			description: ["When equipped, the &9Band of Aura&r will slowly generate a trickle of Mana over time, and stores it into Mana-containing items within your inventory."]
 			hide_dependency_lines: false
 			id: "6A56574BC562B227"
 			rewards: [
@@ -1760,9 +1783,9 @@
 		{
 			dependencies: ["70C5A902C0D26628"]
 			description: [
-				"{atm9.quest.botania.desc.manaweaveRobes.1}"
+				"While the &bManaweave Robes&r don't offer the greatest overall protection, the set bonus is pretty powerful!"
 				""
-				"{atm9.quest.botania.desc.manaweaveRobes.2}"
+				"When all four pieces are worn, you'll get a discount on Mana cost for mana tools and rods. The set can also repair itself using Mana from one's inventory."
 			]
 			id: "05A845C811A9A4A0"
 			optional: true
@@ -1831,13 +1854,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.manaweaveRobes}"
+			title: "Manaweave Robes"
 			x: 14.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
-			description: ["{atm9.quest.botania.desc.manasteelArmor}"]
+			description: ["Similar to the qualities of Iron, &9Manasteel Armor&r has superior enchantability and durability. Manasteel items can also repair themselves with Mana from the user's inventory."]
 			hide_until_deps_visible: false
 			id: "64DB69F741EA5BEE"
 			rewards: [
@@ -1899,7 +1922,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.manasteelArmor}"
+			title: "Manasteel Armor"
 			x: 12.5d
 			y: -0.5d
 		}
@@ -2015,7 +2038,7 @@
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			description: ["{atm9.quest.botania.desc.terrasteelArmor}"]
+			description: ["Just like Manasteel armor, &aTerrasteel Armor&r can repair itself using Mana. It has the durability comparable to Diamond armor as well."]
 			hide_until_deps_visible: false
 			id: "10F2044D080D6209"
 			rewards: [
@@ -2083,13 +2106,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.terrasteelArmor}"
+			title: "&aTerrasteel Armor"
 			x: 16.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			description: ["{atm9.quest.botania.desc.terraTruncator}"]
+			description: ["Using Mana, the &2Terra Truncator&r will feel entire trees in one fell swoop."]
 			id: "3C84D684B3A5D7B6"
 			rewards: [
 				{
@@ -2120,7 +2143,7 @@
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			description: ["{atm9.quest.botania.desc.terraBlade}"]
+			description: ["With the damage of a Diamond Sword, the &2Terra Blade&r will sometimes fire a beam that will deal as much as a melee hit would."]
 			id: "24C0F267B330CD23"
 			rewards: [
 				{
@@ -2152,13 +2175,13 @@
 		{
 			dependencies: ["23A2865FBE7831AB"]
 			description: [
-				"{atm9.quest.botania.desc.terraShatterer.1}"
+				"It's not just a pickaxe, the &9Terra Shatterer&r also acts just like a Mana Tablet when tossed into a Mana Pool and can store a ton of mana. However, you will not be able to release the absorbed mana from the Shatterer."
 				""
-				"{atm9.quest.botania.desc.terraShatterer.2}"
+				"The higher the amount of Mana stored in the tool, the higher the rank that it has, with D being the lowest and SS being the highest."
 				""
-				"{atm9.quest.botania.desc.terraShatterer.3}"
+				"Increasing the tool's rank does not increase its speed, but instead increases the AoE of its &bActive Ability&r, which can be toggled on and off by sneak-right clicking. When active, it increases the Shatterer's mining width and height based on the rank. Being at a rank of D will not have an ability."
 				""
-				"{atm9.quest.botania.desc.terraShatterer.4}"
+				"Note: As long as the tool is active, it will consume its stored mana."
 			]
 			id: "4143C1CF83DE922E"
 			min_width: 300
@@ -2193,11 +2216,11 @@
 		{
 			dependencies: ["23A2865FBE7831AB"]
 			description: [
-				"{atm9.quest.botania.desc.rodOfTerraFirma.1}"
+				"Tired of using a shovel to level out grass? Try using the &2Rod of Terra Firma&r!"
 				""
-				"{atm9.quest.botania.desc.rodOfTerraFirma.2}"
+				"At the cost of Mana, this will flatten the surrounding land to your own altitude by charging up the rod by holding right click."
 				""
-				"{atm9.quest.botania.desc.rodOfTerraFirma.3}"
+				"Note: Blocks removed by the rod are not recoverable."
 			]
 			id: "2EB6088D4E85DA42"
 			optional: true
@@ -2219,20 +2242,20 @@
 				item: "botania:terraform_rod"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.flatteningTheLand}"
+			title: "Flattening the Land"
 			x: 16.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
 			description: [
-				"{atm9.quest.botania.desc.runicAltar.1}"
+				"&9Runes&r are vital crafting components in many of the more advanced recipes in Botania, and these are created on a &aRunic Altar&r."
 				""
-				"{atm9.quest.botania.desc.runicAltar.2}"
+				"To use the Altar, start by placing the components of the rune you want on it. This can be done either by right clicking or dropping the item. It will also need Mana, so make sure to point a Mana Spreader that is getting Mana towards it as well."
 				""
-				"{atm9.quest.botania.desc.runicAltar.3}"
+				"Once you've finished placing the items, you can hover over the Altar with your wand and it will show you the progress of the recipe. When it completes, drop a piece of Livingrock on the Altar, then use your wand to collect your rune."
 				""
-				"{atm9.quest.botania.desc.runicAltar.4}"
+				"Note: Runes used for recipes in the Runic Altar function as catalysts, and will not be consumed. Just like the Petal Apothecary, right-clicking the Altar with an empty hand after a recipe is complete will refill it with the items used in the last recipe."
 			]
 			id: "0631F054A9B97A40"
 			min_width: 300
@@ -2285,17 +2308,17 @@
 							]
 						}
 					}
-					title: "{atm9.quest.botania.basicRunes}"
+					title: "Basic Runes"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.creatingRunes}"
+			title: "Creating Runes"
 			x: 12.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["{atm9.quest.botania.desc.botanicalBrewery}"]
+			description: ["Using vials, Mana, and reagents in a &aBotanical Brewery&r, you can create &9Brews&r which are just like Potions."]
 			id: "30F7B68093D76590"
 			optional: true
 			rewards: [
@@ -2321,7 +2344,7 @@
 		}
 		{
 			dependencies: ["30F7B68093D76590"]
-			description: ["{atm9.quest.botania.desc.incenseSticks}"]
+			description: ["&2Incense Sticks&r can be infused with Brews in a Botanical Brewery. These can be lit using flint and steel on an &9Incense Plate&r to provide the brew effect for sixty times longer than its liquid counterpart, in a 30-block radius around the plate."]
 			id: "0D9354ABA2AE2A11"
 			optional: true
 			rewards: [
@@ -2347,7 +2370,7 @@
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["{atm9.quest.botania.desc.creatingTerrasteel}"]
+			description: ["To create &aTerrasteel&r, we'll first need to set up the multiblock for it. The first part of this is crafting the &9Terrasteel Agglomeration Plate&r."]
 			id: "65238A6DCDDDFA0D"
 			rewards: [
 				{
@@ -2373,21 +2396,20 @@
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.creatingMorePowerfulIngots}"
+			title: "Creating More Powerful Ingots"
 			x: 14.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["65238A6DCDDDFA0D"]
 			description: [
-				"{atm9.quest.botania.desc.tAPlate.1}"
+				"Now it's time to create our platform for the &9T.A. Plate&r so we can make &aTerrasteel&r!"
 				""
-				"{atm9.quest.botania.desc.tAPlate.2}"
+				"To create the platform, you'll need to place 5 pieces of Livingrock and 4 Blocks of Lapis in a checkerboard pattern. Place the plate on the center Livingrock block, and the platform will be complete!"
 				""
-				"{atm9.quest.botania.desc.tAPlate.3}"
+				"Terrasteel needs a lot of Mana to craft, requiring the use of &9Sparks&r. Place several Sparks over your Mana Pools, then one over the T.A. Plate to direct your mana for crafting."
 				""
-				"{atm9.quest.botania.desc.tAPlate.4}"
-				""
+				"Once you have the platform ready for crafting, toss one Manasteel Ingot, Mana Diamond, and a Mana Pearl on the plate to start crafting Terrasteel."
 			]
 			icon: "botania:terrasteel_ingot"
 			id: "23A2865FBE7831AB"
@@ -2426,22 +2448,22 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.creatingTerrasteel}"
+			title: "&aCreating&r &dTerrasteel&r"
 			x: 16.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{atm9.quest.botania.desc.upgradeSparks.1}"
+				"With the new Elven materials, we're able to upgrade our sparks using &dAugments&r. With the Augment in hand, you can right click a spark with it to upgrade it. Using the wand, you can sneak-right click to remove it."
 				""
-				"{atm9.quest.botania.desc.upgradeSparks.2}"
+				"Dispersive Augment: Allows a Spark to drain the Mana in its pool to charge nearby players' Mana-containing items."
 				""
-				"{atm9.quest.botania.desc.upgradeSparks.3}"
+				"Dominant Augment: Makes a Spark pull Mana from nearby non-augmented Sparks' pools into its own."
 				""
-				"{atm9.quest.botania.desc.upgradeSparks.4}"
+				"Recessive Augment: Makes a Spark distribute all of the Mana in its pool into nearby non-augmented or Dispersive Sparks' pools."
 				""
-				"{atm9.quest.botania.desc.upgradeSparks.5}"
+				"Isolated Augment: Prevents a Spark from interacting with any Dominant or Recessive Sparks."
 			]
 			id: "5CB5F4CD521F6361"
 			min_width: 300
@@ -2476,19 +2498,19 @@
 						]
 					}
 				}
-				title: "{atm9.quest.botania.sparkAugments}"
+				title: "Spark Augments"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.sparkAugments}"
+			title: "Spark Augments"
 			x: 21.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["1EF7664F5D8C5FF1"]
 			description: [
-				"{atm9.quest.botania.desc.elvenTradeFeatures.1}"
+				"While you may not be able to enter the &dPortal to Alfheim&r, you can perform an &2Elven Trade&r by tossing in certain items through the portal. This does use mana for each trade! These materials can also be used to upgrade some of your items, like creating &2Elven Mana Spreaders&r."
 				""
-				"{atm9.quest.botania.desc.elvenTradeFeatures.2}"
+				"Throwing in our &aLexica Botania&r will also upgrade it with &6Elven Knowledge&r, giving you more insight into your journey in Botania."
 			]
 			icon: "botania:dragonstone"
 			id: "3A20210242A1C865"
@@ -2564,26 +2586,26 @@
 							]
 						}
 					}
-					title: "{atm9.quest.botania.alfheimResources}"
+					title: "Alfheim Resources"
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.communingWithElves}"
+			title: "Communing with Elves"
 			x: 20.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
 			description: [
-				"{atm9.quest.botania.desc.portalSetup.1}"
+				"To create a &dPortal to Alfheim&r, start with the frame. We'll need to use 8 Livingwood blocks, 3 Glimmering Livingwood blocks, and an &9Elven Gateway Core&r to create the frame."
 				""
-				"{atm9.quest.botania.desc.portalSetup.2}"
+				"nce the frame is created, we'll need to open it by using at least &d2 Mana Pools&r, a huge amount of mana, and a &aNatura Pylon&r over the 2 pools. These mana pools can be within an 11x11x11 area around the core."
 				""
-				"{atm9.quest.botania.desc.portalSetup.3}"
+				"With everything set up, right click the Elven Core with your wand to activate the portal."
 				""
-				"{atm9.quest.botania.desc.portalSetup.4}"
+				"Note: Even though the Mana Pools need a large amount of Mana to activate the portal, activating the portal does not cost Mana itself. However, converting materials over will use a little each time. If there is not enough mana, the portal will close."
 				""
-				"{atm9.quest.botania.desc.portalSetup.5}"
+				"You can also use the &aLexica Botania&r to help you build it."
 				""
 			]
 			id: "1EF7664F5D8C5FF1"
@@ -2627,18 +2649,18 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.openingThePortal}"
+			title: "Opening the Portal"
 			x: 18.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{atm9.quest.botania.desc.gaiaSpiritQuest.1}"
+				"To continue your journey, you will need to get your hands on &6Gaia Spirits&r. To do this, you will need to perform the &9Ritual of Gaia&r."
 				""
-				"{atm9.quest.botania.desc.gaiaSpiritQuest.2}"
+				"You will need 4 Gaia Pylons around an &aActive Beacon&r, as well as a single Terrasteel ingot. Once the structure is built, sneak-right click the Beacon with the Terrasteel ingot and prepare for the fight of your life."
 				""
-				"{atm9.quest.botania.desc.gaiaSpiritQuest.3}"
+				"If you need help with building the structure, you can always use the &aLexica Botania&r to help you build it. Look for the &9Ritual of Gaia&r."
 				""
 			]
 			id: "04CE14D92603FC7A"
@@ -2669,16 +2691,16 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.summoningGuardianOfGaia}"
+			title: "&aSummoning the&r &5Guardian of Gaia&r"
 			x: 22.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{atm9.quest.botania.desc.elementiumArmorFeatures.1}"
+				"Just like most armor in Botania, the &9Elementium&r set can repair itself with mana."
 				""
-				"{atm9.quest.botania.desc.elementiumArmorFeatures.2}"
+				"It also has a chance to spawn a &aPixie&r whenever the wearer is harmed."
 			]
 			hide_until_deps_visible: false
 			id: "2F388BE777C43EB6"
@@ -2747,9 +2769,9 @@
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{atm9.quest.botania.desc.terraShattererFeatures.1}"
+				"Has an ability to clear away Cobblestone, Dirt, Netherrack, and other common materials, leaving behind only ores and fine resources."
 				""
-				"{atm9.quest.botania.desc.terraShattererFeatures.2}"
+				"Can combine with the Terra Shatterer in a crafting grid, which will allow the latter to take on the former's power. This cannot be undone."
 			]
 			id: "2230244B2CE5851D"
 			rewards: [
@@ -2781,7 +2803,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{atm9.quest.botania.desc.gravityAffectedBlockBreaking}"]
+			description: ["When breaking a block that is affected by gravity, this will auto-break all blocks above or below it."]
 			id: "1C53DEE5CED13E92"
 			rewards: [
 				{
@@ -2812,7 +2834,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{atm9.quest.botania.desc.skullDropping}"]
+			description: ["Can drop skulls from certain mobs or players when dealing the finishing blow. Can also be enchanted with Looting."]
 			id: "76A4FCDF04AD6656"
 			rewards: [
 				{
@@ -2843,7 +2865,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{atm9.quest.botania.desc.instantMoisten}"]
+			description: ["Instantly moisten farmland it creates. Do we know if there is a better word for that?"]
 			id: "1BCA04665A8F5EF5"
 			rewards: [
 				{
@@ -2874,7 +2896,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{atm9.quest.botania.desc.pixieSpawnAugmentation}"]
+			description: ["Increases the chance of a Pixie spawning when hit, and augments the strength of any Pixies that are spawned."]
 			id: "497C981D49B7FBD6"
 			rewards: [
 				{
@@ -2905,7 +2927,7 @@
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
-			description: ["{atm9.quest.botania.desc.bestManaSpreader}"]
+			description: ["Combining an &2Elven Mana Spreader&r with the power of Dragonstones and a &6Gaia Spirit&r creates the best Mana Spreader you can get."]
 			hide_until_deps_visible: false
 			id: "4E03AC9D56202353"
 			rewards: [
@@ -2931,6 +2953,11 @@
 		}
 		{
 			dependencies: ["04CE14D92603FC7A"]
+			description: [
+				"Upon defeating the &9Guardian of Gaia&r, you'll be rewarded with &6Gaia Spirits&r."
+				""
+				"Both the game difficulty and the number of people participating in the ritual determine the amount of drops you will receive."
+			]
 			icon: "botania:gaia_head"
 			id: "0331107259F7B68C"
 			rewards: [
@@ -2962,13 +2989,13 @@
 					value: 1L
 				}
 			]
-			title: "Gaia Spirit"
+			title: "Gaia Spirits"
 			x: 24.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
-			description: ["{atm9.quest.botania.desc.moreGaiaSpiritsChallenge}"]
+			description: ["Want more of a challenge, or need more &6Gaia Spirits&r from the fight? Try combining 4 Gaia Spirits with a Terrasteel ingot, and use that to activate the Ritual of Gaia."]
 			hide_until_deps_visible: false
 			id: "27CD17C4B3613171"
 			rewards: [
@@ -2989,13 +3016,13 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.guardianOfGaia2}"
+			title: "&5Guardian of Gaia 2.0"
 			x: 26.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
-			description: ["{atm9.quest.botania.desc.harderGuardianRewards}"]
+			description: ["Using Gaia Ingots to summon the harder version of the &5Guardian of Gaia&r will get you more &6Gaia Spirits&r, but the Guardian can also drop the &6Dice of Fate"]
 			id: "50A2D68A83A50F47"
 			rewards: [
 				{
@@ -3016,18 +3043,18 @@
 				item: "botania:dice"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.diceOfFate}"
+			title: "&6Dice of Fate"
 			x: 28.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
 			description: [
-				"{atm9.quest.botania.desc.corporeaFunnelUsage.1}"
+				"The &9Corporea Funnel&r is a simple version of the Index, and can be used to request items from the Network by giving it a redstone signal."
 				""
-				"{atm9.quest.botania.desc.corporeaFunnelUsage.2}"
+				"To tell the Funnel which item to request, place the item in an Item Frame on the block. If the Funnel has more than one item frame on it, the Funnel will pick one at random. Rotating the item in the frame will change the request quantity."
 				""
-				"{atm9.quest.botania.desc.corporeaFunnelUsage.3}"
+				"For more information, make sure to check out the &aLexica Botania&r."
 			]
 			id: "4ECFB1256BD6A7AA"
 			rewards: [{
@@ -3046,11 +3073,11 @@
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{atm9.quest.botania.desc.corporeaNetworkSetup.1}"
+				"With Botania, you can create a &dCorporea Network&r by using &9Corporea Sparks&r over inventories."
 				""
-				"{atm9.quest.botania.desc.corporeaNetworkSetup.2}"
+				"While the network will need at least one &bMaster&r &9Corporea Spark&r to work, you can expand the network with as many Corporea Sparks as you want. When these Sparks are placed, it will connect to all of the same colored Corporea Sparks and form an item network. Each Spark only has a range of 8 blocks."
 				""
-				"{atm9.quest.botania.desc.corporeaNetworkSetup.3}"
+				"These Sparks can only see the inventory directly beneath it, but can only access items from its top side. Each Spark can also see every item in the Corporea network, and can be accessed by other Corporea blocks, like the Funnel or Index."
 			]
 			id: "634E71DBAE81D197"
 			min_width: 300
@@ -3079,18 +3106,18 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.botania.theCorporeaNetwork}"
+			title: "&dThe Corporea Network&r"
 			x: 20.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
 			description: [
-				"{atm9.quest.botania.desc.corporeaIndexUsage.1}"
+				"The &5Corporea Index&r is the interface block you need to access and request items from the &9Corporea Network&r of the Corporea Spark placed above it."
 				""
-				"{atm9.quest.botania.desc.corporeaIndexUsage.2}"
+				"To use this, approach the Index and it will intercept Chat Messages from nearby players. These players can request items from the network by typing in what they are looking to get. For example, you could say &b10 Iron Ingots&r, and if the system has it, it will drop it out for you."
 				""
-				"{atm9.quest.botania.desc.corporeaIndexUsage.3}"
+				"For more information, you can always check your &aLexica Botania&r."
 			]
 			id: "7DF7F9CD9A795E69"
 			rewards: [{
@@ -3111,7 +3138,7 @@
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
-			description: ["{atm9.quest.botania.desc.corporeaCrystalCubeUsage}"]
+			description: ["The &9Corporea Crystal Cube&r is used to show the total count of an item in the Corporea Network of the Spark placed above it by right clicking it with that item."]
 			id: "7440E522FC31C341"
 			optional: true
 			rewards: [{
@@ -3249,32 +3276,32 @@
 		{
 			dependencies: ["79BE48D56622542F"]
 			description: [
-				"{atm9.quest.botania.desc.floraTypes.1}"
+				"Using the Petal Apothecary, we can create several different types of flowers that can help us on our journey, and these are broken down into two different categories: &9Functional Flowers&r and &aGenerating Flowers&r."
 				""
-				"{atm9.quest.botania.desc.floraTypes.2}"
+				"&9Functional Flowers&r are flowers that help you with everyday tasks. For example, the &7Hopperhock&r will function like a hopper, and pick up items within a certain range around it. Some of the Functional Flowers will require &dMana&r to operate."
 				""
-				"{atm9.quest.botania.desc.floraTypes.3}"
+				"&aGenerating Flowers&r are flowers that produce &dMana&r using different methods, depending on the flower. The most common flower used to generate mana is the &cEndoflame&r, which generates Mana by consuming nearby combustible like coal."
 				""
-				"{atm9.quest.botania.desc.floraTypes.4}"
+				"In this questline, Flowers with the quest shape of a &cSquare&r are Generating Flowers, where as flowers with the shape of a &9Circle&r are Functional Flowers. You can also find out what each flower does by using the &aLexica Botania&r."
 			]
 			hide_until_deps_visible: false
 			id: "7B3FAF5CA4DD217C"
 			min_width: 400
 			tasks: [{
 				id: "7F362CF1D18C7FB1"
-				title: "{atm9.quest.botania.functionalFlora}"
+				title: "Functional Flora"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.botania.functionalAndGeneratingFlora}"
-			x: 3.0d
+			title: "Functional And Generating Flora"
+			x: 2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1C48F2612F2FA828"]
 			description: [
-				"{atm9.quest.botania.desc.pulseManaSpreader.1}"
+				"When you combine a piece of &4Redstone&r with a &2Mana Spreader&r, it creates a &9Pulse Mana Spreader&r."
 				""
-				"{atm9.quest.botania.desc.pulseManaSpreader.2}"
+				"These can be controlled to only shoot a mana pulse when given a redstone pulse."
 			]
 			id: "4C22BA5824662C7E"
 			optional: true
@@ -3294,7 +3321,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaBurstSpeedIncrease}"]
+			description: ["Dramatically increases the speed of the Mana Bursts at the expense of initial capacity and faster mana loss."]
 			id: "2D1533268C835672"
 			rewards: [
 				{
@@ -3321,7 +3348,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaCapacityDoubling}"]
+			description: ["Doubles the amount of Mana a Mana Burst can carry, at the cost of speed and increased mana loss over longer distances."]
 			id: "7A82D66B1B138F0F"
 			rewards: [
 				{
@@ -3348,7 +3375,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaLossDecrease}"]
+			description: ["Significantly increases the amount of time a Mana Burst can go without starting to lose Mana, but slows it down as well."]
 			id: "4CED346215DDBAC0"
 			rewards: [
 				{
@@ -3375,7 +3402,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaLossRateDecrease}"]
+			description: ["Decreases the amount of time that it takes for a Mana Burst to start losing its Mana, but will also decrease its rate of loss."]
 			id: "5A7FF6D0AED656DC"
 			rewards: [
 				{
@@ -3402,7 +3429,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaBurstBounce}"]
+			description: ["Allows Mana Bursts to bounce off of walls."]
 			id: "504ADBD7E2476827"
 			rewards: [
 				{
@@ -3429,7 +3456,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.gravityEffectIncrease}"]
+			description: ["Makes gravity affect a Mana Burst, making it move in an arc. It also slightly increases the time before it starts to lose mana."]
 			hide_dependency_lines: true
 			id: "665B4A8FF5277316"
 			optional: true
@@ -3456,7 +3483,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.blockBreaking}"]
+			description: ["Allows Mana Bursts to break through blocks by using its own mana."]
 			hide_dependency_lines: true
 			id: "3722E5A8BE99C5B1"
 			optional: true
@@ -3483,7 +3510,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.damageLivingBeings}"]
+			description: ["Allows Mana Bursts to use its own mana to damage any living being it hits."]
 			hide_dependency_lines: true
 			id: "533624CA5C2A7BBD"
 			optional: true
@@ -3537,7 +3564,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.homingAbility}"]
+			description: ["Allows a Mana Burst to home in on any nearby blocks that can receive Mana. This also slightly decreases the speed of the burst."]
 			hide_dependency_lines: true
 			id: "79A19D0B2F94EFDC"
 			optional: true
@@ -3564,7 +3591,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.entropicBurst}"]
+			description: ["Imbues a Mana Burst with entropic forces, or in simple terms, turns it into a bomb when it hits something that can't receive Mana."]
 			hide_dependency_lines: true
 			id: "7AD4D212633DAEC8"
 			optional: true
@@ -3591,7 +3618,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.influenceMotion}"]
+			description: ["Allows a Mana Burst to influence nearby dropped items, experience orbs, and falling blocks, having them move in the exact same vector of the motion as the burst itself."]
 			hide_dependency_lines: true
 			id: "5732936F1FD1D4AE"
 			optional: true
@@ -3618,7 +3645,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.blockFalling}"]
+			description: ["When a block is hit by a Mana Burst from this lens, the block will fall as if it were Sand or Gravel."]
 			hide_dependency_lines: true
 			id: "3CD45533D0BDF26D"
 			optional: true
@@ -3649,9 +3676,9 @@
 				"3A20210242A1C865"
 			]
 			description: [
-				"{atm9.quest.botania.desc.colorDyeRequirement.1}"
+				"Needs to be dyed with a color first."
 				""
-				"{atm9.quest.botania.desc.colorPainting.2}"
+				"Allows the Mana Bursts to paint any colorable block it hits, as well as any colorable block it is connected to. It also works on sheep."
 			]
 			hide_dependency_lines: true
 			id: "68DC8A2B4BEF9878"
@@ -3683,7 +3710,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{atm9.quest.botania.desc.festiveFireworks}"]
+			description: ["Allows the Mana Bursts to launch festive fireworks when they hit a block."]
 			hide_dependency_lines: true
 			id: "478352E24CE1F45F"
 			optional: true
@@ -3714,7 +3741,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{atm9.quest.botania.desc.continuousParticle}"]
+			description: ["This converts the Mana Spreader's bursts to only fire a continuous particle rather than short bursts. No mana is consumed. Great for decorative uses."]
 			hide_dependency_lines: true
 			id: "7B95C7407A1F5550"
 			optional: true
@@ -3745,7 +3772,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{atm9.quest.botania.desc.mobOnlyBurst}"]
+			description: ["Using this on a Spreader will cause it to fire a Mana Burst only if it can hit a mob or player."]
 			hide_dependency_lines: true
 			id: "0E7E559F2750F7D3"
 			optional: true
@@ -3773,7 +3800,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.manaCarryDecrease}"]
+			description: ["Greatly decreases the amount of Mana a Mana Burst carries and dramatically increases the burst's speed and distance."]
 			hide_dependency_lines: true
 			id: "182EBB06B81BDF98"
 			optional: true
@@ -3803,7 +3830,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{atm9.quest.botania.desc.redirection}"]
+			description: ["This lens will redirect any Mana Spreaders or entities it collides with to face towards teh block or entity that fired the burst."]
 			hide_dependency_lines: true
 			id: "03C475ABEFF04DEF"
 			optional: true
@@ -3831,7 +3858,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.createFlame}"]
+			description: ["Causes the Mana Burst to create flame on the block it hits. This flame provides light and is purely decorative. It can be put out by using another Mana Burst on it."]
 			hide_dependency_lines: true
 			id: "0C557A9494F58400"
 			optional: true
@@ -3858,7 +3885,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.moveBlock}"]
+			description: ["Allows the Mana Burst to move a block just as if a piston would."]
 			hide_dependency_lines: true
 			id: "14EB725643E9F8FE"
 			optional: true
@@ -3885,7 +3912,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.catchFire}"]
+			description: ["Allows the Mana Burst to catch blocks on fire. It will not work on living beings."]
 			hide_dependency_lines: true
 			id: "12BEB76EB924379C"
 			optional: true
@@ -3915,7 +3942,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{atm9.quest.botania.desc.lexicaReference}"]
+			description: ["Refer to the &aLexica Botania&r on how to use this lens."]
 			hide_dependency_lines: true
 			id: "4CC46A4E71320140"
 			optional: true
@@ -3944,9 +3971,9 @@
 		{
 			dependencies: ["0331107259F7B68C"]
 			description: [
-				"{atm9.quest.botania.desc.gaiaTrinkets.1}"
+				"There are many trinkets that harness the power of &6Gaia Spirits&r. Make sure to check them out!"
 				""
-				"{atm9.quest.botania.desc.gaiaTrinkets.2}"
+				"You can find all of the descriptions within the &aLexica Botania&r."
 			]
 			id: "66F1609053B5407C"
 			optional: true
@@ -4029,13 +4056,39 @@
 						]
 					}
 				}
-				title: "{atm9.quest.botania.gaiaTrinkets}"
+				title: "Gaia Trinkets"
 				type: "item"
 			}]
-			title: "{atm9.quest.botania.gaiaGearAndTrinkets}"
+			title: "&aGaia Gear and Trinkets&r"
 			x: 24.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["7B3FAF5CA4DD217C"]
+			id: "14A564B8F3858F83"
+			rewards: [
+				{
+					id: "729918E4D0DBA854"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "142B4D50438545EA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Nether Stars"
+			tasks: [{
+				id: "6D012B0E5FD6C094"
+				item: "mythicbotany:wither_aconite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
 	]
-	title: "C Botania"
+	title: "Botania"
 }

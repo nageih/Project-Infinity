@@ -2865,8 +2865,10 @@
 				"Ender Dragon"
 				"Warden"
 				""
-				"&4DONT USE THE CHAOS GUARDIAN INSIDE THE MERGER.&r"
+				"&4DONT USE THE CHAOS GUARDIAN INSIDE THE MERGER OR THE SIMULATING MODELING.&r"
 				"&4IT WONT WORK!&r"
+				""
+				"Thx to GUTS for the Info!"
 			]
 			id: "55C76FF9FC3B049A"
 			rewards: [{
@@ -2916,7 +2918,7 @@
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["Upgrade the tier of the Data model. Even Faulty Data models can be upgraded"]
+			description: ["Upgrade the tier of the Data model. Faulty Data models cant be upgraded"]
 			id: "17B6588BDE007D44"
 			rewards: [{
 				id: "0998BC2FE3A9F2C3"
@@ -3755,6 +3757,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
+			description: ["You cant put the Chaos Dragon Data Model inside the Simualting Modeling and you should not put it inside the Merger!"]
 			hide_until_deps_visible: false
 			id: "2282DDBCAE7CA5AA"
 			rewards: [
@@ -5197,6 +5200,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
+			description: ["You cant put the Chaos Dragon Data Model inside the Simualting Modeling and you should not put it inside the Merger!"]
 			id: "7D297E6E96ED222B"
 			rewards: [{
 				id: "79FACD21C89B2108"

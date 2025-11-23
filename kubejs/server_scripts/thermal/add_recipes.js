@@ -1,16 +1,20 @@
 ServerEvents.recipes((event) => {
-  event.recipes.thermal.crucible(
-    Fluid.of('kubejs:molten_basalz', 1000),
-    'thermal:basalz_rod'
-  );
-  event.recipes.thermal.crucible(
-    Fluid.of('kubejs:molten_blizz', 1000),
-    'thermal:blizz_rod'
-  );
-  event.recipes.thermal.crucible(
-    Fluid.of('kubejs:molten_blitz', 1000),
-    'thermal:blitz_rod'
-  );
+  event.recipes.thermal
+    .crucible(Fluid.of('kubejs:molten_basalz', 1000), 'thermal:basalz_rod')
+    .id('thermal:rod_to_molten_basalz');
+  event.recipes.thermal
+    .crucible(Fluid.of('kubejs:molten_blizz', 1000), 'thermal:blizz_rod')
+    .id('thermal:rod_to_molten_blizz');
+  event.recipes.thermal
+    .crucible(Fluid.of('kubejs:molten_blitz', 1000), 'thermal:blitz_rod')
+    .id('thermal:rod_to_molten_blitz');
+  event.recipes.thermal
+    .crucible(
+      Fluid.of('mob_grinding_utils:fluid_xp', 50),
+      'actuallyadditions:solidified_experience'
+    )
+    .id('thermal:solidified_experience_to_xp');
+
   event.recipes.thermal
     .press('kubejs:infinity_5', '9x kubejs:infinity_4')
     .id('kubejs:infinity_5_2');
