@@ -112,7 +112,7 @@ ServerEvents.recipes((event) => {
     4,
     'evolvedmekanism:alloy_exoversal',
     4,
-    'voidminers_reforged:rosarium',
+    'voidminers:rosarium',
     1,
     'kubejs:infinity_10',
     'evolvedmekanism:alloy_creative',

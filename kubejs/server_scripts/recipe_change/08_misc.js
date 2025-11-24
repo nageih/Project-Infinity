@@ -537,7 +537,7 @@ ServerEvents.recipes((event) => {
       'patchouli:guide_book',
       '{"patchouli:book":"patchouli:project_infinity"}'
     ),
-    ['minecraft:book', 'voidminers_reforged:rubetine']
+    ['minecraft:book', 'voidminers:rubetine']
   );
 
   create3x3(event, 'mekanism:creative_energy_cube', [

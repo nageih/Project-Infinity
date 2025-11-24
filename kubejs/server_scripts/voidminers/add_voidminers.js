@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
     items.forEach((item) => {
       event
         .custom({
-          type: 'voidminers_reforged:miner',
+          type: 'voidminers:miner',
           dimension: dimension,
           minTier: minTier,
           output: {
@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
     items.forEach((item) => {
       event
         .custom({
-          type: 'voidminers_reforged:miner',
+          type: 'voidminers:miner',
           allowHigherTiers: false,
           dimension: dimension,
           minTier: minTier,
@@ -118,7 +118,7 @@ ServerEvents.recipes((event) => {
   voidminerBatch2(3, 8, ['allthemodium:unobtainium_ore'], 0.05);
   voidminerBatch2(3, 9, ['allthemodium:unobtainium_ore'], 1.0);
   voidminerBatch2(3, 9, ['minecraft:coal'], 999.0);
-  voidminerBatch2(3, 8, ['voidminers_reforged:ultimate_stellar_core'], 0.5);
+  voidminerBatch2(3, 8, ['voidminers:ultimate_stellar_core'], 0.5);
   endgame.forEach((item) => {
     voidminerBatch2(3, 9, [item], 0.0000001);
   });

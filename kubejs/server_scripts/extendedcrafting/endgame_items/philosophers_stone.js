@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
           item: 'armorplus:lava_crystal',
         },
         C: {
-          item: 'voidminers_reforged:rosarium',
+          item: 'voidminers:rosarium',
         },
         D: {
           item: 'mysticalagriculture:supremium_ingot',

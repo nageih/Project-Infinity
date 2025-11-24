@@ -36,64 +36,64 @@ ServerEvents.recipes((event) => {
     'botanicalextramachinery:shadow_dragonstone'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:ultimate_frame' },
+    { output: 'voidminers:ultimate_frame' },
     'minecraft:nether_star',
-    'voidminers_reforged:ultimate_stellar_core'
+    'voidminers:ultimate_stellar_core'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:ultimate_energy_modifier' },
+    { output: 'voidminers:ultimate_energy_modifier' },
     'minecraft:redstone',
-    'voidminers_reforged:ultimate_stellar_core'
+    'voidminers:ultimate_stellar_core'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:ultimate_speed_modifier' },
+    { output: 'voidminers:ultimate_speed_modifier' },
     'minecraft:sugar',
-    'voidminers_reforged:ultimate_stellar_core'
+    'voidminers:ultimate_stellar_core'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:ultimate_item_modifier' },
+    { output: 'voidminers:ultimate_item_modifier' },
     'minecraft:diamond',
-    'voidminers_reforged:ultimate_stellar_core'
+    'voidminers:ultimate_stellar_core'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:solar_ultimate_frame' },
+    { output: 'voidminers:solar_ultimate_frame' },
     'minecraft:nether_star',
-    'voidminers_reforged:ultimate_stellar_core'
+    'voidminers:ultimate_stellar_core'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:solar_ultimate_efficiency_modifier' },
+    { output: 'voidminers:solar_ultimate_efficiency_modifier' },
     'minecraft:nether_star',
-    'voidminers_reforged:ultimate_stellar_core'
+    'voidminers:ultimate_stellar_core'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:solar_ultimate_weather_modifier' },
+    { output: 'voidminers:solar_ultimate_weather_modifier' },
     'minecraft:nether_star',
-    'voidminers_reforged:ultimate_stellar_core'
+    'voidminers:ultimate_stellar_core'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:solar_ultimate_frame' },
+    { output: 'voidminers:solar_ultimate_frame' },
     'minecraft:gold_ingot',
-    'voidminers_reforged:solar_ultimate_block'
+    'voidminers:solar_ultimate_block'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:solar_ultimate_efficiency_modifier' },
+    { output: 'voidminers:solar_ultimate_efficiency_modifier' },
     'minecraft:redstone_block',
-    'voidminers_reforged:solar_ultimate_block'
+    'voidminers:solar_ultimate_block'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:solar_ultimate_weather_modifier' },
+    { output: 'voidminers:solar_ultimate_weather_modifier' },
     'minecraft:phantom_membrane',
-    'voidminers_reforged:solar_ultimate_block'
+    'voidminers:solar_ultimate_block'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:ultimate_block' },
+    { output: 'voidminers:ultimate_block' },
     'minecraft:nether_star',
-    'voidminers_reforged:ultimate_stellar_core'
+    'voidminers:ultimate_stellar_core'
   );
   event.replaceInput(
-    { output: 'voidminers_reforged:solar_ultimate_block' },
+    { output: 'voidminers:solar_ultimate_block' },
     'minecraft:nether_star',
-    'voidminers_reforged:ultimate_stellar_core'
+    'voidminers:ultimate_stellar_core'
   );
   event.replaceInput(
     { output: 'advanced_ae:hp_buffer_card' },

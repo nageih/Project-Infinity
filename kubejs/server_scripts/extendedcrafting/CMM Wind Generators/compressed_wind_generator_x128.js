@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
           item: 'compactmekanismmachines:compressed_wind_generator_x32',
         },
         E: {
-          item: 'voidminers_reforged:aurantium',
+          item: 'voidminers:aurantium',
         },
         F: {
           item: 'compactmekanismmachines:compressed_wind_generator_x32',

@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
           item: 'industrialforegoing:machine_frame_supreme',
         },
         G: {
-          item: 'voidminers_reforged:azurine',
+          item: 'voidminers:azurine',
         },
       },
       result: {

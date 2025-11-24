@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:overclocked_control_circuit',
         },
         G: {
-          item: 'voidminers_reforged:verdium',
+          item: 'voidminers:verdium',
         },
         H: {
           item: 'industrialforegoing:machine_frame_advanced',

@@ -64,7 +64,7 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:alloy_exoversal',
         },
         P: {
-          item: 'voidminers_reforged:ultimate_stellar_core',
+          item: 'voidminers:ultimate_stellar_core',
         },
         Q: {
           item: 'evolvedmekanism:alloy_creative',
