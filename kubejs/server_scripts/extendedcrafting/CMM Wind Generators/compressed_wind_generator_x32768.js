@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:quantum_tier_installer',
         },
         M: {
-          item: 'voidminers:caerium',
+          item: 'voidminers_reforged:caerium',
         },
       },
       result: {

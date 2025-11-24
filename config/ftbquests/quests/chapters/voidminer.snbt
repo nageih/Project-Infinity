@@ -3,12 +3,12 @@
 	default_quest_shape: ""
 	filename: "voidminer"
 	group: "29543B666C58207C"
-	icon: "voidminers:rubetine"
+	icon: "voidminers_reforged:rubetine"
 	id: "518584706242A148"
 	images: [
 		{
 			height: 1.0d
-			image: "voidminers:item/rubetine"
+			image: "voidminers_reforged:item/rubetine"
 			rotation: 0.0d
 			width: 1.0d
 			x: -8.0d
@@ -16,7 +16,7 @@
 		}
 		{
 			height: 1.0d
-			image: "voidminers:item/aurantium"
+			image: "voidminers_reforged:item/aurantium"
 			rotation: 0.0d
 			width: 1.0d
 			x: -8.0d
@@ -24,7 +24,7 @@
 		}
 		{
 			height: 1.0d
-			image: "voidminers:item/citrinetine"
+			image: "voidminers_reforged:item/citrinetine"
 			rotation: 0.0d
 			width: 1.0d
 			x: -8.0d
@@ -32,7 +32,7 @@
 		}
 		{
 			height: 1.0d
-			image: "voidminers:item/verdium"
+			image: "voidminers_reforged:item/verdium"
 			rotation: 0.0d
 			width: 1.0d
 			x: -7.0d
@@ -40,7 +40,7 @@
 		}
 		{
 			height: 1.0d
-			image: "voidminers:item/azurine"
+			image: "voidminers_reforged:item/azurine"
 			rotation: 0.0d
 			width: 1.0d
 			x: -4.5d
@@ -48,7 +48,7 @@
 		}
 		{
 			height: 1.0d
-			image: "voidminers:item/caerium"
+			image: "voidminers_reforged:item/caerium"
 			rotation: 0.0d
 			width: 1.0d
 			x: -3.5d
@@ -56,7 +56,7 @@
 		}
 		{
 			height: 1.0d
-			image: "voidminers:item/amethystine"
+			image: "voidminers_reforged:item/amethystine"
 			rotation: 0.0d
 			width: 1.0d
 			x: -3.5d
@@ -64,7 +64,7 @@
 		}
 		{
 			height: 1.0d
-			image: "voidminers:item/rosarium"
+			image: "voidminers_reforged:item/rosarium"
 			order: 50000
 			rotation: 0.0d
 			width: 1.0d
@@ -73,7 +73,7 @@
 		}
 		{
 			height: 11.25d
-			image: "kubejs:block/screen/voidminers_miners1"
+			image: "kubejs:block/screen/voidminers_reforged_miners1"
 			rotation: 0.0d
 			width: 20.0d
 			x: 7.0d
@@ -81,7 +81,7 @@
 		}
 		{
 			height: 11.25d
-			image: "kubejs:block/screen/voidminers_miners2"
+			image: "kubejs:block/screen/voidminers_reforged_miners2"
 			order: -1
 			rotation: 0.0d
 			width: 20.0d
@@ -138,24 +138,24 @@
 		}
 		{
 			dependencies: ["613DA71A509DC39C"]
-			icon: "voidminers:rubetine_miner"
+			icon: "voidminers_reforged:rubetine_miner"
 			id: "6A5C0FD659ACF33A"
 			tasks: [
 				{
 					id: "6FB32A54FCED43C7"
-					item: "voidminers:rubetine_miner"
+					item: "voidminers_reforged:rubetine_miner"
 					type: "item"
 				}
 				{
 					count: 20L
 					id: "338D5EA13ADBF6AF"
-					item: { Count: 20, id: "voidminers:rubetine_frame" }
+					item: { Count: 20, id: "voidminers_reforged:rubetine_frame" }
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "63A58033E0D136C1"
-					item: { Count: 9, id: "voidminers:glass_panel" }
+					item: { Count: 9, id: "voidminers_reforged:glass_panel" }
 					type: "item"
 				}
 			]
@@ -173,7 +173,7 @@
 			tasks: [{
 				count: 100L
 				id: "585BB4B5F94263F8"
-				item: "voidminers:rubetine"
+				item: "voidminers_reforged:rubetine"
 				type: "item"
 			}]
 			x: -7.0d
@@ -217,30 +217,30 @@
 		}
 		{
 			dependencies: ["6A5C0FD659ACF33A"]
-			icon: "voidminers:aurantium_miner"
+			icon: "voidminers_reforged:aurantium_miner"
 			id: "4447B5220839E9E6"
 			tasks: [
 				{
 					id: "6EE67B1859CD5BEB"
-					item: "voidminers:aurantium_miner"
+					item: "voidminers_reforged:aurantium_miner"
 					type: "item"
 				}
 				{
 					count: 36L
 					id: "42C76A6F2E92DDB1"
-					item: { Count: 36, id: "voidminers:aurantium_frame" }
+					item: { Count: 36, id: "voidminers_reforged:aurantium_frame" }
 					type: "item"
 				}
 				{
 					count: 23L
 					id: "4DEC8094A116BD54"
-					item: { Count: 23, id: "voidminers:glass_panel" }
+					item: { Count: 23, id: "voidminers_reforged:glass_panel" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "30CFF633DBC23ABD"
-					item: { Count: 2, id: "voidminers:null_modifier" }
+					item: { Count: 2, id: "voidminers_reforged:null_modifier" }
 					type: "item"
 				}
 			]
@@ -249,30 +249,30 @@
 		}
 		{
 			dependencies: ["4447B5220839E9E6"]
-			icon: "voidminers:citrinetine_miner"
+			icon: "voidminers_reforged:citrinetine_miner"
 			id: "192B8110318C3955"
 			tasks: [
 				{
 					id: "4B50E9FC84F72D9E"
-					item: "voidminers:citrinetine_miner"
+					item: "voidminers_reforged:citrinetine_miner"
 					type: "item"
 				}
 				{
 					count: 36L
 					id: "76FF348890B577AC"
-					item: { Count: 36, id: "voidminers:citrinetine_frame" }
+					item: { Count: 36, id: "voidminers_reforged:citrinetine_frame" }
 					type: "item"
 				}
 				{
 					count: 21L
 					id: "014A45D765427D68"
-					item: { Count: 21, id: "voidminers:glass_panel" }
+					item: { Count: 21, id: "voidminers_reforged:glass_panel" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "02BC48B252047B2D"
-					item: { Count: 4, id: "voidminers:null_modifier" }
+					item: { Count: 4, id: "voidminers_reforged:null_modifier" }
 					type: "item"
 				}
 			]
@@ -281,30 +281,30 @@
 		}
 		{
 			dependencies: ["192B8110318C3955"]
-			icon: "voidminers:verdium_miner"
+			icon: "voidminers_reforged:verdium_miner"
 			id: "6B9BB75EDF5BD254"
 			tasks: [
 				{
 					id: "5153AD8C1EC4594A"
-					item: "voidminers:verdium_miner"
+					item: "voidminers_reforged:verdium_miner"
 					type: "item"
 				}
 				{
 					count: 44L
 					id: "5B1ADCE78AFE009B"
-					item: { Count: 44, id: "voidminers:verdium_frame" }
+					item: { Count: 44, id: "voidminers_reforged:verdium_frame" }
 					type: "item"
 				}
 				{
 					count: 39L
 					id: "07EBE545873D7E6B"
-					item: { Count: 39, id: "voidminers:glass_panel" }
+					item: { Count: 39, id: "voidminers_reforged:glass_panel" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "3059583A9571C989"
-					item: { Count: 6, id: "voidminers:null_modifier" }
+					item: { Count: 6, id: "voidminers_reforged:null_modifier" }
 					type: "item"
 				}
 			]
@@ -313,30 +313,30 @@
 		}
 		{
 			dependencies: ["6B9BB75EDF5BD254"]
-			icon: "voidminers:azurine_miner"
+			icon: "voidminers_reforged:azurine_miner"
 			id: "19E0BEAB98B9F41E"
 			tasks: [
 				{
 					id: "00DEBDDAFBAA99A2"
-					item: "voidminers:azurine_miner"
+					item: "voidminers_reforged:azurine_miner"
 					type: "item"
 				}
 				{
 					count: 48L
 					id: "0E58EAD37978D30F"
-					item: { Count: 48, id: "voidminers:azurine_frame" }
+					item: { Count: 48, id: "voidminers_reforged:azurine_frame" }
 					type: "item"
 				}
 				{
 					count: 37L
 					id: "42C56536ADE9A9B8"
-					item: { Count: 37, id: "voidminers:glass_panel" }
+					item: { Count: 37, id: "voidminers_reforged:glass_panel" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "0EB33FE413FEBDF1"
-					item: { Count: 8, id: "voidminers:null_modifier" }
+					item: { Count: 8, id: "voidminers_reforged:null_modifier" }
 					type: "item"
 				}
 			]
@@ -345,30 +345,30 @@
 		}
 		{
 			dependencies: ["19E0BEAB98B9F41E"]
-			icon: "voidminers:caerium_miner"
+			icon: "voidminers_reforged:caerium_miner"
 			id: "42A2799543E39385"
 			tasks: [
 				{
 					id: "5884485A74DBCDA8"
-					item: "voidminers:caerium_miner"
+					item: "voidminers_reforged:caerium_miner"
 					type: "item"
 				}
 				{
 					count: 44L
 					id: "60B8FFBC1D6798D8"
-					item: { Count: 44, id: "voidminers:caerium_frame" }
+					item: { Count: 44, id: "voidminers_reforged:caerium_frame" }
 					type: "item"
 				}
 				{
 					count: 35L
 					id: "15FA408B8BA96258"
-					item: { Count: 35, id: "voidminers:glass_panel" }
+					item: { Count: 35, id: "voidminers_reforged:glass_panel" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "472186B9B5D0C2E8"
-					item: { Count: 10, id: "voidminers:null_modifier" }
+					item: { Count: 10, id: "voidminers_reforged:null_modifier" }
 					type: "item"
 				}
 			]
@@ -377,30 +377,30 @@
 		}
 		{
 			dependencies: ["42A2799543E39385"]
-			icon: "voidminers:amethystine_miner"
+			icon: "voidminers_reforged:amethystine_miner"
 			id: "304EEA2DC9E23142"
 			tasks: [
 				{
 					id: "5EE4C93007F76231"
-					item: "voidminers:amethystine_miner"
+					item: "voidminers_reforged:amethystine_miner"
 					type: "item"
 				}
 				{
 					count: 44L
 					id: "3241DB1A9A0ED049"
-					item: { Count: 44, id: "voidminers:amethystine_frame" }
+					item: { Count: 44, id: "voidminers_reforged:amethystine_frame" }
 					type: "item"
 				}
 				{
 					count: 25L
 					id: "133856B8F508F64F"
-					item: { Count: 25, id: "voidminers:glass_panel" }
+					item: { Count: 25, id: "voidminers_reforged:glass_panel" }
 					type: "item"
 				}
 				{
 					count: 12L
 					id: "7FA7133044EBF2FB"
-					item: { Count: 12, id: "voidminers:null_modifier" }
+					item: { Count: 12, id: "voidminers_reforged:null_modifier" }
 					type: "item"
 				}
 			]
@@ -409,32 +409,32 @@
 		}
 		{
 			dependencies: ["304EEA2DC9E23142"]
-			icon: "voidminers:rosarium_miner"
+			icon: "voidminers_reforged:rosarium_miner"
 			id: "2AA3081EC2F565CC"
 			shape: "circle"
 			size: 1.5d
 			tasks: [
 				{
 					id: "720D87FEADDD0ADC"
-					item: "voidminers:rosarium_miner"
+					item: "voidminers_reforged:rosarium_miner"
 					type: "item"
 				}
 				{
 					count: 60L
 					id: "662D38DD236D188B"
-					item: { Count: 60, id: "voidminers:rosarium_frame" }
+					item: { Count: 60, id: "voidminers_reforged:rosarium_frame" }
 					type: "item"
 				}
 				{
 					count: 30L
 					id: "4B58B041211B2924"
-					item: { Count: 30, id: "voidminers:glass_panel" }
+					item: { Count: 30, id: "voidminers_reforged:glass_panel" }
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "654982B8F0E74FEF"
-					item: { Count: 13, id: "voidminers:null_modifier" }
+					item: { Count: 13, id: "voidminers_reforged:null_modifier" }
 					type: "item"
 				}
 			]
@@ -457,17 +457,17 @@
 			tasks: [
 				{
 					id: "0944E269D6245268"
-					item: "voidminers:rubetine_energy_modifier"
+					item: "voidminers_reforged:rubetine_energy_modifier"
 					type: "item"
 				}
 				{
 					id: "3C91C72C3098154F"
-					item: "voidminers:rubetine_speed_modifier"
+					item: "voidminers_reforged:rubetine_speed_modifier"
 					type: "item"
 				}
 				{
 					id: "38F54A329CE47393"
-					item: "voidminers:rubetine_item_modifier"
+					item: "voidminers_reforged:rubetine_item_modifier"
 					type: "item"
 				}
 			]
@@ -489,7 +489,7 @@
 			tasks: [{
 				count: 100L
 				id: "6C2EBFE41C98F876"
-				item: "voidminers:solar_rubetine"
+				item: "voidminers_reforged:solar_rubetine"
 				type: "item"
 			}]
 			x: -15.0d
@@ -556,7 +556,7 @@
 			}]
 			tasks: [{
 				id: "6FDC24F69E3D7AEF"
-				item: "voidminers:solar_rubetine_panel"
+				item: "voidminers_reforged:solar_rubetine_panel"
 				type: "item"
 			}]
 			x: -15.0d
@@ -572,7 +572,7 @@
 			}]
 			tasks: [{
 				id: "1E86278D27134870"
-				item: "voidminers:solar_aurantium_panel"
+				item: "voidminers_reforged:solar_aurantium_panel"
 				type: "item"
 			}]
 			x: -15.0d
@@ -588,7 +588,7 @@
 			}]
 			tasks: [{
 				id: "20D8B997BF9D9041"
-				item: "voidminers:solar_citrinetine_panel"
+				item: "voidminers_reforged:solar_citrinetine_panel"
 				type: "item"
 			}]
 			x: -15.0d
@@ -604,7 +604,7 @@
 			}]
 			tasks: [{
 				id: "0AE032163E0FD94E"
-				item: "voidminers:solar_verdium_panel"
+				item: "voidminers_reforged:solar_verdium_panel"
 				type: "item"
 			}]
 			x: -15.0d
@@ -620,7 +620,7 @@
 			}]
 			tasks: [{
 				id: "3BB68D62EE5E3132"
-				item: "voidminers:solar_azurine_panel"
+				item: "voidminers_reforged:solar_azurine_panel"
 				type: "item"
 			}]
 			x: -17.5d
@@ -636,7 +636,7 @@
 			}]
 			tasks: [{
 				id: "0530D322B7A44275"
-				item: "voidminers:solar_caerium_panel"
+				item: "voidminers_reforged:solar_caerium_panel"
 				type: "item"
 			}]
 			x: -17.5d
@@ -652,7 +652,7 @@
 			}]
 			tasks: [{
 				id: "2842BE67F487178F"
-				item: "voidminers:solar_amethystine_panel"
+				item: "voidminers_reforged:solar_amethystine_panel"
 				type: "item"
 			}]
 			x: -17.5d
@@ -669,7 +669,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "55BFB93C686F003A"
-				item: "voidminers:solar_rosarium_panel"
+				item: "voidminers_reforged:solar_rosarium_panel"
 				type: "item"
 			}]
 			x: -17.480238095238093d
@@ -687,7 +687,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "7B27BC435DE582A4"
-				item: "voidminers:solar_ultimate_panel"
+				item: "voidminers_reforged:solar_ultimate_panel"
 				type: "item"
 			}]
 			x: -17.385000000000005d
@@ -705,7 +705,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "505C8747C70595C6"
-				item: "voidminers:ultimate_miner"
+				item: "voidminers_reforged:ultimate_miner"
 				type: "item"
 			}]
 			x: -4.5d

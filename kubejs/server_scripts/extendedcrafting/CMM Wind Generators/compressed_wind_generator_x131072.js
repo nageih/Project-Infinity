@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:multiversal_tier_installer',
         },
         L: {
-          item: 'voidminers:rosarium',
+          item: 'voidminers_reforged:rosarium',
         },
       },
       result: {

@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     .custom({
       type: 'mythicbotany:rune_ritual',
       center: {
-        item: 'voidminers:solar_rosarium_panel',
+        item: 'voidminers_reforged:solar_rosarium_panel',
       },
       group: 'rune_rituals',
       inputs: [
@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
       mana: 500000,
       outputs: [
         {
-          item: 'voidminers:solar_ultimate_panel',
+          item: 'voidminers_reforged:solar_ultimate_panel',
           count: 1,
         },
       ],
@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:solar_ultimate_block',
+            item: 'voidminers_reforged:solar_ultimate_block',
           },
           x: 1,
           z: 1,
@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:solar_ultimate_block',
+            item: 'voidminers_reforged:solar_ultimate_block',
           },
           x: -1,
           z: 1,
@@ -51,7 +51,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:solar_ultimate_block',
+            item: 'voidminers_reforged:solar_ultimate_block',
           },
           x: -1,
           z: -1,
@@ -59,7 +59,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:solar_ultimate_block',
+            item: 'voidminers_reforged:solar_ultimate_block',
           },
           x: 1,
           z: -1,
@@ -67,7 +67,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_stellar_core',
+            item: 'voidminers_reforged:ultimate_stellar_core',
           },
           x: 3,
           z: 0,
@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_stellar_core',
+            item: 'voidminers_reforged:ultimate_stellar_core',
           },
           x: 0,
           z: 3,
@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_stellar_core',
+            item: 'voidminers_reforged:ultimate_stellar_core',
           },
           x: -3,
           z: 0,
@@ -91,7 +91,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_stellar_core',
+            item: 'voidminers_reforged:ultimate_stellar_core',
           },
           x: 0,
           z: -3,
@@ -323,7 +323,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: 5,
           z: 0,
@@ -331,7 +331,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: 5,
           z: 1,
@@ -339,7 +339,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: 5,
           z: -1,
@@ -347,7 +347,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: -5,
           z: 0,
@@ -355,7 +355,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: -5,
           z: 1,
@@ -363,7 +363,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: -5,
           z: -1,
@@ -371,7 +371,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: 0,
           z: 5,
@@ -379,7 +379,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: 1,
           z: 5,
@@ -387,7 +387,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: -1,
           z: 5,
@@ -395,7 +395,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: 0,
           z: -5,
@@ -403,7 +403,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: 1,
           z: -5,
@@ -411,7 +411,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:glass_panel',
+            item: 'voidminers_reforged:glass_panel',
           },
           x: -1,
           z: -5,
@@ -419,14 +419,14 @@ ServerEvents.recipes((event) => {
       ],
       ticks: 200,
     })
-    .id('rune_ritual_voidminers_solar_ultimate_panel');
+    .id('rune_ritual_voidminers_reforged_solar_ultimate_panel');
 
   // Rune Ritual Recipe for Solar Ultimate Panel
   event
     .custom({
       type: 'mythicbotany:rune_ritual',
       center: {
-        item: 'voidminers:rosarium_miner',
+        item: 'voidminers_reforged:rosarium_miner',
       },
       group: 'rune_rituals',
       inputs: [
@@ -449,7 +449,7 @@ ServerEvents.recipes((event) => {
       mana: 500000,
       outputs: [
         {
-          item: 'voidminers:ultimate_miner',
+          item: 'voidminers_reforged:ultimate_miner',
           count: 1,
         },
       ],
@@ -457,7 +457,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_block',
+            item: 'voidminers_reforged:ultimate_block',
           },
           x: 1,
           z: 1,
@@ -465,7 +465,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_block',
+            item: 'voidminers_reforged:ultimate_block',
           },
           x: -1,
           z: 1,
@@ -473,7 +473,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_block',
+            item: 'voidminers_reforged:ultimate_block',
           },
           x: -1,
           z: -1,
@@ -481,7 +481,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_block',
+            item: 'voidminers_reforged:ultimate_block',
           },
           x: 1,
           z: -1,
@@ -489,7 +489,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_stellar_core',
+            item: 'voidminers_reforged:ultimate_stellar_core',
           },
           x: 3,
           z: 0,
@@ -497,7 +497,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_stellar_core',
+            item: 'voidminers_reforged:ultimate_stellar_core',
           },
           x: 0,
           z: 3,
@@ -505,7 +505,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_stellar_core',
+            item: 'voidminers_reforged:ultimate_stellar_core',
           },
           x: -3,
           z: 0,
@@ -513,7 +513,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:ultimate_stellar_core',
+            item: 'voidminers_reforged:ultimate_stellar_core',
           },
           x: 0,
           z: -3,
@@ -745,7 +745,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: 5,
           z: 0,
@@ -753,7 +753,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: 5,
           z: 1,
@@ -761,7 +761,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: 5,
           z: -1,
@@ -769,7 +769,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: -5,
           z: 0,
@@ -777,7 +777,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: -5,
           z: 1,
@@ -785,7 +785,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: -5,
           z: -1,
@@ -793,7 +793,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: 0,
           z: 5,
@@ -801,7 +801,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: 1,
           z: 5,
@@ -809,7 +809,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: -1,
           z: 5,
@@ -817,7 +817,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: 0,
           z: -5,
@@ -825,7 +825,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: 1,
           z: -5,
@@ -833,7 +833,7 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:frame_base',
+            item: 'voidminers_reforged:frame_base',
           },
           x: -1,
           z: -5,
@@ -841,5 +841,5 @@ ServerEvents.recipes((event) => {
       ],
       ticks: 200,
     })
-    .id('rune_ritual_voidminers_ultimate_miner');
+    .id('rune_ritual_voidminers_reforged_ultimate_miner');
 });

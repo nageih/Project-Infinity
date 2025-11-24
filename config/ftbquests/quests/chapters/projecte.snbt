@@ -158,7 +158,7 @@
 			id: "696611D351E3565C"
 			tasks: [{
 				id: "48D351984E52FD85"
-				item: "voidminers:rosarium"
+				item: "voidminers_reforged:rosarium"
 				type: "item"
 			}]
 			x: -20.0d
@@ -224,7 +224,7 @@
 			id: "3436D5030D37A04B"
 			tasks: [{
 				id: "2B9E52481AB63061"
-				item: "voidminers:rosarium"
+				item: "voidminers_reforged:rosarium"
 				type: "item"
 			}]
 			x: -16.0d
@@ -235,7 +235,7 @@
 			id: "084CB4715E5F9085"
 			tasks: [{
 				id: "5208835922F2CB78"
-				item: "voidminers:rosarium"
+				item: "voidminers_reforged:rosarium"
 				type: "item"
 			}]
 			x: -22.0d
@@ -290,7 +290,7 @@
 			id: "27B0C282A8507405"
 			tasks: [{
 				id: "27FF9577AD9EDA93"
-				item: "voidminers:rosarium"
+				item: "voidminers_reforged:rosarium"
 				type: "item"
 			}]
 			x: -20.0d
@@ -334,7 +334,7 @@
 			id: "4439E3D6F0859D75"
 			tasks: [{
 				id: "4FB03B1F24E5CACB"
-				item: "voidminers:rosarium"
+				item: "voidminers_reforged:rosarium"
 				type: "item"
 			}]
 			x: -16.0d
@@ -435,7 +435,7 @@
 			id: "0720F163D3EFA308"
 			tasks: [{
 				id: "6B2ACA6A4C3DBEBC"
-				item: "voidminers:rosarium"
+				item: "voidminers_reforged:rosarium"
 				type: "item"
 			}]
 			x: -22.0d
@@ -446,7 +446,7 @@
 			id: "446B30F72E62BD15"
 			tasks: [{
 				id: "2F843E6C0D13C890"
-				item: "voidminers:rosarium"
+				item: "voidminers_reforged:rosarium"
 				type: "item"
 			}]
 			x: -14.0d
@@ -457,7 +457,7 @@
 			id: "2D920AA7DB0408C3"
 			tasks: [{
 				id: "75D43840B730669F"
-				item: "voidminers:rosarium"
+				item: "voidminers_reforged:rosarium"
 				type: "item"
 			}]
 			x: -14.0d
@@ -1057,7 +1057,7 @@
 			tasks: [{
 				count: 8L
 				id: "5047FBDE66D2579F"
-				item: "voidminers:rosarium"
+				item: "voidminers_reforged:rosarium"
 				type: "item"
 			}]
 			x: -21.5d

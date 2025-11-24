@@ -52,10 +52,10 @@ ServerEvents.recipes((event) => {
           item: 'botanicalextramachinery:crimson_dragonstone_block',
         },
         M: {
-          item: 'voidminers:ultimate_block',
+          item: 'voidminers_reforged:ultimate_block',
         },
         N: {
-          item: 'voidminers:solar_ultimate_block',
+          item: 'voidminers_reforged:solar_ultimate_block',
         },
         O: {
           item: 'mysticalexpansion:divinium_block',
