@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:alloy_hypercharged',
         },
         F: {
-          item: 'voidminers_reforged:citrinetine',
+          item: 'voidminers:citrinetine',
         },
         G: {
           item: 'mekanism:teleportation_core',

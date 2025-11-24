@@ -84,7 +84,7 @@ MMEvents.createStructures((event) => {
           block: 'mekanism:block_refined_glowstone',
         })
         .key('A', {
-          block: 'voidminers_reforged:citrinetine_block',
+          block: 'voidminers:citrinetine_block',
         });
     });
 
@@ -128,7 +128,7 @@ MMEvents.createStructures((event) => {
           block: 'mekanism:block_refined_glowstone',
         })
         .key('A', {
-          block: 'voidminers_reforged:amethystine_block',
+          block: 'voidminers:amethystine_block',
         });
     });
 

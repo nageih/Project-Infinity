@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
       ],
       key: {
         A: {
-          item: 'voidminers_reforged:ultimate_stellar_core',
+          item: 'voidminers:ultimate_stellar_core',
         },
         B: {
           item: 'born_in_chaos_v1:ethereal_spirit',

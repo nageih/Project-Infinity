@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:alloy_creative',
         },
         D: {
-          item: 'voidminers_reforged:verdium',
+          item: 'voidminers:verdium',
         },
       },
       result: {
