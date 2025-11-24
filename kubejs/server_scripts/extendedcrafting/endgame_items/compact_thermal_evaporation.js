@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
           item: 'mekanism:thermal_evaporation_valve',
         },
         C: {
-          item: 'voidminers:structure_panel',
+          item: 'voidminers_reforged:structure_panel',
         },
         D: {
           item: 'mekanism:alloy_reinforced',

@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
           item: 'solarpanels:creative_solar_element',
         },
         C: {
-          item: 'voidminers:rosarium_block',
+          item: 'voidminers_reforged:rosarium_block',
         },
         D: {
           item: 'apotheosis:infused_breath',

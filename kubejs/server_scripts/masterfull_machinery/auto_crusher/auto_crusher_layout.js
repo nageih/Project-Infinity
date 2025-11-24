@@ -231,7 +231,7 @@ MMEvents.createStructures((event) => {
           block: 'mekanism:block_refined_glowstone',
         })
         .key('D', {
-          block: 'voidminers:azurine_block',
+          block: 'voidminers_reforged:azurine_block',
         });
     });
 
