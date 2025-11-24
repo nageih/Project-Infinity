@@ -106,10 +106,10 @@ ServerEvents.recipes((event) => {
         item: 'minecraft:fire_charge',
       },
       D: {
-        item: 'voidminers:verdium',
+        item: 'voidminers_reforged:verdium',
       },
       E: {
-        item: 'voidminers:citrinetine',
+        item: 'voidminers_reforged:citrinetine',
       },
       F: {
         item: 'allthemodium:vibranium_ingot',
@@ -124,10 +124,10 @@ ServerEvents.recipes((event) => {
         item: 'minecraft:ancient_debris',
       },
       J: {
-        item: 'voidminers:azurine',
+        item: 'voidminers_reforged:azurine',
       },
       K: {
-        item: 'voidminers:caerium',
+        item: 'voidminers_reforged:caerium',
       },
     },
     pattern: ['ABCDA', 'EFGHB', 'CGIGC', 'BHGFJ', 'AKCBA'],

@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
           item: 'mekanism:logistical_sorter',
         },
         G: {
-          item: 'voidminers:rubetine_miner',
+          item: 'voidminers_reforged:rubetine_miner',
         },
         H: {
           item: 'mekanism:elite_control_circuit',
@@ -46,13 +46,13 @@ ServerEvents.recipes((event) => {
           item: 'mekanism:ultimate_control_circuit',
         },
         M: {
-          item: 'voidminers:aurantium_miner',
+          item: 'voidminers_reforged:aurantium_miner',
         },
         O: {
           item: 'kubejs:infinity_2',
         },
         P: {
-          item: 'voidminers:citrinetine_miner',
+          item: 'voidminers_reforged:citrinetine_miner',
         },
         Q: {
           item: 'mekanism:basic_control_circuit',
@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
           item: 'mekanism:advanced_control_circuit',
         },
         T: {
-          item: 'voidminers:verdium_miner',
+          item: 'voidminers_reforged:verdium_miner',
         },
       },
       result: {

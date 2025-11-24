@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
           item: 'projectexpansion:white_matter',
         },
         F: {
-          item: 'voidminers:rosarium',
+          item: 'voidminers_reforged:rosarium',
         },
         G: {
           item: 'evolvedmekanism:ingot_better_gold',
