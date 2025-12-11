@@ -191,7 +191,7 @@ ServerEvents.recipes((event) => {
         {
           amount: 64,
           ingredient: {
-            item: 'enderio:powdered_ender_pearl',
+            tag: 'forge:dusts/ender_pearl',
           },
         },
         {

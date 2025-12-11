@@ -441,9 +441,7 @@ const removeItemsbyID = [
   'extendedae_plus:entity_speed_card_8x',
   'extendedae_plus:entity_speed_card_16x',
   'avaritia:blaze_cube',
-  'minecraft:nuclearcraft_yttrium_dust',
-  'chemlib:yttrium_ingot_from_blasting_yttrium_dust',
-  '',
+  'projecte:watch_of_flowing_time',
   '',
 ];
 

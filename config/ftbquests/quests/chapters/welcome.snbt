@@ -715,7 +715,6 @@
 			}]
 			tasks: [{
 				id: "2019707AE4DAC703"
-				title: "{atm9.quest.start1.emergency}"
 				type: "checkmark"
 			}]
 			title: "Emergency"

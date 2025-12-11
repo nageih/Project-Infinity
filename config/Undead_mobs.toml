@@ -71,3 +71,13 @@
 	#Per hit
 	"Change of inflicting rabies" = 0.12
 
+[wheezer]
+	#amount of hit to pop it's pore rendering its ability useless
+	"Wheezer spores hitpoints" = 15.0
+	#how long the fumes stay in taget's body (in ticks)
+	"Wheezer spore duration" = 300.0
+
+["The Ordure"]
+	#explosion
+	"Ordure death explosion damage" = 30.0
+

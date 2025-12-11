@@ -10,3 +10,8 @@ asyncValidation = true
 #Range: 1 ~ 100
 structureValidationRate = 10
 
+#Preview features that are not yet stable or ready for use.
+[preview_features]
+	#Blueprint screen (JEI structure view with more fancy buttons)
+	previewBlueprintScreen = false
+

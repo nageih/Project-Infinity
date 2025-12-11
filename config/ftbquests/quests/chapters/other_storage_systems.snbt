@@ -1780,17 +1780,31 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "71313F64FE256B8D"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:barrel"
-					tag: {
-						woodType: "dark_oak"
+			tasks: [
+				{
+					id: "71313F64FE256B8D"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:barrel"
+						tag: {
+							woodType: "dark_oak"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5531B3A10F365A7D"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:chest"
+						tag: {
+							woodType: "dark_oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Normal"
 			x: 8.5d
 			y: 1.0d
 		}
@@ -1802,17 +1816,31 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "0B4B7846DD87FB89"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:copper_barrel"
-					tag: {
-						woodType: "dark_oak"
+			tasks: [
+				{
+					id: "0B4B7846DD87FB89"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:copper_barrel"
+						tag: {
+							woodType: "dark_oak"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4DB5EB62C65B1BC0"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:copper_chest"
+						tag: {
+							woodType: "dark_oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Copper"
 			x: 8.5d
 			y: 2.5d
 		}
@@ -1824,17 +1852,31 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "21A5A2F99949A459"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:iron_barrel"
-					tag: {
-						woodType: "dark_oak"
+			tasks: [
+				{
+					id: "21A5A2F99949A459"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:iron_barrel"
+						tag: {
+							woodType: "dark_oak"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2032A81892472CA6"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:iron_chest"
+						tag: {
+							woodType: "dark_oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron"
 			x: 8.5d
 			y: 4.0d
 		}
@@ -1846,17 +1888,31 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "768C77654E90C390"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:gold_barrel"
-					tag: {
-						woodType: "dark_oak"
+			tasks: [
+				{
+					id: "768C77654E90C390"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:gold_barrel"
+						tag: {
+							woodType: "dark_oak"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "663AB8F402009AE1"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:gold_chest"
+						tag: {
+							woodType: "dark_oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gold"
 			x: 8.5d
 			y: 5.5d
 		}
@@ -1868,17 +1924,31 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "664D8E7BEC9DB088"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:diamond_barrel"
-					tag: {
-						woodType: "dark_oak"
+			tasks: [
+				{
+					id: "664D8E7BEC9DB088"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:diamond_barrel"
+						tag: {
+							woodType: "dark_oak"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4F58D7E1C1A7E9E2"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:diamond_chest"
+						tag: {
+							woodType: "dark_oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond"
 			x: 8.5d
 			y: 7.0d
 		}
@@ -1890,17 +1960,31 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "52F6F953392C1844"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:netherite_barrel"
-					tag: {
-						woodType: "dark_oak"
+			tasks: [
+				{
+					id: "52F6F953392C1844"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:netherite_barrel"
+						tag: {
+							woodType: "dark_oak"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "188055DC63116A3D"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:netherite_chest"
+						tag: {
+							woodType: "dark_oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite"
 			x: 8.5d
 			y: 8.5d
 		}

@@ -29,6 +29,7 @@
   "block.mm.gigantic_item_port_output": "Gigantic Item Port Output",
   "block.mm.infinity_crucible_controller": "Infinity Crucible Controller",
   "block.mm.mechanical_empowerer_controller": "Mechanical Empowerer Controller",
+  "block.mm.mega_dissolver_controller": "Mega Dissolver Machine Controller",
   "block.mm.multi_compactor_controller": "Multi Compactor Machine Controller",
   "block.mm.multi_compressor_controller": "Multi Compressor Machine Controller",
   "block.mm.normal_energy_port_input": "Normal Energy Port Input",

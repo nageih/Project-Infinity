@@ -2006,10 +2006,9 @@
 			]
 			tasks: [{
 				id: "16DAFC5C5846015A"
-				item: "nuclearcraft:water_collector"
+				item: "mekanism:electric_pump"
 				type: "item"
 			}]
-			title: "{atm9.quest.mekanism.waterSource}"
 			x: -2.0d
 			y: -2.0d
 		}
@@ -3772,7 +3771,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "1BDE11BC252EAAB2"
-				item: "emextras:infinite_multiversal_control_circuit"
+				item: "mekanism_extras:infinite_control_circuit"
 				type: "item"
 			}]
 			x: -7.5d

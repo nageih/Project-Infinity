@@ -1,9 +1,5 @@
 ItemEvents.tooltip((event) => {
   event.add(
-    'occultism:spirit_attuned_gem',
-    'If you want to automate it, build the Fire Attuned Multiblock'
-  );
-  event.add(
     ['avaritia:infinity_pickaxe', 'avaritia:infinity_shovel'],
     'You can right click me.'
   );
@@ -26,26 +22,11 @@ ItemEvents.tooltip((event) => {
     'Find me inside ancient city chests. 2.5% Chance'
   );
 
-  event.add(
-    'enderio:conductive_conduit',
-    'Energy Transfer Value: 2,024 RF/t'
-  );
-  event.add(
-    'enderio:energetic_conduit',
-    'Energy Transfer Value: 8,192 RF/t'
-  );
-  event.add(
-    'enderio:vibrant_conduit',
-    'Energy Transfer Value: 32,768 RF/t'
-  );
-  event.add(
-    'enderio:endsteel_conduit',
-    'Energy Transfer Value: 131,072 RF/t'
-  );
-  event.add(
-    'enderio:lumium_conduit',
-    'Energy Transfer Value: 524,288 RF/t'
-  );
+  event.add('enderio:conductive_conduit', 'Energy Transfer Value: 2,024 RF/t');
+  event.add('enderio:energetic_conduit', 'Energy Transfer Value: 8,192 RF/t');
+  event.add('enderio:vibrant_conduit', 'Energy Transfer Value: 32,768 RF/t');
+  event.add('enderio:endsteel_conduit', 'Energy Transfer Value: 131,072 RF/t');
+  event.add('enderio:lumium_conduit', 'Energy Transfer Value: 524,288 RF/t');
   event.add(
     'enderio:signalum_conduit',
     'Energy Transfer Value: 2,097,152 RF/t'
@@ -61,6 +42,100 @@ ItemEvents.tooltip((event) => {
   event.add(
     'enderio:energy_conduit',
     'Energy Transfer Value: 2,147,483,647 RF/t'
+  );
+
+    event.add(
+    ['kubejs:infinity_7', 'kubejs:infinity_8'],
+    'Texture is from Astrageldon. Thank you a lot!'
+  );
+    event.add(
+    'kubejs:infinity_9',
+    'Texture is from Elpximso. Thank you a lot!'
+  );
+  //Master Machinery Ports Tooltips
+  //Item Ports
+  event.add(
+    ['mm:tiny_item_port_input', 'mm:tiny_item_port_output'],
+    'Inventory Size: 1x1 = 1 Slot'
+  );
+  event.add(
+    ['mm:small_item_port_input', 'mm:small_item_port_output'],
+    'Inventory Size: 2x2 = 4 Slots'
+  );
+  event.add(
+    ['mm:normal_item_port_input', 'mm:normal_item_port_output'],
+    'Inventory Size: 3x3 = 9 Slots'
+  );
+  event.add(
+    ['mm:big_item_port_input', 'mm:big_item_port_output'],
+    'Inventory Size: 4x4 = 16 Slots'
+  );
+  event.add(
+    ['mm:enormous_item_port_input', 'mm:enormous_item_port_output'],
+    'Inventory Size: 5x5 = 25 Slots'
+  );
+  event.add(
+    ['mm:gigantic_item_port_input', 'mm:gigantic_item_port_output'],
+    'Inventory Size: 6x6 = 36 Slots'
+  );
+  event.add(
+    ['mm:colossal_item_port_input', 'mm:colossal_item_port_output'],
+    'Inventory Size: 6x8 = 48 Slots'
+  );
+  event.add(
+    ['mm:titanic_item_port_input', 'mm:titanic_item_port_output'],
+    'Inventory Size: 8x12 = 96 Slots'
+  );
+  //Fluid Ports
+  event.add(
+    ['mm:small_fluid_port_input', 'mm:small_fluid_port_output'],
+    'Tank Capacity: 640,000 mB'
+  );
+  event.add(
+    ['mm:normal_fluid_port_input', 'mm:normal_fluid_port_output'],
+    'Tank Capacity: 2,560,000 mB'
+  );
+  event.add(
+    ['mm:big_fluid_port_input', 'mm:big_fluid_port_output'],
+    'Tank Capacity: 10,240,000 mB'
+  );
+  event.add(
+    ['mm:enormous_fluid_port_input', 'mm:enormous_fluid_port_output'],
+    'Tank Capacity: 163,840,000 mB'
+  );
+  event.add(
+    ['mm:gigantic_fluid_port_input', 'mm:gigantic_fluid_port_output'],
+    'Tank Capacity: 2,147,483,647 mB'
+  );
+  //Energy Ports
+  event.add(
+    ['mm:tiny_energy_port_input', 'mm:tiny_energy_port_output'],
+    'Energy Capacity: 25,000 FE, Max Input: 5,000 FE/t, Max Output: 2,500 FE/t'
+  );
+    event.add(
+    ['mm:small_energy_port_input', 'mm:small_energy_port_output'],
+    'Energy Capacity: 100,000 FE, Max Input: 20,000 FE/t, Max Output: 10,000 FE/t'
+  );
+    event.add(
+    ['mm:normal_energy_port_input', 'mm:normal_energy_port_output'],
+    'Energy Capacity: 1,000,000 FE, Max Input: 200,000 FE/t, Max Output: 100,000 FE/t'
+  );
+    event.add(
+    ['mm:big_energy_port_input', 'mm:big_energy_port_output'],
+    'Energy Capacity: 10,000,000 FE, Max Input: 2,000,000 FE/t, Max Output: 1,000,000 FE/t'
+  );
+    event.add(
+    ['mm:enormous_energy_port_input', 'mm:enormous_energy_port_output'],
+    'Energy Capacity: 25,000,000 FE, Max Input: 5,000,000 FE/t, Max Output: 2,500,000 FE/t'
+  );
+    event.add(
+    ['mm:gigantic_energy_port_input', 'mm:gigantic_energy_port_output'],
+    'Energy Capacity/ Max In- and Output: 2,147,483,647 FE'
+  );
+  //Mekanism Gas Ports
+  event.add(
+    ['mm:colossal_gas_port_input', 'mm:colossal_gas_port_output'],
+    'Gas Capacity: 2,147,483,647 mB'
   );
 
   event.addAdvanced(
@@ -116,7 +191,7 @@ ItemEvents.tooltip((event) => {
         Text.of('to see more info.').gold(),
       ]);
     } else {
-      (text.add(
+      text.add(
         1,
         Text.green(
           'Trow me on the ground and use "Engraved Thunder" or "Lightning Knife" (1 time use) to get Infused Frost Crystal'
@@ -127,7 +202,7 @@ ItemEvents.tooltip((event) => {
           Text.white(
             'Or trow a Trident at a mob with channeling while a thunderstorm is occurring. Or use the Mechanical Empowerer'
           )
-        ));
+        );
       text.remove(3);
     }
   });
@@ -230,12 +305,15 @@ ItemEvents.tooltip((event) => {
     text.add(2, Text.red('Thanks a lot! Dont hate me, hate him :)'));
   });
 
-    event.addAdvanced(['mekanism:creative_bin'], (item, advanced, text) => {
+  event.addAdvanced(['mekanism:creative_bin'], (item, advanced, text) => {
     text.add(1, Text.red('Recipe added by RxDnz.'));
     text.add(2, Text.red('Thanks a lot! Dont hate me, hate him :)'));
   });
 
-    event.addAdvanced(['ae2omnicells:multidimensional_expansion_processor'], (item, advanced, text) => {
-    text.add(1, Text.red('Recipe added by Anti.'));
-  });
+  event.addAdvanced(
+    ['ae2omnicells:multidimensional_expansion_processor'],
+    (item, advanced, text) => {
+      text.add(1, Text.red('Recipe added by Anti.'));
+    }
+  );
 });

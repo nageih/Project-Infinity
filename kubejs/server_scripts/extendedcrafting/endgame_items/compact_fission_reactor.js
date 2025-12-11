@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'mekanism:basic_chemical_tank',
           count: 1,
-          nbt: '{mekData:{GasTanks:[],InfusionTanks:[{Tank:0b,stored:{amount:64000L,infuseTypeName:"evolvedmekanism:plaslitherite"}}],Items:[],PigmentTanks:[],SlurryTanks:[],componentConfig:{config2:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config3:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config4:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config5:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config6:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},eject2:1b,eject3:1b,eject4:1b,eject5:1b,eject6:0b},componentEjector:{color0:-1,color1:-1,color2:-1,color3:-1,color4:-1,color5:-1,strictInput:0b},controlType:0,dumping:0,owner:[I;820734262,-2046999151,-1231858418,1239542476],securityMode:0}}',
+          nbt: '{mekData:{InfusionTanks:[{Tank:0b,stored:{amount:64000L,infuseTypeName:"evolvedmekanism:plaslitherite"}}]}}',
         },
         L: {
           item: 'emextras:cosmic_dense_control_circuit',
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'mekanism:basic_chemical_tank',
           count: 1,
-          nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:64000L,gasName:"mekanism_extras:molten_thermonuclear"}}],InfusionTanks:[],Items:[],PigmentTanks:[],SlurryTanks:[],componentConfig:{config2:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config3:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config4:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config5:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config6:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},eject2:1b,eject3:1b,eject4:1b,eject5:1b,eject6:0b},componentEjector:{color0:-1,color1:-1,color2:-1,color3:-1,color4:-1,color5:-1,strictInput:0b},controlType:0,dumping:0,owner:[I;820734262,-2046999151,-1231858418,1239542476],securityMode:0}}',
+          nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:64000L,gasName:"mekanism_extras:molten_thermonuclear"}}]}}',
         },
         N: {
           item: 'mekanism_extras:alloy_spectrum',
@@ -79,13 +79,13 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'mekanism:basic_chemical_tank',
           count: 1,
-          nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:64000L,gasName:"mekanism_extras:naquadah_hexafluoride"}}],InfusionTanks:[],Items:[],PigmentTanks:[],SlurryTanks:[],componentConfig:{config2:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config3:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config4:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config5:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config6:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},eject2:1b,eject3:1b,eject4:1b,eject5:1b,eject6:0b},componentEjector:{color0:-1,color1:-1,color2:-1,color3:-1,color4:-1,color5:-1,strictInput:0b},controlType:0,dumping:0,owner:[I;820734262,-2046999151,-1231858418,1239542476],securityMode:0}}',
+          nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:64000L,gasName:"mekanism_extras:naquadah_hexafluoride"}}]}}',
         },
         T: {
           type: 'forge:partial_nbt',
           item: 'mekanism:basic_chemical_tank',
           count: 1,
-          nbt: '{mekData:{GasTanks:[],InfusionTanks:[{Tank:0b,stored:{amount:64000L,infuseTypeName:"evolvedmekanism:better_gold"}}],Items:[],PigmentTanks:[],SlurryTanks:[],componentConfig:{config2:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config3:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config4:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config5:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},config6:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},eject2:1b,eject3:1b,eject4:1b,eject5:1b,eject6:0b},componentEjector:{color0:-1,color1:-1,color2:-1,color3:-1,color4:-1,color5:-1,strictInput:0b},controlType:0,dumping:0,owner:[I;820734262,-2046999151,-1231858418,1239542476],securityMode:0}}',
+          nbt: '{mekData:{InfusionTanks:[{Tank:0b,stored:{amount:64000L,infuseTypeName:"evolvedmekanism:better_gold"}}]}}',
         },
         U: {
           item: 'mekanismgenerators:control_rod_assembly',

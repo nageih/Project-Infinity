@@ -416,6 +416,17 @@ ServerEvents.recipes((event) => {
   );
 
   shapeless(event, 'chemlib:titanium_ingot', ['nuclearcraft:titanium_ingot']);
+  shapeless(event, 'chemlib:hafnium_ingot', ['nuclearcraft:hafnium_ingot']);
+  shapeless(event, 'chemlib:lithium_ingot', ['nuclearcraft:lithium_ingot']);
+  shapeless(event, 'chemlib:magnesium_ingot', ['nuclearcraft:magnesium_ingot']);
+  shapeless(event, 'chemlib:strontium_ingot', ['nuclearcraft:strontium_ingot']);
+  shapeless(event, 'chemlib:manganese_ingot', ['nuclearcraft:manganese_ingot']);
+  shapeless(event, 'chemlib:yttrium_ingot', ['nuclearcraft:yttrium_ingot']);
+  shapeless(event, 'chemlib:potassium_ingot', ['nuclearcraft:potassium_ingot']);
+  shapeless(event, 'chemlib:zirconium_ingot', ['nuclearcraft:zirconium_ingot']);
+  shapeless(event, 'chemlib:niobium_ingot', ['nuclearcraft:niobium_ingot']);
+
+  shapeless(event, '9x extendedcrafting:crystaltine_ingot', ['extendedcrafting:crystaltine_block']);
 
   create3x3(event, 'draconicevolution:grinder', [
     'draconicevolution:draconium_ingot',
@@ -453,6 +464,10 @@ ServerEvents.recipes((event) => {
       Item.of('sophisticatedstorage:diamond_chest', '{woodType:"oak"}'),
     ]
   );
+
+  shapeless(event, '9x minecraft:end_stone', [
+    'compressium:endstone_1'
+  ]);
 
   shapeless(event, '8x ironfurnaces:rainbow_plating', [
     'ironfurnaces:item_xmas',
@@ -539,6 +554,12 @@ ServerEvents.recipes((event) => {
     ),
     ['minecraft:book', 'voidminers:rubetine']
   );
+
+  shapeless(event, 'kubejs:infinity_2', [
+    'kubejs:infinity_1_333333',
+    'kubejs:infinity_1_666666',
+    'kubejs:infinity_1_999999',
+  ]);
 
   create3x3(event, 'mekanism:creative_energy_cube', [
     'evolvedmekanism:alloy_creative',
@@ -651,84 +672,84 @@ ServerEvents.recipes((event) => {
     Item.of(
       'industrialforegoing:efficiency_addon_1',
       '{TitaniumAugment:{Efficiency:0.9f}}'
-    ).weakNBT(),
+    ),
   ]);
   event.shapeless('kubejs:efficiency_addon_2', [
     Item.of(
       'industrialforegoing:efficiency_addon_2',
       '{TitaniumAugment:{Efficiency:0.8f}}'
-    ).weakNBT(),
+    ),
   ]);
   event.shapeless('kubejs:efficiency_addon_3', [
     Item.of(
       'ifeu:efficiency_addon_3',
       '{TitaniumAugment:{Efficiency:0.7f}}'
-    ).weakNBT(),
+    ),
   ]);
   event.shapeless('kubejs:efficiency_addon_4', [
     Item.of(
       'ifeu:efficiency_addon_4',
       '{TitaniumAugment:{Efficiency:0.6f}}'
-    ).weakNBT(),
+    ),
   ]);
   event.shapeless('kubejs:efficiency_addon_5', [
     Item.of(
       'ifeu:efficiency_addon_5',
       '{TitaniumAugment:{Efficiency:0.5f}}'
-    ).weakNBT(),
+    ),
   ]);
   //Speed Addons
   event.shapeless('kubejs:speed_addon_1', [
     Item.of(
       'industrialforegoing:speed_addon_1',
       '{TitaniumAugment:{Speed:2.0f}}'
-    ).weakNBT(),
+    ),
   ]);
   event.shapeless('kubejs:speed_addon_2', [
     Item.of(
       'industrialforegoing:speed_addon_2',
       '{TitaniumAugment:{Speed:3.0f}}'
-    ).weakNBT(),
+    ),
   ]);
   event.shapeless('kubejs:speed_addon_3', [
-    Item.of('ifeu:speed_addon_3', '{TitaniumAugment:{Speed:4.0f}}').weakNBT(),
+    Item.of('ifeu:speed_addon_3', '{TitaniumAugment:{Speed:4.0f}}'),
   ]);
   event.shapeless('kubejs:speed_addon_4', [
-    Item.of('ifeu:speed_addon_4', '{TitaniumAugment:{Speed:5.0f}}').weakNBT(),
+    Item.of('ifeu:speed_addon_4', '{TitaniumAugment:{Speed:5.0f}}'),
   ]);
   event.shapeless('kubejs:speed_addon_5', [
-    Item.of('ifeu:speed_addon_5', '{TitaniumAugment:{Speed:6.0f}}').weakNBT(),
+    Item.of('ifeu:speed_addon_5', '{TitaniumAugment:{Speed:6.0f}}'),
   ]);
   //Processing Addons
   event.shapeless('kubejs:processing_addon_1', [
     Item.of(
       'industrialforegoing:processing_addon_1',
       '{TitaniumAugment:{Processing:2.0f}}'
-    ).weakNBT(),
+    ),
   ]);
   event.shapeless('kubejs:processing_addon_2', [
     Item.of(
       'industrialforegoing:processing_addon_2',
       '{TitaniumAugment:{Processing:3.0f}}'
-    ).weakNBT(),
+    ),
   ]);
   event.shapeless('kubejs:processing_addon_3', [
     Item.of(
       'ifeu:processing_addon_3',
       '{TitaniumAugment:{Processing:4.0f}}'
-    ).weakNBT(),
+    ),
   ]);
   event.shapeless('kubejs:processing_addon_4', [
     Item.of(
       'ifeu:processing_addon_4',
       '{TitaniumAugment:{Processing:5.0f}}'
-    ).weakNBT(),
+    ),
   ]);
   event.shapeless('kubejs:processing_addon_5', [
     Item.of(
       'ifeu:processing_addon_5',
       '{TitaniumAugment:{Processing:6.0f}}'
-    ).weakNBT(),
+    ),
   ]);
 });
 

@@ -110,9 +110,14 @@ ServerEvents.recipes((event) => {
       inputs: [
         {
           type: 'pneumaticcraft:stacked_item',
-          count: 128,
+          count: 64,
           item: 'kubejs:infinity_4',
         },
+                {
+          type: 'pneumaticcraft:stacked_item',
+          count: 64,
+          item: 'kubejs:infinity_4',
+        }
       ],
       pressure: 4.0,
       results: [

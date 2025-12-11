@@ -384,6 +384,12 @@
 		}
 		{
 			dependencies: ["148DE7A379D310AE"]
+			description: [
+				"After placing the Fake Spawner inside the Multiblock you can left click the mob in the Factory Heart and it will tell you the items you have to input."
+				""
+				"Example:"
+				"Wither needs 4 Soul Sand and 3 Wither Skeleton Skulls"
+			]
 			id: "202218039D3147F8"
 			rewards: [{
 				id: "5C70214AAFE69B48"

@@ -3156,6 +3156,7 @@
 				"- Edges composed of &cAssembler Matrix Frame&r."
 				"- Faces composed of &9Assembler Matrix Wall/Glass&r."
 				"- Interior composed of &2Assembler Matrix Pattern/Craft/Speed Core&r."
+				"- I would add one Upload Core to the multiblock so you can upload your patterns in the multiblock without leaving the pattern encoder UI"
 				""
 				"A valid Assembler Matrix must contain at least one pattern core and craft core. "
 				"It must be completely filled and can't be hollow."
@@ -3276,7 +3277,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/ae2 channelmode infinite"
+				command: "execute as @p run ae2 channelmode infinite"
 				id: "0B4E960D24EBFA33"
 				title: "Deactivate Channels"
 				type: "command"
@@ -3298,7 +3299,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/ae2 channelmode default"
+				command: "execute as @p run ae2 channelmode default"
 				id: "20A2A48F60989F13"
 				title: "Activate Channels Default"
 				type: "command"
@@ -3320,7 +3321,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/ae2 channelmode x2"
+				command: "execute as @p run ae2 channelmode x2"
 				id: "667E07B23CB2808B"
 				title: "Activate Channels 2x"
 				type: "command"
@@ -3342,7 +3343,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/ae2 channelmode x3"
+				command: "execute as @p run ae2 channelmode x3"
 				id: "0D732879B2A56646"
 				title: "Activate Channels 3x"
 				type: "command"
@@ -3364,7 +3365,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/ae2 channelmode x4"
+				command: "execute as @p run ae2 channelmode x4"
 				id: "1F9469166DF2BD73"
 				title: "Activate Channels 4x"
 				type: "command"
@@ -3392,6 +3393,73 @@
 			}]
 			x: 25.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["29806054C47D0478"]
+			description: ["32 crafting jobs in parallel"]
+			id: "4F9E77E07861AB89"
+			rewards: [{
+				id: "34170270D5560B87"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61C79469568A3BE8"
+				item: "extendedae_plus:assembler_matrix_crafter_plus"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6E14D2CF2A950157"]
+			description: ["5x the effect of the normal speed core"]
+			id: "5ED15BE053BC1647"
+			rewards: [{
+				id: "689D570B05B2EAFC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63F6487B23E113AC"
+				item: "extendedae_plus:assembler_matrix_speed_plus"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5E3441120E4C5A2D"]
+			description: ["72 Pattern slots"]
+			id: "7D903C04EDE47D5D"
+			rewards: [{
+				id: "28601DAAC2A32F62"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41BDAE6353D55161"
+				item: "extendedae_plus:assembler_matrix_pattern_plus"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0ECD78BDD6FABA7C"]
+			id: "2A898AA523941C4B"
+			rewards: [{
+				id: "069AB56BA3AC6DBD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7122039C225DDA05"
+				item: "extendedae_plus:assembler_matrix_upload_core"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 11.0d
 		}
 	]
 	title: "Applied Energistics 2"

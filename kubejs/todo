@@ -6,8 +6,9 @@ super endgame microminers?
 woot config
 Extra and EM combine (Extra --> EM --> Extra --> EM .....)
 rf tools recipes
--change Inf ingots 1-3 to 0,3333333333    0,666666666    0.99999999 and 1
--add inf 2 and 3 with occutism and mana recipe
+add mbtool tag for voidminer to config
+Wand of Enlivingment
+add naquadah ore somehwere (thx to mariowithnomustache)
 /--------------------------------------------------------------------------------------------------------------/
 //recipes
 creative items recipes!
@@ -20,13 +21,53 @@ EMC
 changelog v. 0.0.45.0
 -updated some mods
 -added Integrated Mekanism (thx to Scarwxk)
--added Woot Addon Botania and Woot Addon Industrial Foregoing
--VOIDMINERS got a rename. All ITEMS will get removed!!!!!!
+-added Woot Addon Botania, Woot Addon Industrial Foregoing and Woot Blood Magic Addon
+-updated Masterful Machinery TPS FIX Mod. Took the latest MM mod and inserted the tps fix from igentuman
+-updated EvolvedMekanism
+    -added new multiblock structures to the mbtool
+    -the old layout is invalid now! you have to rebuild the multiblocks with the new layout
+    -the tier 2 structure is A LOT faster
+
+-removed Occultism KubeJS Mod (never used it)
 
 -added a new research station struture to the mbtool.
     -the tier 1 is the first one you need to build
-    -after getting the nokia and the stabilisierer you have to use the tier 2 strucutre
--
+    -after getting the nokia and the stabilisierer you have to use the tier 2 structure
+-added infinity recipes. added inf 1.33333 to 1.99999 and changed some textures
+    -inf 1 same
+    -inf 1.33333 molten basalt
+    -inf 1.66666 molten blizz
+    -inf 1.99999 molten blitz
+    -inf 2 the 3 above in a crafting table
+    -inf 3 botania elven trade
+    -inf 4 entropy cradle --> research station (just once to get the disk) --> Block into ingot
+    -inf 5-12 same
+
+    -the texture for the inf 7 and 8 are from Astrageldon. thx a lot!!!
+    -the texture for the inf 9 is from Elpximso. thx a lot!!!
+
+-fixed crushed blackstone now dropping 2 blocks (I forgot who told me this bug but thank you a lot!!!)
+-added recipe for creative chance addon from IFEU (thx to Elpximso)
+-fixed AE2 quest channel settings (thx to arblane)
+-fixed chemlib using neutron dust. removed the dust and nugget! (thx to Zets)
+-added tooltips for masterful machinery ports
+-added Big Dissolution Chamber Multiblock to the Mbtool
+-enabled all botania brewing recipes (thx to dominikmikulcic93)
+-added a tooltip for the botania mana and ae2 integration in the botania quest (thx to Shadowdragon)
+-changed Xnet input output values to 10M and 100M (thx to 𝕭𝖆𝖍𝖚𝖆𝖓)
+-fixed some ingots for the ultimate chemblib ingot (thx to BabyMudkip)
+-added alchemistry fusion and fission multiblock to the multibuilder tool (thx to Water_Element)
+-changed recipe for creative vending upgrade (from super_singularity to super_singularity_block)
+-fixed shattered singularity recipe in the reaction chamber (thx to Elpximso)
+-fixed recipe for compressed end stone to end stone (thx to Metalim)
+-changed a setting from aether
+    -before updating remove every curio item from your player!!!
+-fixed a woot crash (thx to ralphgoboom) (that was my bad!)
+-fixed crafting Industrial Foregoing upgrades into dummy items (thx to Elpximso)
+-changed the texture for the industrial foregoing dummy items to differentiate them better
+-added mega dissolver multiblock
+    -if you miss some input and outputs pls tell me
+-you can use any voidminer modifiers for the multibuilder tool. you dont need null modifiers to build them
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

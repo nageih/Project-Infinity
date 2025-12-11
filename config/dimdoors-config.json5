@@ -38,10 +38,10 @@
       "blacklist": false
     },
     "hardcoreLimbo": false,
-    "limboReturnDistanceMax": 5000,
+    "limboReturnDistanceMax": 0,
     "limboReturnDistanceMin": 0,
     "decaySurroundings": true,
-    "tryPlayerBedSpawn": false,
+    "tryPlayerBedSpawn": true,
     "defaultToWorldSpawn": true,
     "limboBlocksCorruptingExitWorldAmount": 5.0,
     "escapeTargetWorld": "minecraft:overworld"

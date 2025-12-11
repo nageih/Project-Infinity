@@ -6,6 +6,14 @@
 	group: "29543B666C58207C"
 	icon: "botania:lexicon"
 	id: "1883B79BDB2AAE5D"
+	images: [{
+		height: 3.0d
+		image: "kubejs:block/screen/botania_mana_pattern2"
+		rotation: 0.0d
+		width: 8.0d
+		x: 5.0d
+		y: 8.0d
+	}]
 	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -1518,7 +1526,7 @@
 				type: "item"
 			}]
 			title: "Directing Mana"
-			x: 9.0d
+			x: 7.892857142857146d
 			y: 4.5d
 		}
 		{
@@ -3316,7 +3324,7 @@
 				item: "botania:redstone_spreader"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.0d
 			y: 5.5d
 		}
 		{
@@ -4088,6 +4096,32 @@
 			}]
 			x: 0.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			description: [
+				"You can save your mana in the AE2 system. "
+				"Right Click a mana tablet in the pattern to select mana."
+				""
+				"&4DONT permanently input mana into the machines! The mana will get voided.&r"
+			]
+			id: "01B549F27552F7ED"
+			rewards: [{
+				id: "4127C6C575269E8C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5704BE2E4093881F"
+				item: {
+					Count: 1
+					id: "appbot:mana_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
 		}
 	]
 	title: "Botania"
