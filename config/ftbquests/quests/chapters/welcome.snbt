@@ -262,6 +262,15 @@
 		}
 		{
 			dependencies: ["3F755A55B2043E5B"]
+			description: [
+				"You will get 2x the resources for hammering the blocks down manually :)"
+				""
+				"1 Cobblestone --> 2 Gravel"
+				"1 Gravel --> 2 Sand"
+				"1 Sand --> 2 Dust"
+				""
+				"That will speed up the early game"
+			]
 			id: "35EF391AB5344094"
 			rewards: [
 				{

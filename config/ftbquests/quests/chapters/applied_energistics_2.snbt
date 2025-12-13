@@ -26,6 +26,10 @@
 				"*(Integrates with &6RF/FE&r power systems while maintaining unique &5AE2 energy&r mechanics.)*"
 				""
 				"&a\"Your entire base's inventory - one wireless terminal away\"&r"
+				""
+				"&4Please use AE2 and not RS!&r"
+				"You can get the Presses in meteors in Lost cities."
+				"Build the cake or the portal"
 			]
 			id: "0AA72D6706542CA6"
 			rewards: [{
@@ -3271,6 +3275,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0AA72D6706542CA6"]
+			description: ["Disable all channels"]
 			hide_dependency_lines: true
 			id: "1168E67611CD8473"
 			ignore_reward_blocking: true
@@ -3293,6 +3298,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0AA72D6706542CA6"]
+			description: ["Set the channels to normal/ AE2 vanilla settings"]
 			hide_dependency_lines: true
 			id: "72DB9CE799477E9C"
 			ignore_reward_blocking: true
@@ -3315,6 +3321,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0AA72D6706542CA6"]
+			description: ["Set the Channels to 2x"]
 			hide_dependency_lines: true
 			id: "413398C47C6392B1"
 			ignore_reward_blocking: true
@@ -3337,6 +3344,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0AA72D6706542CA6"]
+			description: ["Set the Channels to 3x"]
 			hide_dependency_lines: true
 			id: "52CE6093E37F27FB"
 			ignore_reward_blocking: true
@@ -3359,6 +3367,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0AA72D6706542CA6"]
+			description: ["Set the Channels to 4x"]
 			hide_dependency_lines: true
 			id: "2A1E9CC6A78B279C"
 			ignore_reward_blocking: true

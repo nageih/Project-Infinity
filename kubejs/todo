@@ -6,7 +6,6 @@ super endgame microminers?
 woot config
 Extra and EM combine (Extra --> EM --> Extra --> EM .....)
 rf tools recipes
-add mbtool tag for voidminer to config
 Wand of Enlivingment
 add naquadah ore somehwere (thx to mariowithnomustache)
 /--------------------------------------------------------------------------------------------------------------/
@@ -18,13 +17,23 @@ creative items recipes!
 EMC
 
 /---------------------------------------------------------------------------------------------------------------/
-changelog v. 0.0.45.1
+changelog v. 0.0.45.2
 -updated some mods
 
--fixed recipe for gem leggings (thx to Dasani)
--changed recipe for inf 1.333333, 1.666666 and 1.999999 to just take one inf 1 and not 3
--fixed foliot crusher giving barrier item (thx to the person that told me about it!)
--changed inf 4 structure recipe to use saffron dragonstone (thx to Water_Element)
+-changed recipe for Industrial Foregoing Enchantment Applicator (thx to Aureal)
+-fixed voidminer config (thx to ryguyqwerty)
+-added recipe for computer screen module (thx to Snelfs)
+-added recipe for pump upgrades (sophisticatedstorage) (thx to Snelfs)
+-fixed Other Storage system quests (thx to TheShiragami)
+-changed recipe for Advanced AE Reaction Chamber (thx to Sohail160)
+-fixed flügel tiara recipe in JEI (thx to Shadowdragon)
+-swapped recipe for inf 4 with 9 
+    -inf 4 needs blood magic
+    -inf 9 needs crazy ae2 setup
+-changed recipe for marine fisher (thx to Lashmak :O )
+-changed recipe for advanced_enchanting_infuser (thx to Lashmak :O )
+-fixed calculation_processor using to little quartz_blocks (thx to Lashmak :O )
+-added a small quest for the naquadah fission reactor (thx to BabyMudkip)
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

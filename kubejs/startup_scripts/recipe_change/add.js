@@ -358,12 +358,12 @@ StartupEvents.registry('block', (event) => {
     .textureAll('kubejs:block/silent/compressed_block_of_gunpowder');
 
   event
-    .create('infinity_4_block')
-    .displayName('Infinity 4 Block')
+    .create('infinity_9_block')
+    .displayName('Infinity 9 Block')
     .soundType('metal')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/silent/infinity_4_block');
+    .textureAll('kubejs:block/silent/infinity_9_block');
 
   event
     .create('compressed_slate')

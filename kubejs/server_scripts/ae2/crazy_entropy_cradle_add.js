@@ -1,10 +1,10 @@
 ServerEvents.recipes((event) => {
-  //Infinity 4 Block
+  //Infinity 9 Block
   event
     .custom({
       type: 'crazyae2addons:cradle',
-      result_block: 'kubejs:infinity_4_block',
-      preview_nbt: 'kubejs:infinity_4_structure.nbt',
+      result_block: 'kubejs:infinity_9_block',
+      preview_nbt: 'kubejs:infinity_9_structure.nbt',
       pattern: {
         symbols: {
           A: ['minecraft:crying_obsidian'],
@@ -24,24 +24,24 @@ ServerEvents.recipes((event) => {
         ],
       },
     })
-    .id('kubejs:ae2/crazy_entropy_cradle/infinity_4_block');
+    .id('kubejs:ae2/crazy_entropy_cradle/infinity_9_block');
 });
 
 ServerEvents.recipes((event) => {
-  //Infinity 4 Block --> Ingot
+  //Infinity 9 Block --> Ingot
   event
     .custom({
       type: 'crazyae2addons:fabrication',
-      input: { item: 'kubejs:infinity_4_block' },
+      input: { item: 'kubejs:infinity_9_block' },
       input_count: 1,
-      output: { item: 'kubejs:infinity_4', count: 1 },
-      required_key: 'kubejs:infinity_4_block_research',
+      output: { item: 'kubejs:infinity_9', count: 1 },
+      required_key: 'kubejs:infinity_9_block_research',
     })
-    .id('kubejs:ae2/crazy_entropy_cradle/infinity_4_block_to_ingot');
+    .id('kubejs:ae2/crazy_entropy_cradle/infinity_9_block_to_ingot');
 });
 
 ServerEvents.recipes((event) => {
-  //Infinity 4 Block Research Data Drive
+  //Infinity 9 Block Research Data Drive
   event
     .custom({
       type: 'crazyae2addons:research',
@@ -51,7 +51,7 @@ ServerEvents.recipes((event) => {
       fluid_per_tick: 50,
       requires_stabilizer: true,
       gadget: true,
-      consumables: [{ item: 'kubejs:infinity_4_block', count: 1 }],
+      consumables: [{ item: 'kubejs:infinity_9_block', count: 1 }],
       drive: true,
       structure: {
         mode: 'pattern',
@@ -72,9 +72,9 @@ ServerEvents.recipes((event) => {
         ],
       },
       unlock: {
-        key: 'kubejs:infinity_4_block_research',
-        label: 'Infinity 4',
+        key: 'kubejs:infinity_9_block_research',
+        label: 'Infinity 9',
       },
     })
-    .id('kubejs:ae2/crazy_entropy_cradle/infinity_4_block_drive');
+    .id('kubejs:ae2/crazy_entropy_cradle/infinity_9_block_drive');
 });

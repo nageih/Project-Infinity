@@ -1000,10 +1000,7 @@
 			y: 11.5d
 		}
 		{
-			dependencies: [
-				"6148D6EC39D47AB7"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["6148D6EC39D47AB7"]
 			id: "7BBF9514B8208F1E"
 			rewards: [{
 				id: "259AD5F875C72190"
@@ -1037,10 +1034,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"4DF60BF9E869A441"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["4DF60BF9E869A441"]
 			id: "25E1146F52BF0B40"
 			rewards: [{
 				id: "6EF53DC16C614E9F"
@@ -1057,10 +1051,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"568D3DD4D1AFB7F9"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["568D3DD4D1AFB7F9"]
 			id: "48F23BFCF78BD72A"
 			rewards: [{
 				id: "3D254C5D9DF5EA5D"
@@ -1111,10 +1102,7 @@
 			y: 3.75d
 		}
 		{
-			dependencies: [
-				"635B163BB6A79897"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["635B163BB6A79897"]
 			id: "62CB0416BCF2B53D"
 			rewards: [{
 				id: "1B2BA2ABEE90363A"
@@ -1165,10 +1153,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"1F94B1C0A6EBA419"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["1F94B1C0A6EBA419"]
 			id: "35EC34F00E58EDCD"
 			rewards: [{
 				id: "63F5D76FFABD8353"
@@ -1232,7 +1217,7 @@
 				item: "sophisticatedstorage:smoking_upgrade"
 				type: "item"
 			}]
-			x: 2.625d
+			x: 1.5d
 			y: 6.0d
 		}
 		{
@@ -1249,14 +1234,11 @@
 				item: "sophisticatedstorage:blasting_upgrade"
 				type: "item"
 			}]
-			x: 2.625d
+			x: 1.5d
 			y: 7.125d
 		}
 		{
-			dependencies: [
-				"049409EDCB433E14"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["049409EDCB433E14"]
 			id: "3626BD8CFE6F4502"
 			rewards: [{
 				id: "3D4700C807774645"
@@ -1273,10 +1255,7 @@
 			y: 7.125d
 		}
 		{
-			dependencies: [
-				"32F6DC10683E299D"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["32F6DC10683E299D"]
 			id: "164BA9DC511C9E77"
 			rewards: [{
 				id: "0B94F582EA4D2907"
@@ -1293,10 +1272,7 @@
 			y: 8.25d
 		}
 		{
-			dependencies: [
-				"0A0F597296C7EE1E"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["0A0F597296C7EE1E"]
 			id: "6C200EA0B72B68AA"
 			rewards: [{
 				id: "24CD2C920A61FE64"
@@ -1309,14 +1285,11 @@
 				item: "sophisticatedstorage:auto_smoking_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.625d
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"475B724D47611D71"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["475B724D47611D71"]
 			id: "33CBC384A9CE8835"
 			rewards: [{
 				id: "19DC7F20D5B2F303"
@@ -1329,7 +1302,7 @@
 				item: "sophisticatedstorage:auto_blasting_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.625d
 			y: 7.125d
 		}
 		{
@@ -1369,10 +1342,7 @@
 			y: 8.25d
 		}
 		{
-			dependencies: [
-				"5C2A94A696287367"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["5C2A94A696287367"]
 			id: "07AAE7921BDE2487"
 			rewards: [{
 				id: "3F916FAB1A9A6BCE"
@@ -1440,10 +1410,7 @@
 			y: 9.375d
 		}
 		{
-			dependencies: [
-				"1D5843003879C350"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["1D5843003879C350"]
 			id: "0143B02811871FB0"
 			rewards: [{
 				id: "39D0DA9B09E5DA06"
@@ -1460,10 +1427,7 @@
 			y: 3.75d
 		}
 		{
-			dependencies: [
-				"26BC0F0C7B260042"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["26BC0F0C7B260042"]
 			id: "59ED9BACC66A6A05"
 			rewards: [{
 				id: "1475E3B797442A4B"
@@ -1480,10 +1444,7 @@
 			y: 4.875d
 		}
 		{
-			dependencies: [
-				"74CD4FF651C75927"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["74CD4FF651C75927"]
 			id: "088B4231F4C8BABC"
 			rewards: [{
 				id: "56D861AAD992963F"
@@ -1500,10 +1461,7 @@
 			y: 9.375d
 		}
 		{
-			dependencies: [
-				"088B4231F4C8BABC"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["088B4231F4C8BABC"]
 			id: "33C31A6F350D856C"
 			rewards: [{
 				id: "4D87E28E01F49F57"
@@ -1588,10 +1546,7 @@
 			y: 9.375d
 		}
 		{
-			dependencies: [
-				"0B1A4E92EE0BBE34"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["0B1A4E92EE0BBE34"]
 			id: "49580F312F0EE1FE"
 			rewards: [{
 				id: "6501FE2CB033D32B"
@@ -1608,10 +1563,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"49580F312F0EE1FE"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["49580F312F0EE1FE"]
 			id: "06AEB36ACCD29568"
 			rewards: [{
 				id: "6D1116E9D03BF29A"
@@ -1628,10 +1580,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"06AEB36ACCD29568"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["06AEB36ACCD29568"]
 			id: "5EF600DF19CDC2E9"
 			rewards: [{
 				id: "3D8DE529720975C7"
@@ -1665,10 +1614,7 @@
 			y: 2.625d
 		}
 		{
-			dependencies: [
-				"08D80CA2FC9EDBBE"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["08D80CA2FC9EDBBE"]
 			id: "7F9C688AC494FFF8"
 			rewards: [{
 				id: "5E462000C4464487"
@@ -1685,10 +1631,7 @@
 			y: 2.625d
 		}
 		{
-			dependencies: [
-				"7F9C688AC494FFF8"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["7F9C688AC494FFF8"]
 			id: "61318AA58EDD8146"
 			rewards: [{
 				id: "3E9DD75CDBBB3CB2"
@@ -1705,10 +1648,7 @@
 			y: 2.625d
 		}
 		{
-			dependencies: [
-				"5EF600DF19CDC2E9"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["5EF600DF19CDC2E9"]
 			id: "1EA608AEA14DEE8D"
 			rewards: [{
 				id: "35C33F40AB56B16D"
@@ -1725,10 +1665,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"1EA608AEA14DEE8D"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["1EA608AEA14DEE8D"]
 			id: "677954CC108AE140"
 			rewards: [{
 				id: "1DEEE99832001050"
@@ -1745,10 +1682,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"677954CC108AE140"
-				"0F5CD890270B0D2B"
-			]
+			dependencies: ["677954CC108AE140"]
 			id: "1C7BFE9AF2C0FFBF"
 			rewards: [
 				{
@@ -1780,31 +1714,17 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "71313F64FE256B8D"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:barrel"
-						tag: {
-							woodType: "dark_oak"
-						}
+			tasks: [{
+				id: "71313F64FE256B8D"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "dark_oak"
 					}
-					type: "item"
 				}
-				{
-					id: "5531B3A10F365A7D"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:chest"
-						tag: {
-							woodType: "dark_oak"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Normal"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 1.0d
 		}
@@ -1816,31 +1736,17 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "0B4B7846DD87FB89"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:copper_barrel"
-						tag: {
-							woodType: "dark_oak"
-						}
+			tasks: [{
+				id: "0B4B7846DD87FB89"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:copper_barrel"
+					tag: {
+						woodType: "dark_oak"
 					}
-					type: "item"
 				}
-				{
-					id: "4DB5EB62C65B1BC0"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:copper_chest"
-						tag: {
-							woodType: "dark_oak"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Copper"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 2.5d
 		}
@@ -1852,31 +1758,17 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "21A5A2F99949A459"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:iron_barrel"
-						tag: {
-							woodType: "dark_oak"
-						}
+			tasks: [{
+				id: "21A5A2F99949A459"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "dark_oak"
 					}
-					type: "item"
 				}
-				{
-					id: "2032A81892472CA6"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:iron_chest"
-						tag: {
-							woodType: "dark_oak"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Iron"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 4.0d
 		}
@@ -1888,31 +1780,17 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "768C77654E90C390"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:gold_barrel"
-						tag: {
-							woodType: "dark_oak"
-						}
+			tasks: [{
+				id: "768C77654E90C390"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "dark_oak"
 					}
-					type: "item"
 				}
-				{
-					id: "663AB8F402009AE1"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:gold_chest"
-						tag: {
-							woodType: "dark_oak"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Gold"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 5.5d
 		}
@@ -1924,31 +1802,17 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "664D8E7BEC9DB088"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:diamond_barrel"
-						tag: {
-							woodType: "dark_oak"
-						}
+			tasks: [{
+				id: "664D8E7BEC9DB088"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "dark_oak"
 					}
-					type: "item"
 				}
-				{
-					id: "4F58D7E1C1A7E9E2"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:diamond_chest"
-						tag: {
-							woodType: "dark_oak"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Diamond"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 7.0d
 		}
@@ -1960,31 +1824,17 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "52F6F953392C1844"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:netherite_barrel"
-						tag: {
-							woodType: "dark_oak"
-						}
+			tasks: [{
+				id: "52F6F953392C1844"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "dark_oak"
 					}
-					type: "item"
 				}
-				{
-					id: "188055DC63116A3D"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:netherite_chest"
-						tag: {
-							woodType: "dark_oak"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Netherite"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 8.5d
 		}

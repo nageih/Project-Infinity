@@ -355,6 +355,78 @@ ServerEvents.recipes((event) => {
     'minecraft:gold_nugget',
   ]);
 
+  create3x3(event, Item.of('rftoolsutility:computer_module', '{Damage:0}'), [
+    'minecraft:air',
+    Item.of('rftoolsutility:button_module', '{Damage:0}'),
+    'minecraft:air',
+    Item.of('rftoolsutility:counterplus_module', '{Damage:0}'),
+    'minecraft:diamond_block',
+    Item.of('rftoolsutility:fluidplus_module', '{Damage:0}'),
+    'minecraft:air',
+    Item.of('rftoolsutility:machineinformation_module', '{Damage:0}'),
+    'minecraft:air',
+  ]);
+
+  create3x3(event, 'industrialforegoing:enchantment_applicator', [
+    '#forge:plastic',
+    '#forge:plastic',
+    '#forge:plastic',
+    'evolvedmekanism:alloy_hypercharged',
+    'ifeu:ultimate_machine_frame',
+    'mekanism_extras:alloy_radiance',
+    'allthemodium:unobtainium_gear',
+    'mekanism:alloy_atomic',
+    'allthemodium:unobtainium_gear',
+  ]);
+
+  create3x3(event, 'sophisticatedstorage:pump_upgrade', [
+    '#forge:glass',
+    'minecraft:bucket',
+    '#forge:glass',
+    'minecraft:piston',
+    'sophisticatedstorage:upgrade_base',
+    'minecraft:sticky_piston',
+    '#forge:glass',
+    'minecraft:bucket',
+    '#forge:glass',
+  ]);
+
+  create3x3(event, 'sophisticatedstorage:advanced_pump_upgrade', [
+    'minecraft:diamond',
+    'minecraft:dispenser',
+    'minecraft:diamond',
+    'minecraft:gold_ingot',
+    'sophisticatedstorage:pump_upgrade',
+    'minecraft:gold_ingot',
+    'minecraft:redstone',
+    'minecraft:redstone',
+    'minecraft:redstone',
+  ]);
+
+  create3x3(event, 'enchantinginfuser:advanced_enchanting_infuser', [
+    'allthemodium:unobtainium_gear',
+    'minecraft:book',
+    'allthemodium:unobtainium_gear',
+    'minecraft:netherite_ingot',
+    'minecraft:crying_obsidian',
+    'minecraft:netherite_ingot',
+    'minecraft:crying_obsidian',
+    'enchantinginfuser:enchanting_infuser',
+    'minecraft:crying_obsidian',
+  ]);
+
+  create3x3(event, 'sophisticatedstorage:xp_pump_upgrade', [
+    'minecraft:redstone',
+    'minecraft:ender_eye',
+    'minecraft:redstone',
+    'minecraft:experience_bottle',
+    'sophisticatedstorage:advanced_pump_upgrade',
+    'minecraft:experience_bottle',
+    'minecraft:redstone',
+    'minecraft:ender_eye',
+    'minecraft:redstone',
+  ]);
+
   create3x3(
     event,
     Item.of('sophisticatedstorage:iron_chest', '{woodType:"oak"}'),
@@ -426,7 +498,9 @@ ServerEvents.recipes((event) => {
   shapeless(event, 'chemlib:zirconium_ingot', ['nuclearcraft:zirconium_ingot']);
   shapeless(event, 'chemlib:niobium_ingot', ['nuclearcraft:niobium_ingot']);
 
-  shapeless(event, '9x extendedcrafting:crystaltine_ingot', ['extendedcrafting:crystaltine_block']);
+  shapeless(event, '9x extendedcrafting:crystaltine_ingot', [
+    'extendedcrafting:crystaltine_block',
+  ]);
 
   create3x3(event, 'draconicevolution:grinder', [
     'draconicevolution:draconium_ingot',
@@ -465,9 +539,7 @@ ServerEvents.recipes((event) => {
     ]
   );
 
-  shapeless(event, '9x minecraft:end_stone', [
-    'compressium:endstone_1'
-  ]);
+  shapeless(event, '9x minecraft:end_stone', ['compressium:endstone_1']);
 
   shapeless(event, '8x ironfurnaces:rainbow_plating', [
     'ironfurnaces:item_xmas',
@@ -681,22 +753,13 @@ ServerEvents.recipes((event) => {
     ),
   ]);
   event.shapeless('kubejs:efficiency_addon_3', [
-    Item.of(
-      'ifeu:efficiency_addon_3',
-      '{TitaniumAugment:{Efficiency:0.7f}}'
-    ),
+    Item.of('ifeu:efficiency_addon_3', '{TitaniumAugment:{Efficiency:0.7f}}'),
   ]);
   event.shapeless('kubejs:efficiency_addon_4', [
-    Item.of(
-      'ifeu:efficiency_addon_4',
-      '{TitaniumAugment:{Efficiency:0.6f}}'
-    ),
+    Item.of('ifeu:efficiency_addon_4', '{TitaniumAugment:{Efficiency:0.6f}}'),
   ]);
   event.shapeless('kubejs:efficiency_addon_5', [
-    Item.of(
-      'ifeu:efficiency_addon_5',
-      '{TitaniumAugment:{Efficiency:0.5f}}'
-    ),
+    Item.of('ifeu:efficiency_addon_5', '{TitaniumAugment:{Efficiency:0.5f}}'),
   ]);
   //Speed Addons
   event.shapeless('kubejs:speed_addon_1', [
@@ -734,22 +797,13 @@ ServerEvents.recipes((event) => {
     ),
   ]);
   event.shapeless('kubejs:processing_addon_3', [
-    Item.of(
-      'ifeu:processing_addon_3',
-      '{TitaniumAugment:{Processing:4.0f}}'
-    ),
+    Item.of('ifeu:processing_addon_3', '{TitaniumAugment:{Processing:4.0f}}'),
   ]);
   event.shapeless('kubejs:processing_addon_4', [
-    Item.of(
-      'ifeu:processing_addon_4',
-      '{TitaniumAugment:{Processing:5.0f}}'
-    ),
+    Item.of('ifeu:processing_addon_4', '{TitaniumAugment:{Processing:5.0f}}'),
   ]);
   event.shapeless('kubejs:processing_addon_5', [
-    Item.of(
-      'ifeu:processing_addon_5',
-      '{TitaniumAugment:{Processing:6.0f}}'
-    ),
+    Item.of('ifeu:processing_addon_5', '{TitaniumAugment:{Processing:6.0f}}'),
   ]);
 });
 

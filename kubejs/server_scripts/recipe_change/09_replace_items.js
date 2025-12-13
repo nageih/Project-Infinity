@@ -25,7 +25,7 @@ ServerEvents.recipes((event) => {
     'avaritia:singularity',
     'extendedcrafting:ultimate_singularity'
   );
-    event.replaceInput(
+  event.replaceInput(
     { output: 'projecte:gem_leggings' },
     'projecte:watch_of_flowing_time',
     'projecte:body_stone'
@@ -111,13 +111,18 @@ ServerEvents.recipes((event) => {
     'ae2omnicells:quantum_omni_cell_component_16m'
   );
   event.replaceInput(
-    { output: 'industrialforegoing:enchantment_applicator' },
-    'thermal:gold_gear',
-    'allthemodium:unobtainium_gear'
-  );
-  event.replaceInput(
     { output: 'extendedae_plus:infinity_biginteger_cell' },
     'minecraft:nether_star',
     'kubejs:infinity_12'
+  );
+  event.replaceInput(
+    { output: 'advanced_ae:reaction_chamber' },
+    'minecraft:bucket',
+    'ae2omnicells:omni_link_processor'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:marine_fisher' },
+    '#c:gears/iron',
+    'allthemodium:unobtainium_gear'
   );
 });

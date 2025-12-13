@@ -115,8 +115,48 @@ ServerEvents.recipes((event) => {
       .id('reaction_chamber2' + outputItem.replace(/[:]/g, '_').toLowerCase());
   }
 
+    function reaction_chamber3 (event, item1, outputItem) {
+    event
+      .custom({
+        type: 'advanced_ae:reaction',
+        energy: 200000,
+        fluid: {
+          fluidStack: {
+            Amount: 1000,
+            FluidName: 'minecraft:water',
+          },
+        },
+        input_items: [
+          {
+            amount: 18,
+            ingredient: {
+              item: item1,
+            },
+          },
+          {
+            amount: 4,
+            ingredient: {
+              item: 'expatternprovider:silicon_block',
+            },
+          },
+          {
+            amount: 36,
+            ingredient: {
+              item: 'minecraft:redstone',
+            },
+          },
+        ],
+        output: {
+          '#': 36,
+          '#c': 'ae2:i',
+          id: outputItem,
+        },
+      })
+      .id('reaction_chamber3' + outputItem.replace(/[:]/g, '_').toLowerCase());
+  }
+
   reaction_chamber1(event, 'minecraft:gold_block', 'ae2:logic_processor');
-  reaction_chamber1(event, 'ae2:quartz_block', 'ae2:calculation_processor');
+  reaction_chamber3(event, 'ae2:quartz_block', 'ae2:calculation_processor');
   reaction_chamber1(
     event,
     'minecraft:diamond_block',

@@ -19,10 +19,10 @@ ServerEvents.recipes((event) => {
     consumptionRate: 10000,
     drainRate: 10000,
     input: {
-      item: 'kubejs:infinity_8',
+      item: 'kubejs:infinity_3',
     },
     output: {
-      item: 'kubejs:infinity_9',
+      item: 'kubejs:infinity_4',
     },
     upgradeLevel: 4,
   });
