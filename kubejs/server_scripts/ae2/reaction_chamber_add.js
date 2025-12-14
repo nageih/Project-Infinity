@@ -128,7 +128,7 @@ ServerEvents.recipes((event) => {
         },
         input_items: [
           {
-            amount: 18,
+            amount: 9,
             ingredient: {
               item: item1,
             },
@@ -140,9 +140,9 @@ ServerEvents.recipes((event) => {
             },
           },
           {
-            amount: 36,
+            amount: 4,
             ingredient: {
-              item: 'minecraft:redstone',
+              item: 'minecraft:redstone_block',
             },
           },
         ],
