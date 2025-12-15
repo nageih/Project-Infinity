@@ -30,3 +30,6 @@ changelog v. 0.0.45.3
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station
+-dont export mana from your AE2 system to a botanical machinery extra machine. it will fill the mana buffer and void all the rest. it never stops importing
+-there are some tier 6 seed that dont have a texture inside the hydroponic bed from industrial foregoing
+-Its not possible to see the marble and basalt seeds from mystical agriculture. they are hidden by code because there is not the correct chisel mod installed
