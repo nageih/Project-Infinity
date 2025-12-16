@@ -133,7 +133,7 @@ LootJS.modifiers((event) => {
     .when((c) =>
       c.matchMainHand(ItemFilter.hasEnchantment('minecraft:fortune'))
     );
-  const handleSilkTouch = LootEntry.of("kubejs:azure_silver_ore").when((c) =>
+  const applyWhenSilkTouch = LootEntry.of("kubejs:azure_silver_ore").when((c) =>
     c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
   );
   // Currently lacks a raw ore
@@ -142,7 +142,7 @@ LootJS.modifiers((event) => {
   event
     .addBlockLootModifier('kubejs:azure_silver_ore')
     .removeLoot(Ingredient.all)
-    .addAlternativesLoot(stickWhenFortune, handleSilkTouch ,metal);
+    .addAlternativesLoot(stickWhenFortune, applyWhenSilkTouch ,metal);
 });
 
 //'allthemodium:allthemodium_upgrade_smithing_template'
