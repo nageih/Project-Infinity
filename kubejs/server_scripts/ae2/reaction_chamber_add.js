@@ -157,6 +157,9 @@ ServerEvents.recipes((event) => {
 
   reaction_chamber1(event, 'minecraft:gold_block', 'ae2:logic_processor');
   reaction_chamber3(event, 'ae2:quartz_block', 'ae2:calculation_processor');
+  reaction_chamber3(event, 'ae2:quartz_block', 'ae2:calculation_processor');
+  reaction_chamber3(event, 'ae2omnicells:ender_ingot_block', "ae2omnicells:omni_link_processor")
+  reaction_chamber3(event, 'ae2omnicells:netherite_scrap_block', "ae2omnicells:complex_link_processor")
   reaction_chamber1(
     event,
     'minecraft:diamond_block',
