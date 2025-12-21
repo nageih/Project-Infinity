@@ -38,13 +38,13 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			title: "Enchanting with Apotheosis"
+			title: "Apotheosis"
 			x: -3.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["0EB5B926E1FBAF0E"]
-			description: ["Bookshelves are your starting point, but definitely not your end point. Atleast not normal bookshelves. With only normal bookshelves you can only get &aEterna&r up and to a max of 15. (I will explain the Enchantment Levels soon but just know you need them up)"]
+			description: ["&aEterna&r is your new best friend. For the beginning you can have up to 15 Eterna"]
 			icon: "minecraft:bookshelf"
 			id: "7F042DED357DEF3C"
 			rewards: [{

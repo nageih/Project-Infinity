@@ -125,9 +125,64 @@ ServerEvents.recipes((event) => {
     '#c:gears/iron',
     'allthemodium:unobtainium_gear'
   );
-    event.replaceInput(
+  event.replaceInput(
     { output: 'thermal:device_water_gen' },
     'minecraft:copper_ingot',
-    'allthemodium:unobtainium_gear'
+    'ifeu:sculk_gear'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:supreme_black_hole_tank' },
+    'minecraft:bucket',
+    'industrialforegoing:advanced_black_hole_tank'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:advanced_black_hole_tank' },
+    'minecraft:bucket',
+    'industrialforegoing:simple_black_hole_tank'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:simple_black_hole_tank' },
+    'minecraft:bucket',
+    'industrialforegoing:pity_black_hole_tank'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:pity_black_hole_tank' },
+    'minecraft:bucket',
+    'industrialforegoing:common_black_hole_tank'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:supreme_black_hole_unit' },
+    '#forge:chests/wooden',
+    'industrialforegoing:advanced_black_hole_unit'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:advanced_black_hole_unit' },
+    '#forge:chests/wooden',
+    'industrialforegoing:simple_black_hole_unit'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:advanced_black_hole_unit' },
+    '#forge:chests/wooden',
+    'industrialforegoing:simple_black_hole_unit'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:simple_black_hole_unit' },
+    '#forge:chests/wooden',
+    'industrialforegoing:pity_black_hole_unit'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoing:pity_black_hole_unit' },
+    '#forge:chests/wooden',
+    'industrialforegoing:common_black_hole_unit'
+  );
+  event.replaceInput(
+    { output: 'pickletweaks:diamond_apple' },
+    'minecraft:diamond',
+    'minecraft:diamond_block'
+  );
+  event.replaceInput(
+    { output: 'pickletweaks:emerald_apple' },
+    'minecraft:emerald',
+    'minecraft:emerald_block'
   );
 });

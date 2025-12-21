@@ -18,8 +18,8 @@ MMEvents.createProcesses((event) => {
     }
 
     const recipe = event
-      .create(`mm:${id}_recipe`)
-      .structureId('mm:mega_dissolver_structure')
+      .create(`mm:${id}tier1_recipe`)
+      .structureId('mm:mega_dissolver_structure1')
       .ticks(4);
 
     recipe.input({
@@ -42,7 +42,7 @@ MMEvents.createProcesses((event) => {
         ingredient: {
           type: 'mm:item',
           item: out.item,
-          count: out.count ?? 1,
+          count: out.count,
         },
       });
     }
@@ -173,7 +173,7 @@ MMEvents.createProcesses((event) => {
     //Stone
     {
       id: 'stone',
-      input: '#forge:stone',
+      input: 'minecraft:stone',
       outputs: [
         { item: 'minecraft:air', count: 2, chance: 0.6431 },
         { item: 'chemlib:silicon_dioxide', count: 2, chance: 0.1608 },
@@ -191,7 +191,9 @@ MMEvents.createProcesses((event) => {
     {
       id: 'purple_dye',
       input: '#forge:dyes/purple',
-      outputs: [{ item: 'chemlib:potassium_permanganate', count: 4, chance: 1.0 }],
+      outputs: [
+        { item: 'chemlib:potassium_permanganate', count: 4, chance: 1.0 },
+      ],
     },
     //Deepslate
     {
@@ -257,6 +259,223 @@ MMEvents.createProcesses((event) => {
         { item: 'chemlib:titanium_oxide', count: 4, chance: 1.0 },
         { item: 'chemlib:beryl', count: 32, chance: 1.0 },
       ],
+    },
+    //Following recipes are added by Water_Element!!! Thank you
+    //Thorium Ingot
+    {
+      id: 'thorium_ingot',
+      input: 'nuclearcraft:thorium_ingot',
+      outputs: [{ item: 'chemlib:thorium', count: 16, chance: 1.0 }],
+    },
+    //Platinum Ingot
+    {
+      id: 'platinum_ingot',
+      input: 'common_ore_library:platinum_ingot',
+      outputs: [{ item: 'chemlib:platinum', count: 16, chance: 1.0 }],
+    },
+    //Cobalt Ingot
+    {
+      id: 'cobalt_ingot',
+      input: 'common_ore_library:cobalt_ingot',
+      outputs: [{ item: 'chemlib:cobalt', count: 16, chance: 1.0 }],
+    },
+    //Osmium Ingot
+    {
+      id: 'osmium_ingot',
+      input: 'mekanism:ingot_osmium',
+      outputs: [{ item: 'chemlib:osmium', count: 16, chance: 1.0 }],
+    },
+    //Magnesium Ingot
+    {
+      id: 'magnesium_ingot',
+      input: 'nuclearcraft:magnesium_ingot',
+      outputs: [{ item: 'chemlib:magnesium', count: 16, chance: 1.0 }],
+    },
+    //Orange Dye
+    {
+      id: 'orange_dye',
+      input: '#forge:dyes/orange',
+      outputs: [
+        { item: 'chemlib:potassium_dichromate', count: 4, chance: 1.0 },
+      ],
+    },
+    //Potassium Dichromate
+    {
+      id: 'potassium_dichromate',
+      input: 'chemlib:potassium_dichromate',
+      outputs: [
+        { item: 'chemlib:oxygen', count: 7, chance: 1.0 },
+        { item: 'chemlib:chromium', count: 2, chance: 1.0 },
+        { item: 'chemlib:potassium', count: 2, chance: 1.0 },
+      ],
+    },
+    //Glowstone
+    {
+      id: 'glowstone',
+      input: 'minecraft:glowstone',
+      outputs: [{ item: 'chemlib:phosphorus', count: 16, chance: 1.0 }],
+    },
+    //Glowstone Dust
+    {
+      id: 'glowstone_dust',
+      input: '#forge:dusts/glowstone',
+      outputs: [{ item: 'chemlib:phosphorus', count: 4, chance: 1.0 }],
+    },
+    //Lithium Ingot
+    {
+      id: 'lithium_ingot',
+      input: 'nuclearcraft:lithium_ingot',
+      outputs: [{ item: 'chemlib:lithium', count: 16, chance: 1.0 }],
+    },
+    //Gunpowder
+    {
+      id: 'gunpowder',
+      input: '#forge:gunpowder',
+      outputs: [
+        { item: 'chemlib:potassium_nitrate', count: 2, chance: 1.0 },
+        { item: 'chemlib:sulfur', count: 8, chance: 1.0 },
+        { item: 'chemlib:graphite', count: 2, chance: 1.0 },
+      ],
+    },
+    //Silver Ingot
+    {
+      id: 'silver_ingot',
+      input: 'thermal:silver_ingot',
+      outputs: [{ item: 'chemlib:silver', count: 16, chance: 1.0 }],
+    },
+    //Nickel Ingot
+    {
+      id: 'nickel_ingot',
+      input: 'thermal:nickel_ingot',
+      outputs: [{ item: 'chemlib:nickel', count: 16, chance: 1.0 }],
+    },
+    //Graphite
+    {
+      id: 'graphite',
+      input: 'chemlib:graphite',
+      outputs: [{ item: 'chemlib:carbon', count: 4, chance: 1.0 }],
+    },
+    //Netherite Ingot
+    {
+      id: 'netherite_ingot',
+      input: 'minecraft:netherite_ingot',
+      outputs: [
+        { item: 'chemlib:tungsten', count: 64, chance: 1.0 },
+        { item: 'chemlib:gold', count: 64, chance: 1.0 },
+        { item: 'chemlib:carbon', count: 64, chance: 1.0 },
+      ],
+    },
+    //Gold Ingot
+    {
+      id: 'gold_ingot',
+      input: 'minecraft:gold_ingot',
+      outputs: [{ item: 'chemlib:gold', count: 16, chance: 1.0 }],
+    },
+    //Coal
+    {
+      id: 'coal',
+      input: '#forge:gems/coal',
+      outputs: [{ item: 'chemlib:graphite', count: 2, chance: 1.0 }],
+    },
+    //Diamond
+    {
+      id: 'diamond',
+      input: '#forge:gems/diamond',
+      outputs: [{ item: 'chemlib:graphite', count: 128, chance: 1.0 }],
+    },
+    //Tin Ingot
+    {
+      id: 'tin_ingot',
+      input: 'thermal:tin_ingot',
+      outputs: [{ item: 'chemlib:tin', count: 16, chance: 1.0 }],
+    },
+    //Zinc Ingot
+    {
+      id: 'zinc_ingot',
+      input: 'common_ore_library:zinc_ingot',
+      outputs: [{ item: 'chemlib:zinc', count: 16, chance: 1.0 }],
+    },
+    //Copper Ingot
+    {
+      id: 'copper_ingot',
+      input: 'minecraft:copper_ingot',
+      outputs: [{ item: 'chemlib:copper', count: 16, chance: 1.0 }],
+    },
+    //Iron Ingot
+    {
+      id: 'iron_ingot',
+      input: 'minecraft:iron_ingot',
+      outputs: [{ item: 'chemlib:iron', count: 16, chance: 1.0 }],
+    },
+    //Aluminum Ingot
+    {
+      id: 'aluminum_ingot',
+      input: 'common_ore_library:aluminum_ingot',
+      outputs: [{ item: 'chemlib:aluminum', count: 16, chance: 1.0 }],
+    },
+    //Calcium Carbonate
+    {
+      id: 'calcium_carbonate',
+      input: 'chemlib:calcium_carbonate',
+      outputs: [
+        { item: 'chemlib:calcium', count: 1, chance: 1.0 },
+        { item: 'chemlib:carbonate', count: 1, chance: 1.0 },
+      ],
+    },
+    //Calcium Sufide
+    {
+      id: 'calcium_sulfide',
+      input: 'chemlib:calcium_sulfide',
+      outputs: [
+        { item: 'chemlib:calcium', count: 1, chance: 1.0 },
+        { item: 'chemlib:sulfur', count: 1, chance: 1.0 },
+      ],
+    },
+    //Light Blue Dye
+    {
+      id: 'light_blue_dye',
+      input: '#forge:dyes/light_blue',
+      outputs: [
+        { item: 'chemlib:cobalt_aluminate', count: 2, chance: 1.0 },
+        { item: 'chemlib:antimony_trioxide', count: 2, chance: 1.0 },
+      ],
+    },
+    //Antimony Trioxide
+    {
+      id: 'antimony_trioxide',
+      input: 'chemlib:antimony_trioxide',
+      outputs: [
+        { item: 'chemlib:antimony', count: 2, chance: 1.0 },
+        { item: 'chemlib:oxygen', count: 3, chance: 1.0 },
+      ],
+    },
+    //Cobalt Aluminate
+    {
+      id: 'cobalt_aluminate',
+      input: 'chemlib:cobalt_aluminate',
+      outputs: [
+        { item: 'chemlib:oxygen', count: 4, chance: 1.0 },
+        { item: 'chemlib:cobalt', count: 1, chance: 1.0 },
+        { item: 'chemlib:aluminum', count: 2, chance: 1.0 },
+      ],
+    },
+    //Iridium Ingot
+    {
+      id: 'iridium_ingot',
+      input: 'common_ore_library:iridium_ingot',
+      outputs: [{ item: 'chemlib:iridium', count: 16, chance: 1.0 }],
+    },
+    //Tungsten Ingot
+    {
+      id: 'tungsten_ingot',
+      input: 'common_ore_library:tungsten_ingot',
+      outputs: [{ item: 'chemlib:tungsten', count: 16, chance: 1.0 }],
+    },
+    //Lead Ingot
+    {
+      id: 'lead_ingot',
+      input: 'thermal:lead_ingot',
+      outputs: [{ item: 'chemlib:lead', count: 16, chance: 1.0 }],
     },
 
     //------------------ Recipe Definitions End -----------------//

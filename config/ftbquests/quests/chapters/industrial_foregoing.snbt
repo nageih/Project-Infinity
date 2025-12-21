@@ -461,11 +461,9 @@
 		{
 			dependencies: ["11B642D71326CB26"]
 			description: [
-				"The &bSkudge Refiner&r processes &dSludge&r into useful &amaterials&r."
+				"The &bSludge Refiner&r processes &dSludge&r into useful &amaterials&r like &dClay&r, &aSand&r, and &bDirt&r."
 				""
 				"Place it near a &dSludge source&r and provide it with &dpower&r."
-				""
-				"It will convert the &dSludge&r into valuable &amaterials&r like &dClay&r, &aSand&r, and &bDirt&r."
 			]
 			hide_dependency_lines: true
 			id: "2E8B0B59ACD1F35B"

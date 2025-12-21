@@ -14,11 +14,12 @@ ServerEvents.recipes((event) => {
           E: ['botanicalextramachinery:saffron_dragonstone_block'],
           F: ['advanced_ae:quantum_alloy_block'],
           G: ['ae2omnicells:singularity_block'],
+          H: ['kubejs:infinity_8_block'],
         },
         layers: [
           ['A A A A A', 'A B B B A', 'A B B B A', 'A B B B A', 'A A A A A'],
           ['E E F E E', 'E E D E E', 'F D G D F', 'E E D E E', 'E E F E E'],
-          ['C C F C C', 'C C D C C', 'F D F D F', 'C C D C C', 'C C F C C'],
+          ['C C F C C', 'C C D C C', 'F D H D F', 'C C D C C', 'C C F C C'],
           ['E E F E E', 'E E D E E', 'F D G D F', 'E E D E E', 'E E F E E'],
           ['A A A A A', 'A B B B A', 'A B B B A', 'A B B B A', 'A A A A A'],
         ],
@@ -45,35 +46,36 @@ ServerEvents.recipes((event) => {
   event
     .custom({
       type: 'crazyae2addons:research',
-      duration: 3600,
-      energy_per_tick: 50,
-      fluid: 'crazyae2addons:researchfluid',
-      fluid_per_tick: 50,
-      requires_stabilizer: true,
+      duration: 41472000,
+      energy_per_tick: 500,
       gadget: true,
-      consumables: [{ item: 'kubejs:infinity_9_block', count: 1 }],
-      drive: true,
-      structure: {
-        mode: 'pattern',
-        size: [5, 5, 5],
-
-        symbols: {
-          A: ['evolvedmekanism:block_better_gold'],
-          B: ['evolvedmekanism:block_plaslitherite'],
-          C: ['botania:terrasteel_block'],
-          D: ['allthemodium:unobtainium_vibranium_alloy_block'],
+      consumables: [
+        {
+          item: 'crazyae2addons:super_singularity',
+          count: 8,
+          computation: 432,
         },
-        layers: [
-          ['A A A A A', 'A B B B A', 'A B B B A', 'A B B B A', 'A A A A A'],
-          ['A D D D A', 'D B B B D', 'D B C B D', 'D B B B D', 'A D D D A'],
-          ['A D D D A', 'D B B B D', 'D B C B D', 'D B B B D', 'A D D D A'],
-          ['A D D D A', 'D B B B D', 'D B C B D', 'D B B B D', 'A D D D A'],
-          ['A A A A A', 'A B B B A', 'A B B B A', 'A B B B A', 'A A A A A'],
-        ],
-      },
+        {
+          item: 'evolvedmekanism:block_better_gold',
+          count: 8,
+          computation: 432,
+        },
+        {
+          item: 'evolvedmekanism:block_plaslitherite',
+          count: 8,
+          computation: 432,
+        },
+        { item: 'botania:terrasteel_block', count: 8, computation: 432 },
+        { item: 'allthemodium:unobtainium_vibranium_alloy_block', count: 8, computation: 432 },
+        { item: 'ae2:dense_energy_cell', count: 64, computation: 432 },
+        { item: 'ae2:dense_energy_cell', count: 64, computation: 432 },
+        { item: 'ae2:fluix_block', count: 8, computation: 432 },
+      ],
+      drive: true,
       unlock: {
         key: 'kubejs:infinity_9_block_research',
         label: 'Infinity 9',
+        item: 'kubejs:infinity_9',
       },
     })
     .id('kubejs:ae2/crazy_entropy_cradle/infinity_9_block_drive');

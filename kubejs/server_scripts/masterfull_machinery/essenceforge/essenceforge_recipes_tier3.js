@@ -48,7 +48,7 @@ MMEvents.createProcesses((event) => {
   generateTier3Recipes(event, tier2Seeds, 4);
 
   // --- Tier 3 ---
-  const tier3Seeds = [
+    const tier3MobSeeds = [
     'mysticalagriculture:creeper_seeds',
     'mysticalagriculture:skeleton_seeds',
     'mysticalagriculture:spider_seeds',
@@ -57,6 +57,8 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:blizz_seeds',
     'mysticalagriculture:blitz_seeds',
     'mysticalagriculture:rabbit_seeds',
+  ];
+  const tier3Seeds = [
     'mysticalagriculture:boron_seeds',
     'mysticalagriculture:quartz_enriched_iron_seeds',
     'mysticalagriculture:amethyst_bronze_seeds',
@@ -87,7 +89,8 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:sky_stone_seeds',
     'mysticalagriculture:certus_quartz_seeds',
   ];
-  generateTier3Recipes(event, tier3Seeds, 4);
+  generateTier3Recipes(event, tier3MobSeeds, 4);
+  generateTier3Recipes(event, tier3Seeds, 5);
 
   // --- Tier 4 ---
   const tier4Seeds = [
@@ -184,7 +187,7 @@ function generateTier3Recipes (event, seeds, maxSeedsPerRecipe) {
     var chunk = seeds.slice(i, i + maxSeedsPerRecipe);
 
     var recipeId = `mm:essenceforge_tier3_${chunk
-      .map((s) => s.replace(':', '_'))
+      .map((s) => s.replace('mysticalagriculture:', '').replace('_seeds', ''))
       .join('_')}`;
     var recipe = event
       .create(recipeId)
@@ -192,7 +195,7 @@ function generateTier3Recipes (event, seeds, maxSeedsPerRecipe) {
       .ticks(100)
       .input({
         type: 'mm:input/consume',
-        ingredient: { type: 'mm:energy', amount: 10000000 },
+        ingredient: { type: 'mm:energy', amount: 1000000000 },
       })
       .input({
         type: 'mm:input/consume',
@@ -249,12 +252,12 @@ function createTier6SeedRecipes (event, seeds) {
     }
 
     event
-      .create(`mm:essenceforge_tier3_${seed.replace(':', '_')}`)
+      .create(`mm:essenceforge_tier3_${seed.replace('mysticalagriculture:', '').replace('_seeds', '')}`)
       .structureId('mm:essenceforge_tier3_structure')
       .ticks(100)
       .input({
         type: 'mm:input/consume',
-        ingredient: { type: 'mm:energy', amount: 10000000 },
+        ingredient: { type: 'mm:energy', amount: 1000000000 },
       })
       .input({
         type: 'mm:input/consume',
@@ -286,7 +289,7 @@ function createTier6SeedRecipes (event, seeds) {
     .ticks(100)
     .input({
       type: 'mm:input/consume',
-      ingredient: { type: 'mm:energy', amount: 100000000 },
+      ingredient: { type: 'mm:energy', amount: 1000000000 },
     })
     .input({
       type: 'mm:input/consume',

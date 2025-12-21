@@ -25,7 +25,7 @@ ServerEvents.recipes((event) => {
           nbt: '{Damage:0}',
         },
         C: {
-          item: 'functionalstorage:max_storage_upgrade',
+          item: 'mekanism:creative_bin',
         },
         D: {
           item: 'botania:dice',

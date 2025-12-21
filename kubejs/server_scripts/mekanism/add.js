@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-  function crush(event, input, output_count, output) {
+  function crush (event, input, output_count, output) {
     const ingredient = input.startsWith('#')
       ? { tag: input.substring(1) }
       : { item: input };
@@ -28,14 +28,14 @@ ServerEvents.recipes((event) => {
   crush(event, 'kubejs:azure_silver_ingot', 1, 'kubejs:azure_silver_dust');
   crush(event, 'kubejs:azure_electrum_ingot', 1, 'kubejs:azure_electrum_dust');
   crush(event, 'kubejs:crimson_iron_ingot', 1, 'kubejs:crimson_iron_dust');
-  crush(event, 'minecraft:sand', 2, 'exdeorum:dust');
+  crush(event, 'minecraft:sand', 1, 'exdeorum:dust');
   crush(event, 'kubejs:arcmetal_ore', 2, 'kubejs:raw_arcmetal');
   crush(event, 'kubejs:solarmetal_ore', 2, 'kubejs:raw_solarmetal');
   crush(event, 'kubejs:plasteel_ore', 2, 'kubejs:raw_plasteel');
   crush(event, 'kubejs:voidmetal_ore', 2, 'kubejs:raw_voidmetal');
   crush(event, '#forge:ingots/graphite', 1, 'bigreactors:graphite_dust');
 
-  function alloying(
+  function alloying (
     event,
     input_amount1,
     input_item1,
@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
       .id('alloying_' + output);
   }
 
-  function combining(
+  function combining (
     event,
     input_amount1,
     input_item1,
@@ -209,6 +209,156 @@ ServerEvents.recipes((event) => {
     1,
     'minecraft:gold_ingot',
     'thermal:electrum_ingot',
+    1
+  );
+});
+
+ServerEvents.recipes((event) => {
+  function infuse (
+    event,
+    chemicalInput,
+    chemicalAmount,
+    input,
+    input_amount,
+    output,
+    output_count
+  ) {
+    event
+      .custom({
+        type: 'mekanism:metallurgic_infusing',
+        chemicalInput: {
+          amount: chemicalAmount,
+          tag: chemicalInput,
+        },
+        itemInput: {
+          amount: input_amount,
+          ingredient: {
+            item: input,
+          },
+        },
+        output: {
+          item: output,
+          count: output_count,
+        },
+      })
+      .id('mek_' + output.replace(/[:]/g, '_').toLowerCase());
+  }
+
+  function nucleosynthesizing (event, gasAmount, input, output) {
+    event
+      .custom({
+        type: 'mekanism:nucleosynthesizing',
+        duration: 1000,
+        gasInput: {
+          amount: gasAmount,
+          gas: 'mekanism:antimatter',
+        },
+        itemInput: {
+          ingredient: {
+            item: input,
+          },
+        },
+        output: {
+          item: output,
+        },
+      })
+      .id('mek_' + output.replace(/[:]/g, '_').toLowerCase());
+  }
+
+  infuse(
+    event,
+    'mekanism:redstone',
+    90,
+    'minecraft:iron_block',
+    1,
+    'evolvedmekanism:block_alloy_infused',
+    1
+  );
+  infuse(
+    event,
+    'mekanism:diamond',
+    180,
+    'evolvedmekanism:block_alloy_infused',
+    1,
+    'evolvedmekanism:block_alloy_reinforced',
+    1
+  );
+  infuse(
+    event,
+    'mekanism:refined_obsidian',
+    360,
+    'evolvedmekanism:block_alloy_reinforced',
+    1,
+    'evolvedmekanism:block_alloy_atomic',
+    1
+  );
+  nucleosynthesizing(
+    event,
+    450,
+    'evolvedmekanism:block_alloy_hypercharged',
+    'evolvedmekanism:block_alloy_subatomic'
+  );
+  infuse(
+    event,
+    'evolvedmekanism:uranium',
+    180,
+    'evolvedmekanism:block_alloy_atomic',
+    1,
+    'evolvedmekanism:block_alloy_hypercharged',
+    1
+  );
+  infuse(
+    event,
+    'evolvedmekanism:better_gold',
+    180,
+    'evolvedmekanism:block_alloy_subatomic',
+    1,
+    'evolvedmekanism:block_alloy_singular',
+    1
+  );
+  infuse(
+    event,
+    'evolvedmekanism:plaslitherite',
+    180,
+    'evolvedmekanism:block_alloy_singular',
+    1,
+    'evolvedmekanism:block_alloy_exoversal',
+    1
+  );
+  infuse(
+    event,
+    'mekanism_extras:radiance',
+    360,
+    'evolvedmekanism:block_alloy_atomic',
+    1,
+    'kubejs:radiance_alloy_block',
+    1
+  );
+  infuse(
+    event,
+    'mekanism_extras:thermonuclear',
+    1080,
+    'kubejs:radiance_alloy_block',
+    1,
+    'kubejs:thermonuclear_alloy_block',
+    1
+  );
+  infuse(
+    event,
+    'mekanism_extras:shining',
+    1440,
+    'kubejs:thermonuclear_alloy_block',
+    1,
+    'kubejs:shining_alloy_block',
+    1
+  );
+  infuse(
+    event,
+    'mekanism_extras:spectrum',
+    1800,
+    'kubejs:shining_alloy_block',
+    1,
+    'kubejs:spectrum_alloy_block',
     1
   );
 });

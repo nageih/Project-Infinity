@@ -143,6 +143,9 @@
   "waystones": {
     "waystone": true
   },
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "mm": {
     "controller_progress": true
   },

@@ -366,6 +366,14 @@ StartupEvents.registry('block', (event) => {
     .textureAll('kubejs:block/silent/infinity_9_block');
 
   event
+    .create('infinity_8_block')
+    .displayName('Infinity 8 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/infinity_8_block');
+
+  event
     .create('compressed_slate')
     .displayName('Compressed Slate')
     .soundType('metal')
@@ -388,6 +396,38 @@ StartupEvents.registry('block', (event) => {
     .hardness(0.8)
     .resistance(1.0)
     .textureAll('kubejs:block/silent/double_compressed_iron_block');
+
+  event
+    .create('radiance_alloy_block')
+    .displayName('Radiance Alloy Block')
+    .soundType('metal')
+    .hardness(0.8)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/radiance_alloy_block');
+
+  event
+    .create('thermonuclear_alloy_block')
+    .displayName('Thermonuclear Alloy Block')
+    .soundType('metal')
+    .hardness(0.8)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/thermonuclear_alloy_block');
+
+  event
+    .create('shining_alloy_block')
+    .displayName('Shining Alloy Block')
+    .soundType('metal')
+    .hardness(0.8)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/shining_alloy_block');
+
+  event
+    .create('spectrum_alloy_block')
+    .displayName('Spectrum Alloy Block')
+    .soundType('metal')
+    .hardness(0.8)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/spectrum_alloy_block');
 
   event
     .create('triple_compressed_iron_block')

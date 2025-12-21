@@ -33,8 +33,8 @@
 				item: "botania:white_mystical_flower"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.0d
+			x: 4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -51,7 +51,7 @@
 				item: "botania:orange_mystical_flower"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: -5.0d
 		}
 		{
@@ -69,7 +69,7 @@
 				item: "botania:magenta_mystical_flower"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -5.0d
 		}
 		{
@@ -87,7 +87,7 @@
 				item: "botania:light_blue_mystical_flower"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -105,8 +105,8 @@
 				item: "botania:yellow_mystical_flower"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -123,7 +123,7 @@
 				item: "botania:lime_mystical_flower"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -141,8 +141,8 @@
 				item: "botania:pink_mystical_flower"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.0d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -159,8 +159,8 @@
 				item: "botania:gray_mystical_flower"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -177,8 +177,8 @@
 				item: "botania:light_gray_mystical_flower"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -195,8 +195,8 @@
 				item: "botania:cyan_mystical_flower"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -213,8 +213,8 @@
 				item: "botania:purple_mystical_flower"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -231,8 +231,8 @@
 				item: "botania:blue_mystical_flower"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -249,8 +249,8 @@
 				item: "botania:brown_mystical_flower"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -267,8 +267,8 @@
 				item: "botania:red_mystical_flower"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.0d
+			x: 5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -285,8 +285,8 @@
 				item: "botania:black_mystical_flower"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["371E5E1E435E41AA"]
@@ -303,8 +303,8 @@
 				item: "botania:green_mystical_flower"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -6.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["79BE48D56622542F"]
@@ -700,8 +700,8 @@
 				item: "botania:manastar"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -720,8 +720,8 @@
 				item: "botania:dandelifeon"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 2.5d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -741,8 +741,8 @@
 				item: "botania:entropinnyum"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.5d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -762,8 +762,8 @@
 				item: "botania:gourmaryllis"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.5d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -813,8 +813,8 @@
 				item: "botania:kekimurus"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.5d
+			x: -6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -834,8 +834,8 @@
 				item: "botania:munchdew"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.5d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -855,8 +855,8 @@
 				item: "botania:narslimmus"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 7.5d
+			x: -6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -876,8 +876,8 @@
 				item: "botania:rafflowsia"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 6.5d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -897,8 +897,8 @@
 				item: "botania:rosa_arcana"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.5d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -918,8 +918,8 @@
 				item: "botania:shulk_me_not"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -939,8 +939,8 @@
 				item: "botania:spectrolus"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.5d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -960,8 +960,8 @@
 				item: "botania:thermalily"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 1.5d
+			x: -7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -979,8 +979,8 @@
 				item: "botania:agricarnation"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.5d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1000,8 +1000,8 @@
 				item: "botania:bellethorn"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1019,7 +1019,7 @@
 				item: "botania:bergamute"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
@@ -1038,7 +1038,7 @@
 				item: "botania:bubbell"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -1058,7 +1058,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1077,7 +1077,7 @@
 				item: "botania:daffomill"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -1096,8 +1096,8 @@
 				item: "botania:dreadthorn"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1116,7 +1116,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1134,8 +1134,8 @@
 				item: "botania:fallen_kanade"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1153,7 +1153,7 @@
 				item: "botania:heisei_dream"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: 4.5d
 		}
 		{
@@ -1173,7 +1173,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1191,7 +1191,7 @@
 				item: "botania:hyacidus"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 2.5d
 		}
 		{
@@ -1210,8 +1210,8 @@
 				item: "botania:jaded_amaranthus"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1229,8 +1229,8 @@
 				item: "botania:jiyuulia"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1248,7 +1248,7 @@
 				item: "botania:loonium"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
@@ -1267,7 +1267,7 @@
 				item: "botania:marimorphosis"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 2.5d
 		}
 		{
@@ -1286,7 +1286,7 @@
 				item: "botania:medumone"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 2.5d
 		}
 		{
@@ -1306,7 +1306,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1324,7 +1324,7 @@
 				item: "botania:orechid_ignem"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 2.5d
 		}
 		{
@@ -1343,7 +1343,7 @@
 				item: "botania:pollidisiac"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 4.5d
 		}
 		{
@@ -1362,7 +1362,7 @@
 				item: "botania:rannuncarpus"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 3.5d
 		}
 		{
@@ -1382,7 +1382,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -1400,7 +1400,7 @@
 				item: "botania:spectranthemum"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -1419,7 +1419,7 @@
 				item: "botania:tangleberrie"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 3.5d
 		}
 		{
@@ -1438,7 +1438,7 @@
 				item: "botania:tigerseye"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -1457,8 +1457,8 @@
 				item: "botania:vinculotus"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]
@@ -3487,7 +3487,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
@@ -3545,7 +3545,6 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{atm9.quest.botania.desc.passThroughBlocks}"]
 			hide_dependency_lines: true
 			id: "5EF08646D8F4C432"
 			optional: true
@@ -3568,7 +3567,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
@@ -3595,7 +3594,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
@@ -3622,7 +3621,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
@@ -3649,7 +3648,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
@@ -3831,7 +3830,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -3889,7 +3888,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
@@ -3916,7 +3915,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]

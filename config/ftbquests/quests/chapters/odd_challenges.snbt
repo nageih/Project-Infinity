@@ -40,6 +40,11 @@
 		{
 			dependencies: ["64CD0F9017E449BB"]
 			id: "75DF212BEA5E3884"
+			rewards: [{
+				id: "066B0E743D352402"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Times jumped"
 			tasks: [{
@@ -56,6 +61,11 @@
 		{
 			dependencies: ["64CD0F9017E449BB"]
 			id: "18DF9D429BC79A1F"
+			rewards: [{
+				id: "40ED65E6279205FB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Open the furnace"
 			tasks: [{
@@ -72,6 +82,11 @@
 		{
 			dependencies: ["64CD0F9017E449BB"]
 			id: "299772B87B7A6EDE"
+			rewards: [{
+				id: "7E3A0CB65693FEFC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Open Crafting Table"
 			tasks: [{
@@ -88,6 +103,11 @@
 		{
 			dependencies: ["64CD0F9017E449BB"]
 			id: "26F5537324333FF4"
+			rewards: [{
+				id: "2033F98CA2794E42"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Deal Damage"
 			tasks: [{
@@ -110,6 +130,11 @@
 		{
 			dependencies: ["64CD0F9017E449BB"]
 			id: "16236912E787D392"
+			rewards: [{
+				id: "7874288B9CDB74CD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Enchant Items or Books"
 			tasks: [{
@@ -126,6 +151,11 @@
 		{
 			dependencies: ["64CD0F9017E449BB"]
 			id: "55DBB5F0220B25F1"
+			rewards: [{
+				id: "024E7CB60D06E50B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Catch fish"
 			tasks: [{
@@ -148,6 +178,11 @@
 		{
 			dependencies: ["64CD0F9017E449BB"]
 			id: "19D5E57463E7BEC0"
+			rewards: [{
+				id: "72CC11AA651DFF49"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Breed Animals"
 			tasks: [{
@@ -173,6 +208,11 @@
 		{
 			dependencies: ["64CD0F9017E449BB"]
 			id: "06827568C3A9A731"
+			rewards: [{
+				id: "12C673FF954240E3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Blocks placed with wand"
 			tasks: [{
@@ -190,6 +230,11 @@
 			dependencies: ["16236912E787D392"]
 			hide_until_deps_visible: true
 			id: "54A6FC9766F9CA1A"
+			rewards: [{
+				id: "7CC865A7D7054A60"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Enchant Items or Books"
 			tasks: [{
@@ -207,6 +252,11 @@
 			dependencies: ["54A6FC9766F9CA1A"]
 			hide_until_deps_visible: true
 			id: "2A077ECA2E708F50"
+			rewards: [{
+				id: "09906EB0E14330D2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Enchant Items or Books"
 			tasks: [{
@@ -224,6 +274,11 @@
 			dependencies: ["2A077ECA2E708F50"]
 			hide_until_deps_visible: true
 			id: "3CD7B38E825288A5"
+			rewards: [{
+				id: "3BEC323911ED9C88"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Enchant Items or Books"
 			tasks: [{
@@ -241,6 +296,11 @@
 			dependencies: ["3CD7B38E825288A5"]
 			hide_until_deps_visible: true
 			id: "5F173C7988F6D8ED"
+			rewards: [{
+				id: "0E220AB852D6E555"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Enchant Items or Books"
 			tasks: [{
@@ -258,6 +318,11 @@
 			dependencies: ["26F5537324333FF4"]
 			hide_until_deps_visible: true
 			id: "00519B8C94347248"
+			rewards: [{
+				id: "163739AB58004054"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Deal Damage"
 			tasks: [{
@@ -281,6 +346,11 @@
 			dependencies: ["00519B8C94347248"]
 			hide_until_deps_visible: true
 			id: "523C0087C03663BD"
+			rewards: [{
+				id: "1D6538B2A132FCA4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Deal Damage"
 			tasks: [{
@@ -304,6 +374,11 @@
 			dependencies: ["523C0087C03663BD"]
 			hide_until_deps_visible: true
 			id: "5A2E0FE2DE82013B"
+			rewards: [{
+				id: "09FAA3451836DFC6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Deal Damage"
 			tasks: [{
@@ -327,6 +402,11 @@
 			dependencies: ["5A2E0FE2DE82013B"]
 			hide_until_deps_visible: true
 			id: "48C92ECA577FA2A8"
+			rewards: [{
+				id: "19EED01FC5444283"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Deal Damage"
 			tasks: [{
@@ -350,6 +430,11 @@
 			dependencies: ["299772B87B7A6EDE"]
 			hide_until_deps_visible: true
 			id: "4661B033AC123DA0"
+			rewards: [{
+				id: "2E8494477C1555D7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Open Crafting Table"
 			tasks: [{
@@ -367,6 +452,11 @@
 			dependencies: ["4661B033AC123DA0"]
 			hide_until_deps_visible: true
 			id: "5CF7CF7E308A5897"
+			rewards: [{
+				id: "152F997B6DA19D9E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Open Crafting Table"
 			tasks: [{
@@ -384,6 +474,11 @@
 			dependencies: ["5CF7CF7E308A5897"]
 			hide_until_deps_visible: true
 			id: "5FD8D89E8E57169B"
+			rewards: [{
+				id: "25541298C7E5EB5C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Open Crafting Table"
 			tasks: [{
@@ -401,6 +496,11 @@
 			dependencies: ["5FD8D89E8E57169B"]
 			hide_until_deps_visible: true
 			id: "440196F457F5B33A"
+			rewards: [{
+				id: "1BDD146E86267FEB"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Open Crafting Table"
 			tasks: [{
@@ -418,6 +518,11 @@
 			dependencies: ["06827568C3A9A731"]
 			hide_until_deps_visible: true
 			id: "4BC2221A168D44DC"
+			rewards: [{
+				id: "57570EDF2D353BA9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "Blocks placed with wand"
 			tasks: [{
 				icon: "minecraft:oak_log"
@@ -434,6 +539,11 @@
 			dependencies: ["4BC2221A168D44DC"]
 			hide_until_deps_visible: true
 			id: "3C4C52FB2E13E19D"
+			rewards: [{
+				id: "25F1AE6F8C7A0F39"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "Blocks placed with wand"
 			tasks: [{
 				icon: "minecraft:oak_log"
@@ -450,6 +560,11 @@
 			dependencies: ["3C4C52FB2E13E19D"]
 			hide_until_deps_visible: true
 			id: "7E56D7F3AC4E65C1"
+			rewards: [{
+				id: "01D9BCE38B7E10E0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "Blocks placed with wand"
 			tasks: [{
 				icon: "minecraft:oak_log"
@@ -466,6 +581,11 @@
 			dependencies: ["7E56D7F3AC4E65C1"]
 			hide_until_deps_visible: true
 			id: "6743803C6D45C219"
+			rewards: [{
+				id: "5C40247146E83259"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			subtitle: "Blocks placed with wand"
 			tasks: [{
 				icon: "minecraft:oak_log"
@@ -481,6 +601,11 @@
 		{
 			dependencies: ["64CD0F9017E449BB"]
 			id: "393886001086EBB0"
+			rewards: [{
+				id: "5D1398C4CDB87EEA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "Damage blocked"
 			tasks: [{
 				icon: {
@@ -503,6 +628,11 @@
 			dependencies: ["75DF212BEA5E3884"]
 			hide_until_deps_visible: true
 			id: "46E032EB11B66CDC"
+			rewards: [{
+				id: "7B0EEF2A142681AC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "draconicevolution:item_draconium_jump"
 				id: "3EDEA5DE61F7990B"
@@ -518,6 +648,11 @@
 			dependencies: ["46E032EB11B66CDC"]
 			hide_until_deps_visible: true
 			id: "7EB569BE9EDAD34D"
+			rewards: [{
+				id: "13A9E296BAD3D285"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "draconicevolution:item_wyvern_jump"
 				id: "319679FA245E4089"
@@ -533,6 +668,11 @@
 			dependencies: ["7EB569BE9EDAD34D"]
 			hide_until_deps_visible: true
 			id: "441C7DC9E03D4B09"
+			rewards: [{
+				id: "12583AF3324F600D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "draconicevolution:item_draconic_jump"
 				id: "59F8F4B6919CA83D"
@@ -548,6 +688,11 @@
 			dependencies: ["441C7DC9E03D4B09"]
 			hide_until_deps_visible: true
 			id: "5E78AD1CE1D8F372"
+			rewards: [{
+				id: "7D97C6F66E9ABDDC"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "draconicevolution:item_chaotic_jump"
 				id: "1E6C28774F2292F9"
@@ -563,6 +708,11 @@
 			dependencies: ["18DF9D429BC79A1F"]
 			hide_until_deps_visible: true
 			id: "4AE095F400815442"
+			rewards: [{
+				id: "01F3514846BCE68A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "minecraft:furnace"
 				id: "76EBF7B58C3115A2"
@@ -578,6 +728,11 @@
 			dependencies: ["4AE095F400815442"]
 			hide_until_deps_visible: true
 			id: "6A171D9804160EDA"
+			rewards: [{
+				id: "0BAF49E519333CDA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "minecraft:furnace"
 				id: "782D1250F93E2B48"
@@ -593,6 +748,11 @@
 			dependencies: ["6A171D9804160EDA"]
 			hide_until_deps_visible: true
 			id: "424F51068F2F6CC9"
+			rewards: [{
+				id: "2FE88B3F8BF897EE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "minecraft:furnace"
 				id: "3BF62819488A1B58"
@@ -608,6 +768,11 @@
 			dependencies: ["424F51068F2F6CC9"]
 			hide_until_deps_visible: true
 			id: "432DB1D05BB06469"
+			rewards: [{
+				id: "2C3661F4DCDAE06A"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "minecraft:furnace"
 				id: "77C39F7D38554A36"
@@ -623,6 +788,11 @@
 			dependencies: ["55DBB5F0220B25F1"]
 			hide_until_deps_visible: true
 			id: "744C033B5C929A34"
+			rewards: [{
+				id: "6D12A0EB5A4DB66D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "Catch fish"
 			tasks: [{
 				icon: {
@@ -645,6 +815,11 @@
 			dependencies: ["744C033B5C929A34"]
 			hide_until_deps_visible: true
 			id: "396325258130E693"
+			rewards: [{
+				id: "0FCB8164C7B00F30"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "Catch fish"
 			tasks: [{
 				icon: {
@@ -667,6 +842,11 @@
 			dependencies: ["396325258130E693"]
 			hide_until_deps_visible: true
 			id: "6AFE7E124180A592"
+			rewards: [{
+				id: "5A8160CF16392D8D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "Catch fish"
 			tasks: [{
 				icon: {
@@ -689,6 +869,11 @@
 			dependencies: ["6AFE7E124180A592"]
 			hide_until_deps_visible: true
 			id: "62CB979901DCD6FF"
+			rewards: [{
+				id: "0386C853CB79A62B"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			subtitle: "Catch fish"
 			tasks: [{
 				icon: {
@@ -711,6 +896,11 @@
 			dependencies: ["19D5E57463E7BEC0"]
 			hide_until_deps_visible: true
 			id: "678804F4C9F8B415"
+			rewards: [{
+				id: "3E31EC743936F5C6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -735,6 +925,11 @@
 			dependencies: ["678804F4C9F8B415"]
 			hide_until_deps_visible: true
 			id: "01AFEF906324CCAA"
+			rewards: [{
+				id: "4388340F9F5FC0AB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -759,6 +954,11 @@
 			dependencies: ["01AFEF906324CCAA"]
 			hide_until_deps_visible: true
 			id: "4D3E69CD544F3E29"
+			rewards: [{
+				id: "79710BFFC408C449"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -783,6 +983,11 @@
 			dependencies: ["4D3E69CD544F3E29"]
 			hide_until_deps_visible: true
 			id: "595DFEA592E18E68"
+			rewards: [{
+				id: "1A6014994361AB13"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -807,6 +1012,11 @@
 			dependencies: ["393886001086EBB0"]
 			hide_until_deps_visible: true
 			id: "798DBD3027B8FCE2"
+			rewards: [{
+				id: "69D6092B1C19F2D2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "Damage blocked"
 			tasks: [{
 				icon: {
@@ -829,6 +1039,11 @@
 			dependencies: ["798DBD3027B8FCE2"]
 			hide_until_deps_visible: true
 			id: "1AD03F8A3FAFDD32"
+			rewards: [{
+				id: "76F9A80081FAB682"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "Damage blocked"
 			tasks: [{
 				icon: {
@@ -851,6 +1066,11 @@
 			dependencies: ["1AD03F8A3FAFDD32"]
 			hide_until_deps_visible: true
 			id: "5033D3F0F59D1B6D"
+			rewards: [{
+				id: "5C5AA6A528F2007A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "Damage blocked"
 			tasks: [{
 				icon: {
@@ -873,6 +1093,11 @@
 			dependencies: ["5033D3F0F59D1B6D"]
 			hide_until_deps_visible: true
 			id: "4EF5324EF25D1B65"
+			rewards: [{
+				id: "0B94D890154BFC23"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			subtitle: "Damage blocked"
 			tasks: [{
 				icon: {

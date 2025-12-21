@@ -24,6 +24,9 @@
     "mbtool.structure.multi_compactor": "Multi Compactor",
     "mbtool.structure.mega_dissolver": "Mega Dissolver",
     "mbtool.structure.pinky": "Pinky",
+    "mbtool.structure.mega_dissolver_tier1": "Mega Dissolver Tier 1",
+    "mbtool.structure.mega_dissolver_tier2": "Mega Dissolver Tier 2",
+    "mbtool.structure.infinity_9_structure": "Infinity 9 Structure",
     "mbtool.structure.water_condenser_tier_1": "Water Condenser Tier 1",
     "mbtool.structure.water_condenser_tier_2": "Water Condenser Tier 2",
     "mbtool.structure.water_condenser_tier_3": "Water Condenser Tier 3",
@@ -62,7 +65,6 @@
     "mbtool.structure.research_station_tier_1": "Crazy AE2 Research Station Tier 1",
     "mbtool.structure.research_station_tier_2": "Crazy AE2 Research Station Tier 2",
     "mbtool.structure.spawner_extractor": "Crazy AE2 Spawner Extractor",
-    "mbtool.structure.infinity_4_structure": "Infinity 4 Structure",
     "mbtool.structure.alchemistry_fission_multiblock": "Alchemistry Fission Multiblock",
     "mbtool.structure.alchemistry_fusion_multiblock": "Alchemistry Fusion Multiblock"
 }

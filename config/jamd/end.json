@@ -89,7 +89,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -98,7 +98,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -252,7 +252,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -261,7 +261,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -415,7 +415,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -424,7 +424,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -617,7 +617,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -626,7 +626,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -1048,7 +1048,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -1075,7 +1075,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -1541,7 +1541,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -1550,7 +1550,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -1708,7 +1708,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -1717,7 +1717,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -1832,7 +1832,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -1841,7 +1841,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -1995,7 +1995,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -2004,7 +2004,7 @@
         },
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -2253,7 +2253,7 @@
       "targets": [
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -2292,11 +2292,50 @@
       "targets": [
         {
           "target": {
-            "tag": "minecraft:stone_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
             "Name": "armorplus:ore_frost_crystal_stone"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 3,
+      "discard_on_air_chance": 0.7,
+      "modifiers": [
+        {
+          "count": 3,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": -60
+            },
+            "max_inclusive": {
+              "below_top": -30
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism_extras:end_naquadah_ore"
           }
         }
       ]
@@ -2331,7 +2370,7 @@
       "targets": [
         {
           "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
+            "tag": "forge:end_stones",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {

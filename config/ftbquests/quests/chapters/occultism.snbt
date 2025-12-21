@@ -11,212 +11,6 @@
 		}
 	}
 	id: "4C507C004144BFEE"
-	images: [
-		{
-			color: 15616811
-			height: 5.0d
-			image: "occultism:textures/item/pentacle.png"
-			order: -1
-			rotation: 0.0d
-			width: 5.0d
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			color: 16711680
-			height: 1.0d
-			image: "occultism:textures/gui/book/robe.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 11.0d
-			y: 2.0d
-		}
-		{
-			color: 16711680
-			height: 1.0d
-			image: "occultism:textures/gui/book/robe.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 13.95d
-			y: 2.0d
-		}
-		{
-			color: 16711680
-			height: 1.0d
-			image: "occultism:textures/gui/book/robe.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 15.0d
-			y: -0.5d
-		}
-		{
-			color: 16711680
-			height: 1.0d
-			image: "occultism:textures/gui/book/robe.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.0d
-			y: -0.5d
-		}
-		{
-			color: 16711680
-			height: 1.0d
-			image: "occultism:textures/gui/book/robe.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 12.5d
-			y: -2.5d
-		}
-		{
-			color: 255
-			height: 2.0d
-			image: "ftbquests:tasks/input_only"
-			rotation: 45.0d
-			width: 2.0d
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			color: 255
-			height: 2.0d
-			image: "occultism:textures/gui/book/summoning.png"
-			order: -1
-			rotation: -30.0d
-			width: 2.0d
-			x: 9.5d
-			y: 5.5d
-		}
-		{
-			color: 16711680
-			height: 2.0d
-			image: "occultism:textures/gui/book/summoning.png"
-			order: -1
-			rotation: 90.0d
-			width: 2.0d
-			x: 15.5d
-			y: 5.5d
-		}
-		{
-			height: 1.0d
-			image: "occultism:textures/gui/book/familiar_shub_niggurath.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 13.5d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
-			image: "occultism:textures/gui/book/otherworld_bird.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 11.5d
-			y: 5.0d
-		}
-		{
-			alpha: 150
-			height: 2.0d
-			image: "occultism:block/stable_wormhole_frame"
-			rotation: 0.0d
-			width: 2.0d
-			x: 10.5d
-			y: 9.5d
-		}
-		{
-			height: 2.0d
-			image: "occultism:item/divination_rod/divination_rod_animation"
-			rotation: -45.0d
-			width: 2.0d
-			x: 12.5d
-			y: 13.5d
-		}
-		{
-			height: 0.5d
-			image: "occultism:block/chalk_glyph/0"
-			rotation: 0.0d
-			width: 0.5d
-			x: 10.5d
-			y: 1.0d
-		}
-		{
-			color: 6111187
-			height: 0.5d
-			image: "occultism:block/chalk_glyph/11"
-			rotation: 0.0d
-			width: 0.5d
-			x: 14.5d
-			y: 1.0d
-		}
-		{
-			color: 16711680
-			height: 0.5d
-			image: "occultism:block/chalk_glyph/12"
-			rotation: 0.0d
-			width: 0.5d
-			x: 14.0d
-			y: -1.5d
-		}
-		{
-			color: 16766720
-			height: 0.5d
-			image: "occultism:block/chalk_glyph/4"
-			rotation: 0.0d
-			width: 0.5d
-			x: 11.0d
-			y: -1.5d
-		}
-		{
-			height: 3.0d
-			image: "occultism:textures/gui/book/familiar_beholder.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 15.5d
-			y: 12.0d
-		}
-		{
-			height: 3.0d
-			image: "occultism:textures/gui/book/familiar_headless_ratman.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 8.5d
-			y: 12.0d
-		}
-		{
-			height: 3.0d
-			image: "occultism:textures/gui/book/infusion.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			alpha: 100
-			height: 1.25d
-			image: "occultism:block/iesnium_block"
-			rotation: 45.0d
-			width: 1.25d
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			alpha: 150
-			height: 1.5d
-			image: "occultism:block/iesnium_block"
-			order: -1
-			rotation: 45.0d
-			width: 1.5d
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			color: 16766720
-			height: 0.5d
-			image: "occultism:block/chalk_glyph/8"
-			rotation: 0.0d
-			width: 0.5d
-			x: 12.5d
-			y: 2.5d
-		}
-	]
 	order_index: 14
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -318,7 +112,6 @@
 				id: "070E5E92D50F02D1"
 				observe_type: 0
 				timer: 0L
-				title: "{atm9.quest.occultism.observeSpiritfire}"
 				to_observe: "occultism:spirit_fire"
 				type: "observation"
 			}]
@@ -407,7 +200,6 @@
 							]
 						}
 					}
-					title: "{atm9.quest.occultism.candles}"
 					type: "item"
 				}
 				{
@@ -418,8 +210,8 @@
 				}
 			]
 			title: "Preparing for a Ritual: &aCandles&r"
-			x: 13.5d
-			y: -1.0d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4C873491F6F0FFAF"]
@@ -461,8 +253,8 @@
 				}
 			]
 			title: "Preparing for a Ritual: &eChalk&r"
-			x: 11.5d
-			y: 1.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4C873491F6F0FFAF"]
@@ -492,8 +284,8 @@
 				}
 			]
 			title: "Preparing for a Ritual: &dCrystals&r"
-			x: 13.5d
-			y: 1.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4C873491F6F0FFAF"]
@@ -523,8 +315,8 @@
 				}
 			]
 			title: "&bBooks of&r &dBinding&r"
-			x: 11.5d
-			y: -1.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -584,12 +376,10 @@
 				}
 			]
 			title: "&bOur First&r &dRitual&r"
-			x: 12.5d
-			y: 0.0d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["7174A0CEC5CCC53B"]
-			description: ["Now that we have a Foliot Crusher, we can &muse&r politely ask it to crush down some &eEnd Stone&r and &9Obsidian&r for us. We'll use these to make some new Chalk!"]
 			id: "1DE0F289821F55D1"
 			rewards: [{
 				id: "1B9CD287CB41E0E8"
@@ -610,57 +400,9 @@
 					type: "item"
 				}
 			]
-			title: "&aChalking It Up&r"
-			x: 12.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["4F35D04721DFC9FF"]
-			description: [
-				"See, they aren't all bad!"
-				""
-				"If you've completed the Ritual properly, you'll now have your very own &cFoliot Crusher Demon&r. These Demons are great at crushing down items for you!"
-				""
-				"To give it an item to crush, just throw it nearby and it will pick up the item and crush it. You can also sneak-right click the Demon to open up the inventory."
-				""
-				"This is a starter Demon, so it won't last very long. This one can also double your ore output for you!"
-			]
-			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "occultism:item/advancement/devil_icon"
-				}
-			}
-			id: "7174A0CEC5CCC53B"
-			progression_mode: "linear"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "79159F5C77200118"
-				table_id: 487623848494439020L
-				type: "loot"
-			}]
-			shape: "rsquare"
-			size: 1.25d
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "occultism:item/advancement/devil_icon"
-					}
-				}
-				id: "034F6D98DA7900BD"
-				observe_type: 5
-				timer: 0L
-				title: "{atm9.quest.occultism.observeFoliot}"
-				to_observe: "occultism:foliot"
-				type: "observation"
-			}]
-			title: "&aTalking with our New Friend!&r"
-			x: 12.5d
-			y: 4.0d
+			title: "Chalk"
+			x: 4.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
@@ -707,8 +449,8 @@
 				}
 			]
 			title: "&bCapturing&r &dDemons&r"
-			x: 9.5d
-			y: 5.5d
+			x: 1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
@@ -750,8 +492,8 @@
 				}
 			]
 			title: "&cHot Demons&r"
-			x: 14.0d
-			y: 8.0d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["08B1A64B01A8A604"]
@@ -781,8 +523,8 @@
 				type: "item"
 			}]
 			title: "&dEmpty Soul Gem&r"
-			x: 7.0d
-			y: 5.5d
+			x: -1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
@@ -817,8 +559,8 @@
 				type: "item"
 			}]
 			title: "Quit Eating That Fruit!"
-			x: 11.0d
-			y: 8.0d
+			x: 3.0d
+			y: 11.0d
 		}
 		{
 			icon: "occultism:iesnium_ore"
@@ -835,8 +577,8 @@
 				type: "item"
 			}]
 			title: "&cIesnium: Ore of the Otherworld&r"
-			x: 12.5d
-			y: 11.5d
+			x: 4.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["33106E24A3B5DDD8"]
@@ -871,8 +613,8 @@
 				type: "item"
 			}]
 			title: "&aThe Otherworld Pickaxe&r"
-			x: 12.5d
-			y: 9.5d
+			x: 4.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -932,14 +674,13 @@
 					id: "5C0CF601CE8BDD2C"
 					observe_type: 5
 					timer: 0L
-					title: "{atm9.quest.occultism.observeMarid}"
 					to_observe: "occultism:marid"
 					type: "observation"
 				}
 			]
 			title: "The &5Marid Crusher&r"
-			x: 15.5d
-			y: 9.5d
+			x: 7.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["57282D7E31EE61EE"]
@@ -1010,13 +751,12 @@
 							]
 						}
 					}
-					title: "{atm9.quest.occultism.miningDemons}"
 					type: "item"
 				}
 			]
 			title: "&cDemon Mining&r"
-			x: 10.525d
-			y: 9.475d
+			x: 2.5250000000000004d
+			y: 12.475d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
@@ -1067,14 +807,12 @@
 				}
 			]
 			title: "&c&mDemonic&r &dMagical Storage&r!"
-			x: 15.5d
-			y: 5.5d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6CC5FE34778F0DFA"]
 			description: [
-				"{atm9.quest.occultism.desc.storageStabilizers.1}"
-				""
 				"Once made, these must point directly at the Dimensional Matrix part of your Storage Actuator, not the base. These can be up to 5 blocks away, but must have a clear line of sight to the Matrix."
 				""
 				"Whenever you want to upgrade to a higher tier Stabilizer, breaking it won't destroy the items inside. However, you will not be able to add any more items to your storage until it is either replaced or upgraded."
@@ -1122,11 +860,12 @@
 						]
 					}
 				}
+				title: "Storage Stabilizer"
 				type: "item"
 			}]
 			title: "&aUpgrading Our Magical Storage&r"
-			x: 18.0d
-			y: 5.5d
+			x: 10.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3D41D0092D94636B"]
@@ -1190,8 +929,8 @@
 				}
 			]
 			title: "&aRemote Access&r"
-			x: 16.5d
-			y: 7.0d
+			x: 8.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["08B1A64B01A8A604"]
@@ -1221,8 +960,8 @@
 				type: "checkmark"
 			}]
 			title: "&dFamiliars&r"
-			x: 8.5d
-			y: 7.0d
+			x: 0.5d
+			y: 10.0d
 		}
 	]
 	title: "Occultism"

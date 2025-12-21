@@ -138,6 +138,13 @@ ItemEvents.tooltip((event) => {
     'Gas Capacity: 2,147,483,647 mB'
   );
 
+    event.add(
+    ['compactmachines:machine_maximum', 'compactmachines:machine_giant', 'compactmachines:machine_large'],
+    'The Compact Machine Blocks are huge! They can crash your game when entering them. Be careful! You can hold shift and see the internal size.'
+  );
+
+
+
   event.addAdvanced(
     ['mm:multi_compactor_controller'],
     (item, advanced, text) => {
@@ -169,7 +176,7 @@ ItemEvents.tooltip((event) => {
     }
   );
 
-  event.addAdvanced(['armorplus:lava_crystal'], (item, advanced, text) => {
+    event.addAdvanced(['mekanism_extras:end_naquadah_ore'], (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, [
         Text.of('Hold ').gold(),
@@ -177,9 +184,34 @@ ItemEvents.tooltip((event) => {
         Text.of('to see more info.').gold(),
       ]);
     } else {
-      text.add(1, Text.green('Trow me in Lava to get Infused Lava Crystal'));
+      text.add(1, Text.green('Find me in the End near the void or the End Mining Dimension -30 to -60 Y-Level. Very Rare'));
     }
     text.remove(2);
+  });
+
+    event.addAdvanced(['mbtool:mbtool'], (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, [
+        Text.of('Hold ').gold(),
+        Text.of('Shift ').yellow(),
+        Text.of('to see more info.').gold(),
+      ]);
+    } else {
+      text.add(1, Text.green('Shift + Right Click to open the GUI.'));
+      text.add(2, Text.green('Shift + Mousewheel to rotate the Multiblock preview.'));
+    }
+  });
+
+  event.addAdvanced(['armorplus:lava_crystal'], (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(2, [
+        Text.of('Hold ').gold(),
+        Text.of('Shift ').yellow(),
+        Text.of('to see more info.').gold(),
+      ]);
+    } else {
+      text.add(1, Text.green('Trow me in Lava to get Infused Lava Crystal'));
+    }
   });
 
   event.addAdvanced(['armorplus:frost_crystal'], (item, advanced, text) => {

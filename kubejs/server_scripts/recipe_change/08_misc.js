@@ -29,6 +29,13 @@ ServerEvents.recipes((event) => {
   ]);
 
   shapeless(event, '2x cyclic:gem_amber', [
+    'cyclic:magma_bucket',
+    'minecraft:fire_charge',
+    'minecraft:redstone_block',
+    'minecraft:gold_ingot',
+  ]);
+
+  shapeless(event, '2x cyclic:gem_amber', [
     'tconstruct:honey_bucket',
     'minecraft:fire_charge',
     'minecraft:magma_block',
@@ -367,6 +374,32 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
   ]);
 
+  shapeless(event, '9x mekanism_extras:alloy_radiance', [
+    'kubejs:radiance_alloy_block',
+  ]);
+  shapeless(event, '9x mekanism_extras:alloy_thermonuclear', [
+    'kubejs:thermonuclear_alloy_block',
+  ]);
+  shapeless(event, '9x mekanism_extras:alloy_shining', [
+    'kubejs:shining_alloy_block',
+  ]);
+  shapeless(event, '9x mekanism_extras:alloy_spectrum', [
+    'kubejs:spectrum_alloy_block',
+  ]);
+
+  create3x3same(event, 'kubejs:radiance_alloy_block', [
+    'mekanism_extras:alloy_radiance',
+  ]);
+  create3x3same(event, 'kubejs:thermonuclear_alloy_block', [
+    'mekanism_extras:alloy_thermonuclear',
+  ]);
+  create3x3same(event, 'kubejs:shining_alloy_block', [
+    'mekanism_extras:alloy_shining',
+  ]);
+  create3x3same(event, 'kubejs:spectrum_alloy_block', [
+    'mekanism_extras:alloy_spectrum',
+  ]);
+
   create3x3(event, 'industrialforegoing:enchantment_applicator', [
     '#forge:plastic',
     '#forge:plastic',
@@ -552,6 +585,10 @@ ServerEvents.recipes((event) => {
   ]);
 
   shapeless(event, '9x minecraft:end_stone', ['compressium:endstone_1']);
+  shapeless(event, '9x minecraft:glass', ['kubejs:compressed_glass']);
+
+  shapeless(event, 'kubejs:infinity_8_block', ['kubejs:infinity_8']);
+  shapeless(event, 'kubejs:infinity_8', ['kubejs:infinity_8_block']);
 
   shapeless(event, '8x ironfurnaces:rainbow_plating', [
     'ironfurnaces:item_xmas',

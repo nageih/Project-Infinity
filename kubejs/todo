@@ -6,8 +6,8 @@ super endgame microminers?
 woot config
 Extra and EM combine (Extra --> EM --> Extra --> EM .....)
 rf tools recipes
-Wand of Enlivingment
-add naquadah ore somehwere (thx to mariowithnomustache)
+add tooltips for the multiblocks. what they do and how to use them. maybe in the book?
+multibuilder tool tooltip
 /--------------------------------------------------------------------------------------------------------------/
 //recipes
 creative items recipes!
@@ -17,16 +17,29 @@ creative items recipes!
 EMC
 
 /---------------------------------------------------------------------------------------------------------------/
-changelog v. 0.0.45.3
+changelog v. 0.0.45.4
 -updated some mods
+-added framed blocks (The discord voted for yes)
+-added cable facades (thx to DrSallan)
 
--fixed mega dissolver recipes and added a recipe for the controller (thx to Water_Element)
--changed recipe for the aqueous accumulator (thx to suri_07)
--fixed recipe for the reaction chamber (thx to YoshikoJanai)
--changed recipe for draconic flight module (thx to InfamousSonDR)
--added recipe in the barrel craft --> compressed dust into compressed clay (thx to Sohail160)
--added a recipe for compressed glass (and added a new block) from compressed sand (thx to Azzaroth)
--fixed a Woot Crash while using a Gaia Fake spawner
+-changed recipe for black hole units and tanks (thx to grimmspark123)
+-changed the price for ability totems in the shop (hate grimmspark123 and shadowdragon8552 not me!)
+-added naquadah ore to end mining dimension
+-changed recipe for diamond and emerlald apple
+-fixed compressed glass to glass recipe (thx to Dang)
+-changed recipe for aqueous accumulator (vibranium gear --> sculk gear (its easier now))
+-water_element added a lot of mega dissolver recipes. a huge thank you!!!
+-added a tier 2 mega dissolver (thx to water_element)
+    -you need a gigantic energy input port
+-fixed recipe for pig iron (thx to Tora)
+-changed recipe for creative vending upgrade
+-changed energy value for essenceforge tier 2 and 3 (100m and 1 billion rf now)
+    -parallel processing is now enabled for essenceforge
+    -I had to change the order of tier 3 seeds inside the essenceforge tier 2 and 3 script.
+-mega dissolver stone recipe changed from any stone to just minecraft:stone
+-added a faster way to craft mekanism alloys (from blocks to blocks)
+-fixed inf 9 recipe!
+    -added infinity 8 block
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

@@ -124,7 +124,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 64L
 				id: "4C48FC12A284E025"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -165,7 +165,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 64L
 				id: "2CF2BC377AC0B450"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -206,7 +206,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 32L
 				id: "23EFB1AC1B12F62D"
 				item: "kubejs:infused_coin"
 				type: "item"
@@ -247,7 +247,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 4L
+				count: 16L
 				id: "11DFEE9DBA323BAB"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -288,7 +288,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 4L
+				count: 16L
 				id: "1D91727A2758B0AA"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -329,7 +329,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 64L
 				id: "2C9B4AF177A25D46"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -370,6 +370,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
+				count: 8L
 				id: "3328808D1B9AF927"
 				item: "kubejs:ascended_coin"
 				type: "item"
@@ -410,7 +411,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 32L
 				id: "15392C68473FDCA6"
 				item: "kubejs:infused_coin"
 				type: "item"
@@ -451,7 +452,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 32L
 				id: "3E3D6AFB75E0F439"
 				item: "kubejs:infused_coin"
 				type: "item"
@@ -492,7 +493,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 4L
+				count: 16L
 				id: "4C6013D9E8F79692"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -533,6 +534,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
+				count: 8L
 				id: "6CE246973BD838A4"
 				item: "kubejs:ascended_coin"
 				type: "item"
@@ -573,7 +575,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 64L
 				id: "04BD1E185B8F1554"
 				item: "kubejs:infused_coin"
 				type: "item"
@@ -614,7 +616,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 64L
 				id: "1A755F69D5D3F4C6"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -655,7 +657,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 4L
+				count: 16L
 				id: "2C1049AEF177C15E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -696,7 +698,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 64L
 				id: "50752E4024620553"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -737,7 +739,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 32L
 				id: "6CC2620B99D6962B"
 				item: "kubejs:infused_coin"
 				type: "item"
@@ -778,7 +780,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 6L
+				count: 16L
 				id: "4265278BEACCBC0B"
 				item: "kubejs:ascended_coin"
 				type: "item"
@@ -819,7 +821,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 6L
+				count: 16L
 				id: "068E83EDAC1F3DEA"
 				item: "kubejs:ascended_coin"
 				type: "item"
@@ -860,7 +862,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 64L
 				id: "7471DF6A7FCF3ABA"
 				item: "kubejs:infused_coin"
 				type: "item"
@@ -901,7 +903,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 64L
 				id: "33AB9C1C280F580A"
 				item: "kubejs:infused_coin"
 				type: "item"
@@ -942,7 +944,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 6L
+				count: 16L
 				id: "066541C7CB336DBE"
 				item: "kubejs:ascended_coin"
 				type: "item"
@@ -983,7 +985,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 4L
+				count: 16L
 				id: "703FE0874E47D6CC"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -1024,7 +1026,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 4L
+				count: 16L
 				id: "53AA0E1A2161B4B5"
 				item: "kubejs:apotheotic_coin"
 				type: "item"

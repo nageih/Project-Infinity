@@ -76,11 +76,6 @@
 		#Enable research mechanic (if false: Recipe Fabricator works without data drive)
 		researchEnabled = true
 
-	[general.Nokia]
-		#FE cost multiplier for Nokia 3310
-		#Range: 0 ~ 100
-		nokiaCost = 5
-
 	[general.EnergyParts]
 		#Enable Energy Exporter
 		energyExporterEnabled = true
@@ -97,4 +92,9 @@
 		#Extract speed for Item P2P (items/t)
 		#Range: > 0
 		itemp2pSpeed = 4
+
+	[general.Nokia]
+		#FE cost multiplier for Nokia 3310
+		#Range: 0 ~ 100
+		nokiaCost = 5
 
