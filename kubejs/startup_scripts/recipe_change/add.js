@@ -650,7 +650,6 @@ StartupEvents.registry('item', (e) => {
   );
   e.create('components/extradimensional_navigator')
     .displayName('§dExtradimensional Navigator')
-    .displayName('§dQuantum Fluxed Eternium Heavy Plating')
     .texture('kubejs:item/microverse_components/eternium_heavy_plating');
   e.create('universe_resistant_neutronium_heavy_plating')
     .displayName('§dUniverse Resistant Neutronium Heavy Plating')
