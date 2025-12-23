@@ -1,240 +1,204 @@
 ItemEvents.tooltip((event) => {
+  // Avaritia
   event.add(
     ['avaritia:infinity_pickaxe', 'avaritia:infinity_shovel'],
-    'You can right click me.'
+    Text.translate('tooltip.avaritia.infinity_tools')
   );
 
+  // NuclearCraft - Water Collectors
   event.add(
     'nuclearcraft:water_collector',
-    '200 mB every 2 sec. Put this item inside the Pump(Nuclearcraft). You can Upgrade the speed and energy.'
+    Text.translate('tooltip.nuclearcraft.water_collector', '200')
   );
   event.add(
     'nuclearcraft:compact_water_collector',
-    '2000 mB every 2 sec. Put this item inside the Pump(Nuclearcraft). You can Upgrade the speed and energy.'
+    Text.translate('tooltip.nuclearcraft.water_collector', '2,000')
   );
   event.add(
     'nuclearcraft:dense_water_collector',
-    '10000 mB every 2 sec. Put this item inside the Pump(Nuclearcraft). You can Upgrade the speed and energy.'
+    Text.translate('tooltip.nuclearcraft.water_collector', '10,000')
   );
 
+  // Allthemodium
   event.add(
     'allthemodium:allthemodium_upgrade_smithing_template',
-    'Find me inside ancient city chests. 2.5% Chance'
+    Text.translate('tooltip.allthemodium.upgrade')
   );
 
-  event.add('enderio:conductive_conduit', 'Energy Transfer Value: 2,024 RF/t');
-  event.add('enderio:energetic_conduit', 'Energy Transfer Value: 8,192 RF/t');
-  event.add('enderio:vibrant_conduit', 'Energy Transfer Value: 32,768 RF/t');
-  event.add('enderio:endsteel_conduit', 'Energy Transfer Value: 131,072 RF/t');
-  event.add('enderio:lumium_conduit', 'Energy Transfer Value: 524,288 RF/t');
-  event.add(
-    'enderio:signalum_conduit',
-    'Energy Transfer Value: 2,097,152 RF/t'
-  );
-  event.add(
-    'enderio:enderium_conduit',
-    'Energy Transfer Value: 4,194,304 RF/t'
-  );
-  event.add(
-    'enderio:sculk_superconductor_conduit',
-    'Energy Transfer Value: 134,217,728 RF/t'
-  );
-  event.add(
-    'enderio:energy_conduit',
-    'Energy Transfer Value: 2,147,483,647 RF/t'
-  );
+  // EnderIO Conduits
+  const conduits = [
+    { id: 'enderio:conductive_conduit', val: '2,024' },
+    { id: 'enderio:energetic_conduit', val: '8,192' },
+    { id: 'enderio:vibrant_conduit', val: '32,768' },
+    { id: 'enderio:endsteel_conduit', val: '131,072' },
+    { id: 'enderio:lumium_conduit', val: '524,288' },
+    { id: 'enderio:signalum_conduit', val: '2,097,152' },
+    { id: 'enderio:enderium_conduit', val: '4,194,304' },
+    { id: 'enderio:sculk_superconductor_conduit', val: '134,217,728' },
+    { id: 'enderio:energy_conduit', val: '2,147,483,647' }
+  ];
 
-    event.add(
+  conduits.forEach(conduit => {
+    event.add(conduit.id, Text.translate('tooltip.enderio.conduit_transfer', conduit.val));
+  });
+
+  // KubeJS Credits
+  event.add(
     ['kubejs:infinity_7', 'kubejs:infinity_8'],
-    'Texture is from Astrageldon. Thank you a lot!'
+    Text.translate('tooltip.kubejs.texture_credit', 'Astrageldon')
   );
-    event.add(
+  event.add(
     'kubejs:infinity_9',
-    'Texture is from Elpximso. Thank you a lot!'
+    Text.translate('tooltip.kubejs.texture_credit', 'Elpximso')
   );
-  //Master Machinery Ports Tooltips
-  //Item Ports
+
+  // --- Master Machinery Ports Tooltips ---
+
+  // Item Ports
   event.add(
     ['mm:tiny_item_port_input', 'mm:tiny_item_port_output'],
-    'Inventory Size: 1x1 = 1 Slot'
+    Text.translate('tooltip.mm.item_port_1')
   );
   event.add(
     ['mm:small_item_port_input', 'mm:small_item_port_output'],
-    'Inventory Size: 2x2 = 4 Slots'
+    Text.translate('tooltip.mm.item_port', ['2x2', '4'])
   );
   event.add(
     ['mm:normal_item_port_input', 'mm:normal_item_port_output'],
-    'Inventory Size: 3x3 = 9 Slots'
+    Text.translate('tooltip.mm.item_port', ['3x3', '9'])
   );
   event.add(
     ['mm:big_item_port_input', 'mm:big_item_port_output'],
-    'Inventory Size: 4x4 = 16 Slots'
+    Text.translate('tooltip.mm.item_port', ['4x4', '16'])
   );
   event.add(
     ['mm:enormous_item_port_input', 'mm:enormous_item_port_output'],
-    'Inventory Size: 5x5 = 25 Slots'
+    Text.translate('tooltip.mm.item_port', ['5x5', '25'])
   );
   event.add(
     ['mm:gigantic_item_port_input', 'mm:gigantic_item_port_output'],
-    'Inventory Size: 6x6 = 36 Slots'
+    Text.translate('tooltip.mm.item_port', ['6x6', '36'])
   );
   event.add(
     ['mm:colossal_item_port_input', 'mm:colossal_item_port_output'],
-    'Inventory Size: 6x8 = 48 Slots'
+    Text.translate('tooltip.mm.item_port', ['6x8', '48'])
   );
   event.add(
     ['mm:titanic_item_port_input', 'mm:titanic_item_port_output'],
-    'Inventory Size: 8x12 = 96 Slots'
+    Text.translate('tooltip.mm.item_port', ['8x12', '96'])
   );
-  //Fluid Ports
-  event.add(
-    ['mm:small_fluid_port_input', 'mm:small_fluid_port_output'],
-    'Tank Capacity: 640,000 mB'
-  );
-  event.add(
-    ['mm:normal_fluid_port_input', 'mm:normal_fluid_port_output'],
-    'Tank Capacity: 2,560,000 mB'
-  );
-  event.add(
-    ['mm:big_fluid_port_input', 'mm:big_fluid_port_output'],
-    'Tank Capacity: 10,240,000 mB'
-  );
-  event.add(
-    ['mm:enormous_fluid_port_input', 'mm:enormous_fluid_port_output'],
-    'Tank Capacity: 163,840,000 mB'
-  );
-  event.add(
-    ['mm:gigantic_fluid_port_input', 'mm:gigantic_fluid_port_output'],
-    'Tank Capacity: 2,147,483,647 mB'
-  );
-  //Energy Ports
+
+  // Fluid Ports
+  const fluidPorts = [
+    { id: 'mm:small_fluid_port', val: '640,000' },
+    { id: 'mm:normal_fluid_port', val: '2,560,000' },
+    { id: 'mm:big_fluid_port', val: '10,240,000' },
+    { id: 'mm:enormous_fluid_port', val: '163,840,000' },
+    { id: 'mm:gigantic_fluid_port', val: '2,147,483,647' }
+  ];
+
+  fluidPorts.forEach(port => {
+    event.add(
+      [`${port.id}_input`, `${port.id}_output`],
+      Text.translate('tooltip.mm.fluid_port', port.val)
+    );
+  });
+
+  // Energy Ports
   event.add(
     ['mm:tiny_energy_port_input', 'mm:tiny_energy_port_output'],
-    'Energy Capacity: 25,000 FE, Max Input: 5,000 FE/t, Max Output: 2,500 FE/t'
+    Text.translate('tooltip.mm.energy_port', ['25,000', '5,000', '2,500'])
   );
-    event.add(
+  event.add(
     ['mm:small_energy_port_input', 'mm:small_energy_port_output'],
-    'Energy Capacity: 100,000 FE, Max Input: 20,000 FE/t, Max Output: 10,000 FE/t'
+    Text.translate('tooltip.mm.energy_port', ['100,000', '20,000', '10,000'])
   );
-    event.add(
+  event.add(
     ['mm:normal_energy_port_input', 'mm:normal_energy_port_output'],
-    'Energy Capacity: 1,000,000 FE, Max Input: 200,000 FE/t, Max Output: 100,000 FE/t'
+    Text.translate('tooltip.mm.energy_port', ['1,000,000', '200,000', '100,000'])
   );
-    event.add(
+  event.add(
     ['mm:big_energy_port_input', 'mm:big_energy_port_output'],
-    'Energy Capacity: 10,000,000 FE, Max Input: 2,000,000 FE/t, Max Output: 1,000,000 FE/t'
+    Text.translate('tooltip.mm.energy_port', ['10,000,000', '2,000,000', '1,000,000'])
   );
-    event.add(
+  event.add(
     ['mm:enormous_energy_port_input', 'mm:enormous_energy_port_output'],
-    'Energy Capacity: 25,000,000 FE, Max Input: 5,000,000 FE/t, Max Output: 2,500,000 FE/t'
+    Text.translate('tooltip.mm.energy_port', ['25,000,000', '5,000,000', '2,500,000'])
   );
-    event.add(
+  event.add(
     ['mm:gigantic_energy_port_input', 'mm:gigantic_energy_port_output'],
-    'Energy Capacity/ Max In- and Output: 2,147,483,647 FE'
+    Text.translate('tooltip.mm.energy_port_gigantic', '2,147,483,647')
   );
-  //Mekanism Gas Ports
+
+  // Mekanism Gas Ports
   event.add(
     ['mm:colossal_gas_port_input', 'mm:colossal_gas_port_output'],
-    'Gas Capacity: 2,147,483,647 mB'
+    Text.translate('tooltip.mm.gas_port', '2,147,483,647')
   );
 
-    event.add(
+  // Compact Machines
+  event.add(
     ['compactmachines:machine_maximum', 'compactmachines:machine_giant', 'compactmachines:machine_large'],
-    'The Compact Machine Blocks are huge! They can crash your game when entering them. Be careful! You can hold shift and see the internal size.'
+    Text.translate('tooltip.compactmachines.warning')
   );
 
+  // --- Advanced Tooltips ---
 
+  const holdShiftText = () => [
+    Text.translate('tooltip.general.hold').gold(),
+    Text.translate('tooltip.general.shift').yellow(),
+    Text.translate('tooltip.general.more_info').gold()
+  ];
+
+  event.addAdvanced(['mm:multi_compactor_controller'], (item, advanced, text) => {
+    let refundText = Text.translate('tooltip.mm.controller_refund');
+    text.add(1, refundText.white()); 
+  });
 
   event.addAdvanced(
-    ['mm:multi_compactor_controller'],
-    (item, advanced, text) => {
-      text.add(1, Text.white('You will get the Philosopher Stone and'));
-      text.add(2, Text.white('the Master Infusion Crystal back.'));
-      text.add(3, Text.white('They dont get consumed.'));
-    }
-  );
-
-  event.addAdvanced(
-    [
-      'avaritia:neutron_pile',
-      'avaritia:neutron_nugget',
-      'avaritia:neutron_ingot',
-    ],
+    ['avaritia:neutron_pile', 'avaritia:neutron_nugget', 'avaritia:neutron_ingot'],
     (item, advanced, text) => {
       if (!event.shift) {
-        text.add(1, [
-          Text.of('Hold ').gold(),
-          Text.of('Shift ').yellow(),
-          Text.of('to see more info.').gold(),
-        ]);
+        text.add(1, holdShiftText());
       } else {
-        text.add(
-          1,
-          Text.green('Build a Neutron Collector. Good Luck!').bold(true)
-        );
+        text.add(1, Text.translate('tooltip.avaritia.neutron').green().bold(true));
       }
     }
   );
 
-    event.addAdvanced(['mekanism_extras:end_naquadah_ore'], (item, advanced, text) => {
+  event.addAdvanced(['mekanism_extras:end_naquadah_ore'], (item, advanced, text) => {
     if (!event.shift) {
-      text.add(1, [
-        Text.of('Hold ').gold(),
-        Text.of('Shift ').yellow(),
-        Text.of('to see more info.').gold(),
-      ]);
+      text.add(1, holdShiftText());
     } else {
-      text.add(1, Text.green('Find me in the End near the void or the End Mining Dimension -30 to -60 Y-Level. Very Rare'));
+      text.add(1, Text.translate('tooltip.mekanism_extras.naquadah').green());
     }
     text.remove(2);
   });
 
-    event.addAdvanced(['mbtool:mbtool'], (item, advanced, text) => {
+  event.addAdvanced(['mbtool:mbtool'], (item, advanced, text) => {
     if (!event.shift) {
-      text.add(1, [
-        Text.of('Hold ').gold(),
-        Text.of('Shift ').yellow(),
-        Text.of('to see more info.').gold(),
-      ]);
+      text.add(1, holdShiftText());
     } else {
-      text.add(1, Text.green('Shift + Right Click to open the GUI.'));
-      text.add(2, Text.green('Shift + Mousewheel to rotate the Multiblock preview.'));
+      text.add(1, Text.translate('tooltip.mbtool.usage_1').green());
+      text.add(2, Text.translate('tooltip.mbtool.usage_2').green());
     }
   });
 
   event.addAdvanced(['armorplus:lava_crystal'], (item, advanced, text) => {
     if (!event.shift) {
-      text.add(2, [
-        Text.of('Hold ').gold(),
-        Text.of('Shift ').yellow(),
-        Text.of('to see more info.').gold(),
-      ]);
+      text.add(2, holdShiftText());
     } else {
-      text.add(1, Text.green('Trow me in Lava to get Infused Lava Crystal'));
+      text.add(1, Text.translate('tooltip.armorplus.lava_crystal').green());
     }
   });
 
   event.addAdvanced(['armorplus:frost_crystal'], (item, advanced, text) => {
     if (!event.shift) {
       text.remove(1);
-      text.add(1, [
-        Text.of('Hold ').gold(),
-        Text.of('Shift ').yellow(),
-        Text.of('to see more info.').gold(),
-      ]);
+      text.add(1, holdShiftText());
     } else {
-      text.add(
-        1,
-        Text.green(
-          'Trow me on the ground and use "Engraved Thunder" or "Lightning Knife" (1 time use) to get Infused Frost Crystal'
-        )
-      ),
-        text.add(
-          2,
-          Text.white(
-            'Or trow a Trident at a mob with channeling while a thunderstorm is occurring. Or use the Mechanical Empowerer'
-          )
-        );
+      text.add(1, Text.translate('tooltip.armorplus.frost_crystal_1').green());
+      text.add(2, Text.translate('tooltip.armorplus.frost_crystal_2').white());
       text.remove(3);
     }
   });
@@ -248,13 +212,9 @@ ItemEvents.tooltip((event) => {
     ],
     (item, advanced, text) => {
       if (!event.shift) {
-        text.add(1, [
-          Text.of('Hold ').gold(),
-          Text.of('Shift ').yellow(),
-          Text.of('to see more info.').gold(),
-        ]);
+        text.add(1, holdShiftText());
       } else {
-        text.add(1, Text.green('Find me inside the Mining Dimension'));
+        text.add(1, Text.translate('tooltip.kubejs.ore_mining_dim').green());
       }
     }
   );
@@ -263,59 +223,40 @@ ItemEvents.tooltip((event) => {
     ['born_in_chaos_v1:chaos_component'],
     (item, advanced, text) => {
       if (!event.shift) {
-        text.add(1, [
-          Text.of('Hold ').gold(),
-          Text.of('Shift ').yellow(),
-          Text.of('to see more info.').gold(),
-        ]);
+        text.add(1, holdShiftText());
       } else {
-        text.add(
-          1,
-          Text.green(
-            'Brewing/ Potion Station --> 1 Seed of Chaos and 3 Water Bottle + a blaze powder'
-          )
-        );
+        text.add(1, Text.translate('tooltip.born_in_chaos.chaos_component').green());
       }
     }
   );
 
   event.addAdvanced(['occultism:iesnium_ore'], (item, advanced, text) => {
     if (!event.shift) {
-      text.add(1, [
-        Text.of('Hold ').gold(),
-        Text.of('Shift ').yellow(),
-        Text.of('to see more info.').gold(),
-      ]);
+      text.add(1, holdShiftText());
     } else {
-      text.add(
-        1,
-        Text.green('Find me inside the Nether Mining Dimension. Y-Level 0-50')
-      );
+      text.add(1, Text.translate('tooltip.occultism.iesnium').green());
     }
   });
 
-  event.addAdvanced(
-    [
-      'integrateddynamics:energy_battery_creative',
-      'evolvedmekanism:creative_personal_barrel',
-      'evolvedmekanism:creative_personal_chest',
-      'mekanism:creative_energy_cube',
-      'mekanism:creative_chemical_tank',
-      'mm:advanced_awakening_altar_controller',
-      'botanicalextramachinery:catalyst_mana_infinity',
-      'botanicalmachinery:mana_battery_creative',
-    ],
-    (item, advanced, text) => {
-      text.add(1, Text.red('Recipe added by Kem5540. Thanks a lot!'));
-    }
-  );
+  // Credit Recipes
+  const kemCredits = [
+    'integrateddynamics:energy_battery_creative',
+    'evolvedmekanism:creative_personal_barrel',
+    'evolvedmekanism:creative_personal_chest',
+    'mekanism:creative_energy_cube',
+    'mekanism:creative_chemical_tank',
+    'mm:advanced_awakening_altar_controller',
+    'botanicalextramachinery:catalyst_mana_infinity',
+    'botanicalmachinery:mana_battery_creative'
+  ];
 
-  event.addAdvanced(
-    ['pneumaticcraft:creative_compressor'],
-    (item, advanced, text) => {
-      text.add(1, Text.red('Recipe added by Itz_izumito. Thanks a lot!'));
-    }
-  );
+  event.addAdvanced(kemCredits, (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.credit.recipe_added', 'Kem5540').red());
+  });
+
+  event.addAdvanced(['pneumaticcraft:creative_compressor'], (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.credit.recipe_added', 'Itz_izumito').red());
+  });
 
   event.addAdvanced(
     [
@@ -323,29 +264,24 @@ ItemEvents.tooltip((event) => {
       'born_in_chaos_v1:transmuting_elixir',
     ],
     (item, advanced, text) => {
-      text.add(
-        1,
-        Text.green(
-          'Search a Infernal Evil Pumpkin and right click it with a Transmutaion Elixir to spawn Lord Pumkinhead'
-        )
-      );
+      text.add(1, Text.translate('tooltip.born_in_chaos.pumpkinhead').green());
     }
   );
 
   event.addAdvanced(['kubejs:ultimate_prediction'], (item, advanced, text) => {
-    text.add(1, Text.red('Recipe and Item added by realspinelle.'));
-    text.add(2, Text.red('Thanks a lot! Dont hate me, hate him :)'));
+    text.add(1, Text.translate('tooltip.credit.recipe_item_added', 'realspinelle').red());
+    text.add(2, Text.translate('tooltip.credit.joke').red());
   });
 
   event.addAdvanced(['mekanism:creative_bin'], (item, advanced, text) => {
-    text.add(1, Text.red('Recipe added by RxDnz.'));
-    text.add(2, Text.red('Thanks a lot! Dont hate me, hate him :)'));
+    text.add(1, Text.translate('tooltip.credit.recipe_added', 'RxDnz').red());
+    text.add(2, Text.translate('tooltip.credit.joke').red());
   });
 
   event.addAdvanced(
     ['ae2omnicells:multidimensional_expansion_processor'],
     (item, advanced, text) => {
-      text.add(1, Text.red('Recipe added by Anti.'));
+      text.add(1, Text.translate('tooltip.credit.recipe_added', 'Anti').red());
     }
   );
 });

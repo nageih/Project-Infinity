@@ -1,0 +1,41 @@
+{
+  "tooltip.avaritia.infinity_tools": "You can right click me.",
+  
+  "tooltip.nuclearcraft.water_collector": "%s mB every 2 sec. Put this item inside the Pump(Nuclearcraft). You can Upgrade the speed and energy.",
+  
+  "tooltip.allthemodium.upgrade": "Find me inside ancient city chests. 2.5% Chance",
+  
+  "tooltip.enderio.conduit_transfer": "Energy Transfer Value: %s RF/t",
+  
+  "tooltip.kubejs.texture_credit": "Texture is from %s. Thank you a lot!",
+  
+  "tooltip.mm.item_port": "Inventory Size: %s = %s Slots",
+  "tooltip.mm.item_port_1": "Inventory Size: 1x1 = 1 Slot",
+  "tooltip.mm.fluid_port": "Tank Capacity: %s mB",
+  "tooltip.mm.energy_port": "Energy Capacity: %s FE, Max Input: %s FE/t, Max Output: %s FE/t",
+  "tooltip.mm.energy_port_gigantic": "Energy Capacity/ Max In- and Output: %s FE",
+  "tooltip.mm.gas_port": "Gas Capacity: %s mB",
+  "tooltip.mm.controller_refund": "You will get the Philosopher Stone and the Master Infusion Crystal back. They dont get consumed.",
+  
+  "tooltip.compactmachines.warning": "The Compact Machine Blocks are huge! They can crash your game when entering them. Be careful! You can hold shift and see the internal size.",
+  
+  "tooltip.general.hold": "Hold ",
+  "tooltip.general.shift": "Shift ",
+  "tooltip.general.more_info": "to see more info.",
+  
+  "tooltip.avaritia.neutron": "Build a Neutron Collector. Good Luck!",
+  "tooltip.mekanism_extras.naquadah": "Find me in the End near the void or the End Mining Dimension -30 to -60 Y-Level. Very Rare",
+  "tooltip.mbtool.usage_1": "Shift + Right Click to open the GUI.",
+  "tooltip.mbtool.usage_2": "Shift + Mousewheel to rotate the Multiblock preview.",
+  "tooltip.armorplus.lava_crystal": "Throw me in Lava to get Infused Lava Crystal",
+  "tooltip.armorplus.frost_crystal_1": "Throw me on the ground and use \"Engraved Thunder\" or \"Lightning Knife\" (1 time use) to get Infused Frost Crystal",
+  "tooltip.armorplus.frost_crystal_2": "Or throw a Trident at a mob with channeling while a thunderstorm is occurring. Or use the Mechanical Empowerer",
+  "tooltip.kubejs.ore_mining_dim": "Find me inside the Mining Dimension",
+  "tooltip.born_in_chaos.chaos_component": "Brewing/ Potion Station --> 1 Seed of Chaos and 3 Water Bottle + a blaze powder",
+  "tooltip.occultism.iesnium": "Find me inside the Nether Mining Dimension. Y-Level 0-50",
+  "tooltip.born_in_chaos.pumpkinhead": "Search a Infernal Evil Pumpkin and right click it with a Transmutation Elixir to spawn Lord Pumpkinhead",
+  
+  "tooltip.credit.recipe_added": "Recipe added by %s. Thanks a lot!",
+  "tooltip.credit.recipe_item_added": "Recipe and Item added by %s.",
+  "tooltip.credit.joke": "Thanks a lot! Dont hate me, hate him :)"
+}
