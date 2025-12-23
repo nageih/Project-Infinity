@@ -1,5 +1,5 @@
 {
-  "name": "Netherite Gold Ingot",
+  "name": "singularity.extendedcrafting.netherite_gold_ingot",
   "colors": [
     "c4b100",
     "1f1f1f"
@@ -7,5 +7,5 @@
   "ingredient": {
     "item": "advancednetherite:netherite_gold_ingot"
   },
-    "materialCount": 5000
+  "materialCount": 5000
 }

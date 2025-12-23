@@ -1,5 +1,5 @@
 {
-  "name": "Netherite Iron Ingot",
+  "name": "singularity.extendedcrafting.netherite_iron_ingot",
   "colors": [
     "e8edec",
     "656666"
@@ -7,5 +7,5 @@
   "ingredient": {
     "item": "advancednetherite:netherite_iron_ingot"
   },
-    "materialCount": 7500
+  "materialCount": 7500
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Netherite Emerald Ingot",
+  "name": "singularity.extendedcrafting.netherite_emerald_ingot",
   "colors": [
     "07ed26",
     "1c1c1c"
@@ -7,5 +7,5 @@
   "ingredient": {
     "item": "advancednetherite:netherite_emerald_ingot"
   },
-    "materialCount": 2500
+  "materialCount": 2500
 }
